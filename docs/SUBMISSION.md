@@ -23,4 +23,4 @@ Raindrop's flags (its two fixes were tested and rejected: the gate holds the sam
 Screens: Stage (break the grid live), Live lab (any storm, any two notebook versions, side by side), Evidence site
 (every version, night, trace and record).
 
-**Links:** repo: https://github.com/premxai/59.4 · video: <video URL>
+**Links:** site: https://59-4.vercel.app · repo: https://github.com/premxai/59.4 · video: <video URL>

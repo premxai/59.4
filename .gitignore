@@ -26,3 +26,5 @@ data/compare_test.sse
 data/loop_state_*.bak.json
 data/loop_state_smoke.json
 .claude/
+.vercel
+.env*

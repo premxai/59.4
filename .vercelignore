@@ -1,0 +1,7 @@
+/*
+!viewer
+!vercel.json
+viewer/node_modules
+viewer/dist
+.env
+**/.env

@@ -10,6 +10,9 @@ nights the coach reviews its own coaching, and that rewrite is A/B-tested too.
 
 Built for the MongoDB *Harness Engineering & Model Wrangling* hackathon (SF Tech Week, 2026-10-11).
 
+**Live site: https://59-4.vercel.app** (the Evidence site: every notebook version, night, trace and record; live runs
+need the AI and simulator on the demo laptop, see *Run it*).
+
 | Same AI, never retrained | Unseen storms passed (each storm = 3 random versions; ✓ when 2 of 3 survive) | Homes in the dark |
 |---|---|---|
 | Day 1 notebook | ✗✗✗✗✗✗✗✗ **0/8** | 4.9 B home-hours |
