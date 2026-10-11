@@ -17,7 +17,8 @@ with 93% fewer home-hours in the dark. On the real 2021 storm, run once from a M
 passes, but the learned notebook never collapses the grid and cuts darkness 89%; it transfers to Gemma too.
 
 MongoDB Atlas holds every notebook version, idea, test, lesson and coach review, with role-based access separating the
-learner from the exam. Raindrop traces every AI decision; in one night the coach learned from Raindrop's flags.
+learner from the exam. Raindrop traces every AI decision; in one night the coach's evidence was read back out of
+Raindrop's flags (its two fixes were tested and rejected: the gate holds the same bar).
 
 Screens: Stage (break the grid live), Live lab (any storm, any two notebook versions, side by side), Evidence site
 (every version, night, trace and record).
