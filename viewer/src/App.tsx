@@ -8,6 +8,7 @@ import { QualityReadout, Timeline, useKeyboard } from "./ui/Controls";
 import { Finale, WhatChangedCard, useJson, type Reference, type WhatChanged } from "./ui/Finale";
 import { Badge, Countdown, EventCards, HomesDark, LocalTime, RunLabel } from "./ui/Hud";
 import { MissionApp } from "./mission/MissionApp";
+import { HOSTED } from "./mission/live";
 
 const params = new URLSearchParams(location.search);
 // ?mode=grid: the live 3D power-grid city (src/grid3d), loaded on demand.
@@ -191,7 +192,7 @@ export default function App() {
   useEffect(() => {
     if (KIOSK) document.body.classList.add("kiosk");
   }, []);
-  const mode = params.get("mode");
+  const mode = params.get("mode") ?? (HOSTED ? "site" : null); // a hosted copy opens on the Evidence site
   if (mode === "mission") return <MissionApp />;
   if (mode === "site")
     return (

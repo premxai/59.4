@@ -12,7 +12,11 @@ import type { Frame, Replay, ReplayEvent } from "../lib/replay";
 import { loadReplay, zonesFromShed } from "../lib/replay";
 
 const params = new URLSearchParams(location.search);
-export const API_BASE = (params.get("api") ?? `http://${location.hostname || "localhost"}:8594`).replace(/\/$/, "");
+const h = location.hostname;
+/** Hosted copies (e.g. Vercel) have no live server: the AI and the simulator run on the demo laptop. */
+export const HOSTED = !(h === "" || h === "localhost" || h === "127.0.0.1" || h === "[::1]" || h.endsWith(".local") ||
+  /^(10|192\.168|172\.(1[6-9]|2\d|3[01]))\./.test(h));
+export const API_BASE = (params.get("api") ?? (HOSTED ? "" : `http://${h || "localhost"}:8594`)).replace(/\/$/, "");
 const MODEL = { operator: "Qwen3-30B-A3B-Instruct-2507", weights_frozen: true, fine_tune_runs: 0 };
 
 async function getJson<T>(path: string, init?: RequestInit, timeoutMs = 8000): Promise<T> {

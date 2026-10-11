@@ -2,7 +2,7 @@
 // simulator, watch at a readable pace, get a verified result. The evolution story lives on the Evidence site.
 import { Suspense, lazy, useEffect, useLayoutEffect, useMemo, useRef, useState, type RefObject } from "react";
 import type { LiveResult, Side, Where } from "../live";
-import { useCompare, useErcot } from "../live";
+import { HOSTED, useCompare, useErcot } from "../live";
 import {
   buildFeed,
   cleanVerdict,
@@ -663,7 +663,14 @@ export function LabApp() {
     <div className={`lab lab-${theme}`}>
       <TopBar theme={theme} setTheme={setTheme} />
       <main className="lab-main">
-        {catalogStatus === "offline" && !catalog && (
+        {HOSTED && !catalog && (
+          <div className="lab-banner">
+            Live runs need the frozen AI and the locked simulator, which run on the demo laptop, so this hosted copy can't
+            start one. Watch a recorded storm on the <a className="lab-link" href="?mode=stage">Stage</a>, or open every run's
+            trace on the <a className="lab-link" href="?mode=site">Evidence site</a>.
+          </div>
+        )}
+        {!HOSTED && catalogStatus === "offline" && !catalog && (
           <div className="lab-banner">
             The live server is not reachable. Start it with <code>.venv\Scripts\python scripts\live_server.py</code>, then{" "}
             <button className="lab-link" onClick={() => fetchCatalog()}>
