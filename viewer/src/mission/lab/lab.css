@@ -1007,3 +1007,18 @@
     height: clamp(180px, 25vh, 240px);
   }
 }
+
+/* ---------------------------------------------------------------- full-screen 3D (F) */
+.lab-kbd { font: 500 10px var(--mono, ui-monospace, monospace); border: 1px solid var(--rule2); border-radius: 4px; padding: 0 4px; margin-left: 4px; opacity: 0.75; }
+.lab-3d-stage:fullscreen, .lab-3d-stage.lab-3d-fs { background: #03060f; display: flex; flex-direction: column; padding: 12px; gap: 10px; }
+.lab-3d-stage.lab-3d-fs { position: fixed; inset: 0; z-index: 1000; }
+.lab-3d-stage:fullscreen .lab-3d, .lab-3d-stage.lab-3d-fs .lab-3d { flex: 1; height: auto; margin-top: 0; gap: 12px; }
+.lab-3d-stage:fullscreen .lab-3d-half, .lab-3d-stage.lab-3d-fs .lab-3d-half { border-color: rgba(255, 255, 255, 0.08); }
+.lab-fs-bar { display: flex; align-items: center; gap: 12px; padding: 6px 4px 2px; color: rgba(235, 240, 248, 0.85); font-size: 13px; }
+.lab-fs-btn, .lab-fs-seg button { background: rgba(255, 255, 255, 0.06); color: inherit; border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 8px; padding: 5px 12px; font: inherit; cursor: pointer; }
+.lab-fs-seg { display: flex; gap: 4px; }
+.lab-fs-seg button { padding: 5px 9px; }
+.lab-fs-seg button.on { background: rgba(255, 255, 255, 0.18); border-color: rgba(255, 255, 255, 0.3); }
+.lab-fs-mid { flex: 1; text-align: center; font-variant-numeric: tabular-nums; }
+.lab-fs-mid b { font-weight: 600; }
+.lab-fs-hint { font-size: 11.5px; color: rgba(235, 240, 248, 0.5); }

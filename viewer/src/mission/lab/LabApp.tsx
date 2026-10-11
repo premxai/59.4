@@ -595,11 +595,43 @@ export function LabApp() {
     return () => window.clearInterval(id);
   }, [playing, speed]);
 
-  // space = play / pause
+  // full screen for the 3D view (F or the button; Esc or F again leaves)
+  const stageRef = useRef<HTMLDivElement>(null);
+  const [fs, setFs] = useState(false);
+  useEffect(() => {
+    // leaving native full screen (Esc) also leaves the mode; without the API the CSS overlay stays until F / Esc
+    const onChange = () => {
+      if (!document.fullscreenElement) setFs(false);
+    };
+    document.addEventListener("fullscreenchange", onChange);
+    return () => document.removeEventListener("fullscreenchange", onChange);
+  }, []);
+  const toggleFs = () => {
+    if (fs) {
+      if (document.fullscreenElement) void document.exitFullscreen?.();
+      setFs(false);
+      return;
+    }
+    if (view !== "3d") setView("3d");
+    setFs(true); // window-filling overlay right away; true full screen when the browser allows it
+    stageRef.current?.requestFullscreen?.().catch(() => undefined);
+  };
+
+  // space = play / pause, F = full screen
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       const tag = (e.target as HTMLElement | null)?.tagName;
-      if (tag === "INPUT" || tag === "SELECT" || tag === "TEXTAREA" || tag === "BUTTON") return;
+      if (tag === "INPUT" || tag === "SELECT" || tag === "TEXTAREA") return;
+      if (e.key === "Escape" && fs && !document.fullscreenElement) {
+        setFs(false);
+        return;
+      }
+      if ((e.key === "f" || e.key === "F") && !e.ctrlKey && !e.metaKey && !e.altKey && sides) {
+        e.preventDefault();
+        toggleFs();
+        return;
+      }
+      if (tag === "BUTTON") return;
       if (e.code === "Space" && sides) {
         e.preventDefault();
         togglePlay();
@@ -677,6 +709,9 @@ export function LabApp() {
                   3D
                 </button>
               </div>
+              <button className="lab-btn lab-btn-sm" onClick={toggleFs} title="Full screen 3D (F) · Esc to leave">
+                Full screen <kbd className="lab-kbd">F</kbd>
+              </button>
               <input
                 className="lab-scrub"
                 type="range"
@@ -725,6 +760,7 @@ export function LabApp() {
                 </p>
               </div>
             )}
+            <div ref={stageRef} className={`lab-3d-stage${fs ? " lab-3d-fs" : ""}`}>
             {view === "3d" && (
               <Suspense fallback={<div className="lab-3d lab-3d-loading lab-dim">Loading the 3D view…</div>}>
                 <Lab3D
@@ -738,6 +774,23 @@ export function LabApp() {
                 />
               </Suspense>
             )}
+            {fs && (
+              <div className="lab-fs-bar">
+                <button className="lab-fs-btn" onClick={togglePlay}>{playing ? "Pause" : atEnd ? "Replay" : "Play"}</button>
+                <div className="lab-fs-seg" role="group" aria-label="Playback speed">
+                  {SPEEDS.map((sp) => (
+                    <button key={sp} className={speed === sp ? "on" : ""} onClick={() => setSpeed(sp)}>
+                      {sp}×
+                    </button>
+                  ))}
+                </div>
+                <span className="lab-fs-mid">
+                  {revealed && cmp ? cmp.text : <>{storm?.label ?? "Storm"} · storm hour <b>{ph}</b>{streamDone ? ` / ${edge}` : ""}</>}
+                </span>
+                <span className="lab-fs-hint">Space play/pause · F or Esc to leave</span>
+              </div>
+            )}
+            </div>
             <div className={`lab-cols${revealed ? " lab-cols-done" : ""}${view === "3d" ? " lab-cols-3d" : ""}`}>
               {SIDES.map((s) => (
                 <Column key={s} side={s} opt={colOpt[s]} label={labels[s]} raw={s === "left" ? rawL : rawR} ph={ph} domain={domain} result={results?.[s]} revealed={revealed} compact={view === "3d"} />
