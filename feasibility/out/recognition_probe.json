@@ -1,0 +1,6 @@
+{
+ "Qwen/Qwen3-30B-A3B-Instruct-2507 | anonymized": "0/5",
+ "Qwen/Qwen3-30B-A3B-Instruct-2507 | control_real_labels": "5/5",
+ "deepseek-ai/DeepSeek-V4-Pro | anonymized": "5/5",
+ "deepseek-ai/DeepSeek-V4-Pro | control_real_labels": "5/5"
+}

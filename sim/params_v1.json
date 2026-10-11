@@ -1,0 +1,520 @@
+{
+ "version": "sim-v1",
+ "params": {
+  "planned_knots": [
+   [
+    -47,
+    0.1
+   ],
+   [
+    -31,
+    0.06
+   ],
+   [
+    -15,
+    0.035
+   ],
+   [
+    10,
+    0.035
+   ],
+   [
+    32,
+    0.1793
+   ],
+   [
+    59,
+    0.22
+   ],
+   [
+    75,
+    0.25
+   ]
+  ],
+  "bg_fail_rate": 0.0013,
+  "bg_repair_mean_h": 30.0,
+  "bg_cold_mult": 0.0,
+  "vuln_base": 0.4208461378150606,
+  "vuln_mult": {
+   "gas_cc": 1.37,
+   "gas_steam": 1.0,
+   "gas_ct": 1.05,
+   "gas_ice": 1.05,
+   "coal": 0.4731614095342768,
+   "nuclear": 0.25,
+   "other": 1.0
+  },
+  "thr_mu": -9.093841292724058,
+  "thr_sigma": 3.836197424269381,
+  "expo_tau_h": 5.296920211631818,
+  "windchill_k": 0.9399947561932143,
+  "recover_temp_c": 0.0,
+  "recover_delay_h": [
+   4.0,
+   28.75201892966438
+  ],
+  "cold_repair_rate": 0.07553491751034296,
+  "fix_delta_c": 6.0,
+  "fts_slope": 0.03940831348050686,
+  "fts_t0": 2.0,
+  "fts_soak_h": 6,
+  "fts_max": 0.35,
+  "fts_outage_h": [
+   3.0,
+   18.0
+  ],
+  "commit_margin_mw": 3300.0,
+  "gas_freeze_t": -2.0,
+  "gas_tau_h": 48.0,
+  "prod_loss_max": 0.6,
+  "prod_loss_k": 328.5,
+  "deliv_buffer": 0.315,
+  "wells_winterize_eff": 0.8,
+  "feedback_per_shed": 0.06,
+  "feedback_decay": 0.9,
+  "gas_restart_h": 3,
+  "wind_cf_coef": [
+   -0.17320008901978873,
+   0.14613218287827626,
+   -0.005133647397460667
+  ],
+  "wind_cut_out": 25.0,
+  "ice_gain": 0.057139946231177956,
+  "ice_melt": 0.05,
+  "wind_lowtemp_c": -17.0,
+  "wind_lowtemp_span": 5.0,
+  "reserves_mw": 2300.0,
+  "s_low": 0.08,
+  "s_def": 0.13025034253079118,
+  "b_trip": 0.10988583907504973,
+  "def_knee_mw": 2300.0,
+  "s_def2": 0.6,
+  "trip_tau_min": 3.0,
+  "ufls_stages": [
+   [
+    59.3,
+    0.05
+   ],
+   [
+    58.9,
+    0.1
+   ],
+   [
+    58.5,
+    0.1
+   ]
+  ],
+  "lr_trip_hz": 59.7,
+  "collapse_hz": 59.4,
+  "collapse_minutes": 9,
+  "relay_reset_min": 10,
+  "instant_collapse_hz": 58.4,
+  "rt_lag_min": 5,
+  "rt_shed_mw_per_min": 100.0,
+  "shed_ramp_mw_per_min": 1000.0,
+  "restore_mw_per_min": 100.0,
+  "max_manual_shed_frac": 0.65,
+  "gas_facility_load_frac": 0.03,
+  "clp_max": 0.3,
+  "imports_max_mw": 1200.0,
+  "imports_max_1989_mw": 220.0,
+  "baseline_dr_1989_mw": 500.0,
+  "baseline_lr_mw": 1062.0,
+  "baseline_ers_mw": 331.0,
+  "fc_sigma0": 0.6,
+  "fc_sigma_step": 0.45,
+  "fc_region_corr": 0.7,
+  "sensor_noise_c": 0.3,
+  "customers_per_mw": 225.0,
+  "total_customers": 11000000,
+  "collapse_penalty_hh": 1848000000,
+  "usd_per_home_hour": 40.0,
+  "unnecessary_weight": 1.0,
+  "demand": {
+   "coef": [
+    32117.14041632258,
+    208.44084344422257,
+    47.66790094240365,
+    1299.3514974871218,
+    39.503358543891345,
+    858.2353049600209,
+    -2133.254798641122,
+    -2097.056031521703,
+    -3477.2816048453215,
+    -4282.967832644396,
+    -4671.494250598967,
+    -4063.5732523104452,
+    -2689.759354704388,
+    -365.1372159274965,
+    476.10324439558286,
+    1047.8058127720599,
+    429.91861857577493,
+    766.8924696801338,
+    660.2536788521579,
+    802.7523044847086,
+    1091.1385602058572,
+    1167.321702138951,
+    1277.340079194978,
+    2372.624995907733,
+    3104.8057411905597,
+    3857.2069721556973,
+    4237.204982091257,
+    4634.981953341119,
+    4797.527125504086,
+    2497.251006619475
+   ],
+   "hdd_max": 23.099999973773954,
+   "cdd_max": 20.667999153137202,
+   "rmse": 2614.8554764123937
+  }
+ },
+ "status": "calibrated (pre-2021 only) - DEFAULT",
+ "calibrated_at": "2026-10-10 15:20",
+ "calibration": {
+  "loss_events": 14.515,
+  "loss_with_quiet": 14.515,
+  "free_params": {
+   "vuln_base": 0.4208461378150606,
+   "coal_mult": 0.4731614095342768,
+   "thr_mu": -9.093841292724058,
+   "thr_sigma": 3.836197424269381,
+   "expo_tau_h": 5.296920211631818,
+   "windchill_k": 0.9399947561932143,
+   "cold_repair_rate": 0.07553491751034296,
+   "recover_hi": 28.75201892966438,
+   "fts_slope": 0.03940831348050686,
+   "s_def": 0.13025034253079118,
+   "b_trip": 0.10988583907504973,
+   "ice_gain": 0.057139946231177956,
+   "bg_cold_mult": 0.0
+  },
+  "targets_vs_sim": [
+   {
+    "measure": "2011_peak_shed_mw",
+    "target": 4948.0,
+    "sim_mean_3seeds": 2587.91,
+    "scale": 1500.0,
+    "weight": 2.5
+   },
+   {
+    "measure": "2011_shed_hours",
+    "target": 7.4,
+    "sim_mean_3seeds": 7.0,
+    "scale": 3.0,
+    "weight": 1.5
+   },
+   {
+    "measure": "2011_planned_mw",
+    "target": 12413.0,
+    "sim_mean_3seeds": 12430.186,
+    "scale": 1500.0,
+    "weight": 0.5
+   },
+   {
+    "measure": "2011_forced_peak_mw",
+    "target": 14702.0,
+    "sim_mean_3seeds": 12113.746,
+    "scale": 2500.0,
+    "weight": 2.0
+   },
+   {
+    "measure": "2011_coal_out_mw",
+    "target": 5200.0,
+    "sim_mean_3seeds": 2700.333,
+    "scale": 2000.0,
+    "weight": 0.7
+   },
+   {
+    "measure": "2011_gas_fuel_mw",
+    "target": 1282.0,
+    "sim_mean_3seeds": 477.434,
+    "scale": 1000.0,
+    "weight": 0.7
+   },
+   {
+    "measure": "2011_prod_loss",
+    "target": 0.21,
+    "sim_mean_3seeds": 0.21,
+    "scale": 0.06,
+    "weight": 0.7
+   },
+   {
+    "measure": "2011_min_freq",
+    "target": 59.576,
+    "sim_mean_3seeds": 59.519,
+    "scale": 0.08,
+    "weight": 1.0
+   },
+   {
+    "measure": "2011_wind_mean_mw",
+    "target": 3397.7356735312496,
+    "sim_mean_3seeds": 3113.159,
+    "scale": 1500.0,
+    "weight": 0.5
+   },
+   {
+    "measure": "2011_weather_gross_mw",
+    "target": 24087.0,
+    "sim_mean_3seeds": 16104.991,
+    "scale": 8000.0,
+    "weight": 0.3
+   },
+   {
+    "measure": "1989_forced_peak_mw",
+    "target": 11809.0,
+    "sim_mean_3seeds": 12991.543,
+    "scale": 2500.0,
+    "weight": 1.5
+   },
+   {
+    "measure": "1989_weather_gross_mw",
+    "target": 15559.0,
+    "sim_mean_3seeds": 18784.328,
+    "scale": 6000.0,
+    "weight": 0.3
+   },
+   {
+    "measure": "1989_peak_shed_mw",
+    "target": 1710.0,
+    "sim_mean_3seeds": 1358.121,
+    "scale": 1000.0,
+    "weight": 1.0
+   },
+   {
+    "measure": "1989_shed_hours",
+    "target": 5.8,
+    "sim_mean_3seeds": 1.667,
+    "scale": 3.0,
+    "weight": 0.5
+   },
+   {
+    "measure": "1989_min_freq",
+    "target": 59.65,
+    "sim_mean_3seeds": 59.722,
+    "scale": 0.08,
+    "weight": 1.0
+   },
+   {
+    "measure": "1989_gas_fuel_mw",
+    "target": 1500.0,
+    "sim_mean_3seeds": 1313.073,
+    "scale": 1000.0,
+    "weight": 0.5
+   },
+   {
+    "measure": "2014_forced_peak_mw",
+    "target": 9355.0,
+    "sim_mean_3seeds": 10749.44,
+    "scale": 2500.0,
+    "weight": 1.0
+   },
+   {
+    "measure": "2014_shed_mw",
+    "target": 0.0,
+    "sim_mean_3seeds": 0.0,
+    "scale": 300.0,
+    "weight": 1.5
+   },
+   {
+    "measure": "2014_eea_max",
+    "target": 2.0,
+    "sim_mean_3seeds": 0.0,
+    "scale": 1.0,
+    "weight": 0.5
+   },
+   {
+    "measure": "2011feb10_shed_mw",
+    "target": 0.0,
+    "sim_mean_3seeds": 133.556,
+    "scale": 300.0,
+    "weight": 1.5
+   },
+   {
+    "measure": "2018jan17_shed_mw",
+    "target": 0.0,
+    "sim_mean_3seeds": 15.0,
+    "scale": 300.0,
+    "weight": 1.5
+   },
+   {
+    "measure": "gate_shed_any",
+    "target": 0.0,
+    "sim_mean_3seeds": 0.056,
+    "scale": 0.1,
+    "weight": 1.0
+   }
+  ],
+  "quiet_winters": {
+   "quiet_2012_2013": {
+    "shed_hours": 0,
+    "peak_shed_mw": 0,
+    "collapsed": false
+   },
+   "quiet_2015_2016": {
+    "shed_hours": 0,
+    "peak_shed_mw": 0,
+    "collapsed": false
+   },
+   "quiet_2017_2018": {
+    "shed_hours": 0,
+    "peak_shed_mw": 0,
+    "collapsed": false
+   },
+   "quiet_2018_2019": {
+    "shed_hours": 0,
+    "peak_shed_mw": 0,
+    "collapsed": false
+   },
+   "quiet_2019_2020": {
+    "shed_hours": 0,
+    "peak_shed_mw": 0,
+    "collapsed": false
+   }
+  },
+  "gas_block_fixed": {
+   "prod_loss_max": 0.6,
+   "prod_loss_k": 328.5,
+   "deliv_buffer": 0.315,
+   "note": "calibrated separately: prod_loss_max assumed 0.6; prod_loss_k pins 2011 TX+NM production -21% (FERC-2011 p.114); deliv_buffer gives 1989 gas-curtailment ~1,500 MW (FERC-2011 p.175) while 2011's 1,282 MW (p.153) comes from the shed feedback"
+  },
+  "targets_vs_sim_6seeds": [
+   {
+    "measure": "2011_peak_shed_mw",
+    "target": 4948.0,
+    "sim_mean_6seeds": 4065.18
+   },
+   {
+    "measure": "2011_shed_hours",
+    "target": 7.4,
+    "sim_mean_6seeds": 9.833
+   },
+   {
+    "measure": "2011_planned_mw",
+    "target": 12413.0,
+    "sim_mean_6seeds": 12437.214
+   },
+   {
+    "measure": "2011_forced_peak_mw",
+    "target": 14702.0,
+    "sim_mean_6seeds": 13682.96
+   },
+   {
+    "measure": "2011_coal_out_mw",
+    "target": 5200.0,
+    "sim_mean_6seeds": 2550.75
+   },
+   {
+    "measure": "2011_gas_fuel_mw",
+    "target": 1282.0,
+    "sim_mean_6seeds": 837.769
+   },
+   {
+    "measure": "2011_prod_loss",
+    "target": 0.21,
+    "sim_mean_6seeds": 0.21
+   },
+   {
+    "measure": "2011_min_freq",
+    "target": 59.576,
+    "sim_mean_6seeds": 59.488
+   },
+   {
+    "measure": "2011_wind_mean_mw",
+    "target": 3397.7356735312496,
+    "sim_mean_6seeds": 3113.159
+   },
+   {
+    "measure": "2011_weather_gross_mw",
+    "target": 24087.0,
+    "sim_mean_6seeds": 18382.877
+   },
+   {
+    "measure": "1989_forced_peak_mw",
+    "target": 11809.0,
+    "sim_mean_6seeds": 13734.236
+   },
+   {
+    "measure": "1989_weather_gross_mw",
+    "target": 15559.0,
+    "sim_mean_6seeds": 20657.452
+   },
+   {
+    "measure": "1989_peak_shed_mw",
+    "target": 1710.0,
+    "sim_mean_6seeds": 1135.78
+   },
+   {
+    "measure": "1989_shed_hours",
+    "target": 5.8,
+    "sim_mean_6seeds": 2.833
+   },
+   {
+    "measure": "1989_min_freq",
+    "target": 59.65,
+    "sim_mean_6seeds": 59.64
+   },
+   {
+    "measure": "1989_gas_fuel_mw",
+    "target": 1500.0,
+    "sim_mean_6seeds": 1476.199
+   },
+   {
+    "measure": "2014_forced_peak_mw",
+    "target": 9355.0,
+    "sim_mean_6seeds": 10749.44
+   },
+   {
+    "measure": "2014_shed_mw",
+    "target": 0.0,
+    "sim_mean_6seeds": 0.0
+   },
+   {
+    "measure": "2014_eea_max",
+    "target": 2.0,
+    "sim_mean_6seeds": 0.0
+   },
+   {
+    "measure": "2011feb10_shed_mw",
+    "target": 0.0,
+    "sim_mean_6seeds": 133.556
+   },
+   {
+    "measure": "2018jan17_shed_mw",
+    "target": 0.0,
+    "sim_mean_6seeds": 15.0
+   },
+   {
+    "measure": "gate_shed_any",
+    "target": 0.0,
+    "sim_mean_6seeds": 0.056
+   }
+  ],
+  "loss_6seeds": 11.632,
+  "selection_note": "Chosen over params_v1_alt_tight2011.json: on 6 seeds it keeps the no-shed gates (Feb 10 2011, Jan 17 2018, Jan 2014) nearly clean while the 2011 status-quo shed averages ~4.1 GW vs 4.9 GW actual; the alternative fits 2011 tighter on seeds 0-2 but sheds 4.6-7.6 GW on Feb 10 2011 for 2 of 6 seeds."
+ },
+ "demand_fit": {
+  "rmse_mw": 2615,
+  "event_2011_peak_mw": 59000,
+  "checks": {
+   "2011-02-10": {
+    "pred_peak": 55971,
+    "obs_served_peak": 57284
+   },
+   "2018-01-17": {
+    "pred_peak": 64771,
+    "obs_served_peak": 65750
+   },
+   "2014-01-06": {
+    "pred_peak": 56952,
+    "obs_served_peak": 55995
+   }
+  }
+ },
+ "wind_fit": {
+  "rmse_cf": 0.1223,
+  "mean_cf_obs": 0.3843
+ },
+ "post_calibration_changes": [
+  "s_def2=0.6 Hz/GW beyond the 2,300 MW knee (load damping) and fast UFLS within the minute were in the engine for this calibration round (run6)"
+ ]
+}

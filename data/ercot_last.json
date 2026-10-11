@@ -1,0 +1,1 @@
+{"frequency_hz": 60.013, "demand_mw": 73370.0, "capacity_mw": 109705.0, "wind_mw": 21924.0, "solar_mw": 23154.0, "inertia_mw_s": 247548.0, "net_load_mw": 28336.0, "updated": "Oct 11, 2026 17:05:10", "fetched_at": 1791756315.088937, "stale": false, "source": "https://www.ercot.com/content/cdr/html/real_time_system_conditions.html"}

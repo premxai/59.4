@@ -1,0 +1,402 @@
+[
+ {
+  "stamp": "2021-02-13 04:00 CST",
+  "reserve": 24761,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "High reserves, cold temps, precommit to avoid future shortages"
+ },
+ {
+  "stamp": "2021-02-13 05:00 CST",
+  "reserve": 24020,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 1200.0,
+  "precommit": true,
+  "why": "Max imports, precommit units, conserve demand"
+ },
+ {
+  "stamp": "2021-02-13 06:00 CST",
+  "reserve": 22265,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "High reserves, but cold snap risks. Precommit to avoid cascading failures."
+ },
+ {
+  "stamp": "2021-02-13 07:00 CST",
+  "reserve": 19555,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "High reserves, cold temps, precommit to avoid future shortages"
+ },
+ {
+  "stamp": "2021-02-13 08:00 CST",
+  "reserve": 19008,
+  "shed_mw": 0.0,
+  "conservation": 0.01,
+  "dr": 0.0,
+  "imports": 1200.0,
+  "precommit": true,
+  "why": "Max imports, precommit units, mild conservation to reduce strain"
+ },
+ {
+  "stamp": "2021-02-13 09:00 CST",
+  "reserve": 20824,
+  "shed_mw": 0.0,
+  "conservation": 0.01,
+  "dr": 0.0,
+  "imports": 1200.0,
+  "precommit": true,
+  "why": "Max imports, precommit units, mild conservation to reduce strain"
+ },
+ {
+  "stamp": "2021-02-13 10:00 CST",
+  "reserve": 21955,
+  "shed_mw": 0.0,
+  "conservation": 0.01,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": false,
+  "why": "High reserves, no immediate risk; avoid outages."
+ },
+ {
+  "stamp": "2021-02-14 03:00 CST",
+  "reserve": 24875,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "High reserves, cold temps, precommit to avoid future shortages"
+ },
+ {
+  "stamp": "2021-02-14 04:00 CST",
+  "reserve": 23161,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 1200.0,
+  "precommit": true,
+  "why": "High reserve margin; precommit to avoid future shortages"
+ },
+ {
+  "stamp": "2021-02-14 05:00 CST",
+  "reserve": 22135,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "Low temps risk further supply loss; precommit to secure units."
+ },
+ {
+  "stamp": "2021-02-14 06:00 CST",
+  "reserve": 20691,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "Low temps risk further supply loss; precommit to avoid cascading failures."
+ },
+ {
+  "stamp": "2021-02-14 07:00 CST",
+  "reserve": 18020,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 800.0,
+  "precommit": true,
+  "why": "High cold risk, ramp up imports, precommit units"
+ },
+ {
+  "stamp": "2021-02-14 08:00 CST",
+  "reserve": 17165,
+  "shed_mw": 0.0,
+  "conservation": 0.01,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "Precommit to secure supply; cold temperatures risk further outages"
+ },
+ {
+  "stamp": "2021-02-14 09:00 CST",
+  "reserve": 16473,
+  "shed_mw": 0.0,
+  "conservation": 0.01,
+  "dr": 0.0,
+  "imports": 1200.0,
+  "precommit": true,
+  "why": "Max imports, precommit units, mild conservation to reduce strain"
+ },
+ {
+  "stamp": "2021-02-14 10:00 CST",
+  "reserve": 17250,
+  "shed_mw": 0.0,
+  "conservation": 0.01,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "Precommit to avoid future shortages; cold weather risks fuel supply"
+ },
+ {
+  "stamp": "2021-02-14 11:00 CST",
+  "reserve": 17067,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "High reserves, cold temps, precommit to avoid future shortages"
+ },
+ {
+  "stamp": "2021-02-14 12:00 CST",
+  "reserve": 16946,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 800.0,
+  "precommit": true,
+  "why": "High cold risk, ramp up imports, precommit units"
+ },
+ {
+  "stamp": "2021-02-14 13:00 CST",
+  "reserve": 15987,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 800.0,
+  "precommit": true,
+  "why": "High demand, low wind, precommit to avoid collapse"
+ },
+ {
+  "stamp": "2021-02-14 14:00 CST",
+  "reserve": 14396,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "Low temps risk further supply loss; precommit to avoid cascading failures."
+ },
+ {
+  "stamp": "2021-02-14 15:00 CST",
+  "reserve": 12774,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "Cold temps, rising demand, low wind; precommit to avoid collapse."
+ },
+ {
+  "stamp": "2021-02-14 16:00 CST",
+  "reserve": 9943,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "Cold snap, wind down, precommit to avoid collapse"
+ },
+ {
+  "stamp": "2021-02-14 17:00 CST",
+  "reserve": 7281,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 800.0,
+  "precommit": true,
+  "why": "High cold risk, ramping reserves, precommit units for stability"
+ },
+ {
+  "stamp": "2021-02-14 18:00 CST",
+  "reserve": 4565,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "Low temps risk further supply drop; precommit to secure units."
+ },
+ {
+  "stamp": "2021-02-14 19:00 CST",
+  "reserve": 2079,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "Low reserves, cold temps, wind drop; precommit to avoid collapse"
+ },
+ {
+  "stamp": "2021-02-14 20:00 CST",
+  "reserve": 249,
+  "shed_mw": 0.0,
+  "conservation": 0.03,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "Low reserves, cold temps, wind drop risk; precommit to avoid collapse."
+ },
+ {
+  "stamp": "2021-02-14 21:00 CST",
+  "reserve": -2725,
+  "shed_mw": 0.0,
+  "conservation": 0.03,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "High demand, low reserves, cold temps; precommit to avoid collapse."
+ },
+ {
+  "stamp": "2021-02-14 22:00 CST",
+  "reserve": -4034,
+  "shed_mw": 0.0,
+  "conservation": 0.03,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "High cold risk, low reserves, precommit to avoid collapse"
+ },
+ {
+  "stamp": "2021-02-14 23:00 CST",
+  "reserve": -3366,
+  "shed_mw": 0.0,
+  "conservation": 0.03,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "Low reserves, cold temps, wind frozen; precommit to avoid collapse."
+ },
+ {
+  "stamp": "2021-02-15 00:00 CST",
+  "reserve": -4542,
+  "shed_mw": 0.0,
+  "conservation": 0.03,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "High demand, low reserves, cold temps. Precommit to avoid collapse."
+ },
+ {
+  "stamp": "2021-02-15 01:00 CST",
+  "reserve": -3671,
+  "shed_mw": 0.0,
+  "conservation": 0.03,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "High cold risk, low reserves, precommit to avoid collapse"
+ },
+ {
+  "stamp": "2021-02-15 02:00 CST",
+  "reserve": -4974,
+  "shed_mw": 0.0,
+  "conservation": 0.03,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "Low reserves, cold temps, wind frozen; avoid collapse"
+ },
+ {
+  "stamp": "2021-02-15 03:00 CST",
+  "reserve": -6167,
+  "shed_mw": 0.0,
+  "conservation": 0.03,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "Low reserves, cold temps, high demand; precommit to avoid collapse"
+ },
+ {
+  "stamp": "2021-02-15 04:00 CST",
+  "reserve": -9398,
+  "shed_mw": 0.0,
+  "conservation": 0.03,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "High cold stress, low wind, no imports; precommit to avoid collapse."
+ },
+ {
+  "stamp": "2021-02-15 05:00 CST",
+  "reserve": -10927,
+  "shed_mw": 1200.0,
+  "conservation": 0.05,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "Severe deficit; avoid collapse with rolling outages and max conservation."
+ },
+ {
+  "stamp": "2021-02-15 06:00 CST",
+  "reserve": -12799,
+  "shed_mw": 10000.0,
+  "conservation": 0.03,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "Severe supply deficit; avoid collapse with controlled outages."
+ },
+ {
+  "stamp": "2021-02-15 07:00 CST",
+  "reserve": -16070,
+  "shed_mw": 10000.0,
+  "conservation": 0.03,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "Severe supply deficit; prioritize outages to prevent collapse"
+ },
+ {
+  "stamp": "2021-02-15 08:00 CST",
+  "reserve": -18166,
+  "shed_mw": 10000.0,
+  "conservation": 0.03,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "Severe supply shortfall; avoid collapse with controlled outages"
+ },
+ {
+  "stamp": "2021-02-15 09:00 CST",
+  "reserve": -17307,
+  "shed_mw": 10000.0,
+  "conservation": 0.03,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "Severe supply deficit; avoid collapse with controlled outages and conservation."
+ },
+ {
+  "stamp": "2021-02-15 10:00 CST",
+  "reserve": -16774,
+  "shed_mw": 18000.0,
+  "conservation": 0.03,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "Severe supply deficit; prevent collapse with large shed and precommit"
+ },
+ {
+  "stamp": "2021-02-15 11:00 CST",
+  "reserve": -15884,
+  "shed_mw": 1000.0,
+  "conservation": 0.03,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": true,
+  "why": "Severe supply shortfall; prioritize load shedding and conservation"
+ }
+]

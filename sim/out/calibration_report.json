@@ -1,0 +1,507 @@
+{
+ "loss_events": 14.515,
+ "loss_with_quiet": 14.515,
+ "free_params": {
+  "vuln_base": 0.4208461378150606,
+  "coal_mult": 0.4731614095342768,
+  "thr_mu": -9.093841292724058,
+  "thr_sigma": 3.836197424269381,
+  "expo_tau_h": 5.296920211631818,
+  "windchill_k": 0.9399947561932143,
+  "cold_repair_rate": 0.07553491751034296,
+  "recover_hi": 28.75201892966438,
+  "fts_slope": 0.03940831348050686,
+  "prod_loss_k": 1279.9789254131804,
+  "deliv_buffer": 0.18370764968655146,
+  "s_def": 0.13025034253079118,
+  "b_trip": 0.10988583907504973,
+  "ice_gain": 0.057139946231177956,
+  "bg_cold_mult": 0.0,
+  "prod_loss_max": 0.5710158319354376
+ },
+ "targets_vs_sim": [
+  {
+   "measure": "2011_peak_shed_mw",
+   "target": 4948.0,
+   "sim_mean_3seeds": 2587.91,
+   "scale": 1500.0,
+   "weight": 2.5
+  },
+  {
+   "measure": "2011_shed_hours",
+   "target": 7.4,
+   "sim_mean_3seeds": 7.0,
+   "scale": 3.0,
+   "weight": 1.5
+  },
+  {
+   "measure": "2011_planned_mw",
+   "target": 12413.0,
+   "sim_mean_3seeds": 12430.186,
+   "scale": 1500.0,
+   "weight": 0.5
+  },
+  {
+   "measure": "2011_forced_peak_mw",
+   "target": 14702.0,
+   "sim_mean_3seeds": 12113.746,
+   "scale": 2500.0,
+   "weight": 2.0
+  },
+  {
+   "measure": "2011_coal_out_mw",
+   "target": 5200.0,
+   "sim_mean_3seeds": 2700.333,
+   "scale": 2000.0,
+   "weight": 0.7
+  },
+  {
+   "measure": "2011_gas_fuel_mw",
+   "target": 1282.0,
+   "sim_mean_3seeds": 477.434,
+   "scale": 1000.0,
+   "weight": 0.7
+  },
+  {
+   "measure": "2011_prod_loss",
+   "target": 0.21,
+   "sim_mean_3seeds": 0.21,
+   "scale": 0.06,
+   "weight": 0.7
+  },
+  {
+   "measure": "2011_min_freq",
+   "target": 59.576,
+   "sim_mean_3seeds": 59.519,
+   "scale": 0.08,
+   "weight": 1.0
+  },
+  {
+   "measure": "2011_wind_mean_mw",
+   "target": 3397.7356735312496,
+   "sim_mean_3seeds": 3113.159,
+   "scale": 1500.0,
+   "weight": 0.5
+  },
+  {
+   "measure": "2011_weather_gross_mw",
+   "target": 24087.0,
+   "sim_mean_3seeds": 16104.991,
+   "scale": 8000.0,
+   "weight": 0.3
+  },
+  {
+   "measure": "1989_forced_peak_mw",
+   "target": 11809.0,
+   "sim_mean_3seeds": 12991.543,
+   "scale": 2500.0,
+   "weight": 1.5
+  },
+  {
+   "measure": "1989_weather_gross_mw",
+   "target": 15559.0,
+   "sim_mean_3seeds": 18784.328,
+   "scale": 6000.0,
+   "weight": 0.3
+  },
+  {
+   "measure": "1989_peak_shed_mw",
+   "target": 1710.0,
+   "sim_mean_3seeds": 1358.121,
+   "scale": 1000.0,
+   "weight": 1.0
+  },
+  {
+   "measure": "1989_shed_hours",
+   "target": 5.8,
+   "sim_mean_3seeds": 1.667,
+   "scale": 3.0,
+   "weight": 0.5
+  },
+  {
+   "measure": "1989_min_freq",
+   "target": 59.65,
+   "sim_mean_3seeds": 59.722,
+   "scale": 0.08,
+   "weight": 1.0
+  },
+  {
+   "measure": "1989_gas_fuel_mw",
+   "target": 1500.0,
+   "sim_mean_3seeds": 1313.073,
+   "scale": 1000.0,
+   "weight": 0.5
+  },
+  {
+   "measure": "2014_forced_peak_mw",
+   "target": 9355.0,
+   "sim_mean_3seeds": 10749.44,
+   "scale": 2500.0,
+   "weight": 1.0
+  },
+  {
+   "measure": "2014_shed_mw",
+   "target": 0.0,
+   "sim_mean_3seeds": 0.0,
+   "scale": 300.0,
+   "weight": 1.5
+  },
+  {
+   "measure": "2014_eea_max",
+   "target": 2.0,
+   "sim_mean_3seeds": 0.0,
+   "scale": 1.0,
+   "weight": 0.5
+  },
+  {
+   "measure": "2011feb10_shed_mw",
+   "target": 0.0,
+   "sim_mean_3seeds": 133.556,
+   "scale": 300.0,
+   "weight": 1.5
+  },
+  {
+   "measure": "2018jan17_shed_mw",
+   "target": 0.0,
+   "sim_mean_3seeds": 15.0,
+   "scale": 300.0,
+   "weight": 1.5
+  },
+  {
+   "measure": "gate_shed_any",
+   "target": 0.0,
+   "sim_mean_3seeds": 0.056,
+   "scale": 0.1,
+   "weight": 1.0
+  }
+ ],
+ "quiet_winters": {
+  "quiet_2012_2013": {
+   "shed_hours": 0,
+   "peak_shed_mw": 0,
+   "collapsed": false
+  },
+  "quiet_2015_2016": {
+   "shed_hours": 0,
+   "peak_shed_mw": 0,
+   "collapsed": false
+  },
+  "quiet_2017_2018": {
+   "shed_hours": 0,
+   "peak_shed_mw": 0,
+   "collapsed": false
+  },
+  "quiet_2018_2019": {
+   "shed_hours": 0,
+   "peak_shed_mw": 0,
+   "collapsed": false
+  },
+  "quiet_2019_2020": {
+   "shed_hours": 0,
+   "peak_shed_mw": 0,
+   "collapsed": false
+  }
+ },
+ "demand_fit": {
+  "rmse_mw": 2615,
+  "event_2011_peak_mw": 59000,
+  "checks": {
+   "2011-02-10": {
+    "pred_peak": 55971,
+    "obs_served_peak": 57284
+   },
+   "2018-01-17": {
+    "pred_peak": 64771,
+    "obs_served_peak": 65750
+   },
+   "2014-01-06": {
+    "pred_peak": 56952,
+    "obs_served_peak": 55995
+   }
+  }
+ },
+ "wind_fit": {
+  "rmse_cf": 0.1223,
+  "mean_cf_obs": 0.3843
+ },
+ "observed_2011": {
+  "wind_mean_mw": 3398,
+  "coal_gen_drop_mw": 5166
+ },
+ "search": {
+  "stage1": 60,
+  "stage2": 600,
+  "seeds": [
+   0,
+   1,
+   2
+  ],
+  "elapsed_s": 90
+ },
+ "candidates": [
+  {
+   "loss_total": 14.515,
+   "loss_events": 14.515,
+   "x": {
+    "vuln_base": 0.4208461378150606,
+    "coal_mult": 0.4731614095342768,
+    "thr_mu": -9.093841292724058,
+    "thr_sigma": 3.836197424269381,
+    "expo_tau_h": 5.296920211631818,
+    "windchill_k": 0.9399947561932143,
+    "cold_repair_rate": 0.07553491751034296,
+    "recover_hi": 28.75201892966438,
+    "fts_slope": 0.03940831348050686,
+    "prod_loss_k": 1279.9789254131804,
+    "deliv_buffer": 0.18370764968655146,
+    "s_def": 0.13025034253079118,
+    "b_trip": 0.10988583907504973,
+    "ice_gain": 0.057139946231177956,
+    "bg_cold_mult": 0.0,
+    "prod_loss_max": 0.5710158319354376
+   }
+  },
+  {
+   "loss_total": 16.223,
+   "loss_events": 16.223,
+   "x": {
+    "vuln_base": 0.4070626861794199,
+    "coal_mult": 0.618551116290958,
+    "thr_mu": -8.172178569651631,
+    "thr_sigma": 3.227010304117865,
+    "expo_tau_h": 3.9906440752501804,
+    "windchill_k": 0.870469300820592,
+    "cold_repair_rate": 0.07494015609442374,
+    "recover_hi": 27.97657764835842,
+    "fts_slope": 0.035897890562399115,
+    "prod_loss_k": 1366.0545828611323,
+    "deliv_buffer": 0.19767890461417942,
+    "s_def": 0.1757883897053262,
+    "b_trip": 0.1586800116083651,
+    "ice_gain": 0.04098522772050827,
+    "bg_cold_mult": 0.0,
+    "prod_loss_max": 0.639408864195436
+   }
+  },
+  {
+   "loss_total": 16.33,
+   "loss_events": 16.33,
+   "x": {
+    "vuln_base": 0.4224032832386982,
+    "coal_mult": 0.693831815658307,
+    "thr_mu": -8.604448103232937,
+    "thr_sigma": 3.3258912302901886,
+    "expo_tau_h": 5.608207140249987,
+    "windchill_k": 0.9645059169091641,
+    "cold_repair_rate": 0.07791023839973538,
+    "recover_hi": 27.962409630102393,
+    "fts_slope": 0.046768948944701426,
+    "prod_loss_k": 823.8324548625653,
+    "deliv_buffer": 0.16723690167789462,
+    "s_def": 0.16813065586481318,
+    "b_trip": 0.10016189497863805,
+    "ice_gain": 0.07255202238941276,
+    "bg_cold_mult": 0.0,
+    "prod_loss_max": 0.5745621268511474
+   }
+  },
+  {
+   "loss_total": 17.122,
+   "loss_events": 17.122,
+   "x": {
+    "vuln_base": 0.4045860158192713,
+    "coal_mult": 0.4,
+    "thr_mu": -8.899215938718468,
+    "thr_sigma": 3.400511412562473,
+    "expo_tau_h": 3.409358819078427,
+    "windchill_k": 0.9467349713899527,
+    "cold_repair_rate": 0.08,
+    "recover_hi": 30.858546566924108,
+    "fts_slope": 0.04092646116688043,
+    "prod_loss_k": 2227.019742630642,
+    "deliv_buffer": 0.22209685066507256,
+    "s_def": 0.0866662996279718,
+    "b_trip": 0.1286879124264893,
+    "ice_gain": 0.07368456003944884,
+    "bg_cold_mult": 0.0,
+    "prod_loss_max": 0.6486114638032602
+   }
+  },
+  {
+   "loss_total": 17.613,
+   "loss_events": 16.947,
+   "x": {
+    "vuln_base": 0.45228989428623556,
+    "coal_mult": 0.4,
+    "thr_mu": -8.69194479393114,
+    "thr_sigma": 3.5124651981767463,
+    "expo_tau_h": 3.966055197352101,
+    "windchill_k": 0.9513984238952593,
+    "cold_repair_rate": 0.08,
+    "recover_hi": 32.85242493068701,
+    "fts_slope": 0.03994390006701018,
+    "prod_loss_k": 1427.0734402705343,
+    "deliv_buffer": 0.20270938397833987,
+    "s_def": 0.1582182427501687,
+    "b_trip": 0.11867510964469809,
+    "ice_gain": 0.08053884574038325,
+    "bg_cold_mult": 0.1619284168057926,
+    "prod_loss_max": 0.630570895586915
+   }
+  },
+  {
+   "loss_total": 18.737,
+   "loss_events": 18.737,
+   "x": {
+    "vuln_base": 0.4320338966480489,
+    "coal_mult": 0.4,
+    "thr_mu": -9.078299695360347,
+    "thr_sigma": 3.329756724451383,
+    "expo_tau_h": 5.600482062211396,
+    "windchill_k": 1.0,
+    "cold_repair_rate": 0.07654546580810305,
+    "recover_hi": 27.937673875681156,
+    "fts_slope": 0.04528153820079695,
+    "prod_loss_k": 1901.0189497350962,
+    "deliv_buffer": 0.2183551671536489,
+    "s_def": 0.1050483561074709,
+    "b_trip": 0.14731972041033223,
+    "ice_gain": 0.055955697156785264,
+    "bg_cold_mult": 0.0,
+    "prod_loss_max": 0.5592552705089238
+   }
+  },
+  {
+   "loss_total": 19.15,
+   "loss_events": 19.15,
+   "x": {
+    "vuln_base": 0.3747645036764938,
+    "coal_mult": 0.6197461687852479,
+    "thr_mu": -7.964471078410994,
+    "thr_sigma": 4.033051645544008,
+    "expo_tau_h": 3.6867522492180043,
+    "windchill_k": 0.9120714465162496,
+    "cold_repair_rate": 0.08,
+    "recover_hi": 28.0374367741254,
+    "fts_slope": 0.03681491809530808,
+    "prod_loss_k": 1516.2661187929054,
+    "deliv_buffer": 0.205124671573578,
+    "s_def": 0.12352290932679377,
+    "b_trip": 0.15293309324708892,
+    "ice_gain": 0.059810834380687974,
+    "bg_cold_mult": 0.0,
+    "prod_loss_max": 0.6444206776432253
+   }
+  },
+  {
+   "loss_total": 19.198,
+   "loss_events": 19.198,
+   "x": {
+    "vuln_base": 0.3573280027432789,
+    "coal_mult": 0.4,
+    "thr_mu": -8.498838499936156,
+    "thr_sigma": 3.3350302152800273,
+    "expo_tau_h": 4.715983565897533,
+    "windchill_k": 0.8729955961555986,
+    "cold_repair_rate": 0.08,
+    "recover_hi": 30.499553500190505,
+    "fts_slope": 0.03612688070347392,
+    "prod_loss_k": 1582.3670205433957,
+    "deliv_buffer": 0.22817585976559046,
+    "s_def": 0.1303790915588551,
+    "b_trip": 0.13136906204631651,
+    "ice_gain": 0.07069487323015752,
+    "bg_cold_mult": 0.0,
+    "prod_loss_max": 0.6570238323033089
+   }
+  },
+  {
+   "loss_total": 19.305,
+   "loss_events": 19.305,
+   "x": {
+    "vuln_base": 0.403566785814243,
+    "coal_mult": 0.49720912795345906,
+    "thr_mu": -8.945687379532778,
+    "thr_sigma": 3.550451315390312,
+    "expo_tau_h": 3.208235067568612,
+    "windchill_k": 0.8161128817267375,
+    "cold_repair_rate": 0.08,
+    "recover_hi": 28.35957610875771,
+    "fts_slope": 0.03857671690231833,
+    "prod_loss_k": 1727.9136703438687,
+    "deliv_buffer": 0.226142453960877,
+    "s_def": 0.1122558746387091,
+    "b_trip": 0.14743091405280503,
+    "ice_gain": 0.08136801000294179,
+    "bg_cold_mult": 0.0,
+    "prod_loss_max": 0.6075261302219448
+   }
+  },
+  {
+   "loss_total": 19.336,
+   "loss_events": 19.336,
+   "x": {
+    "vuln_base": 0.3814528825043539,
+    "coal_mult": 0.5629860465577767,
+    "thr_mu": -8.174657022052163,
+    "thr_sigma": 3.7995779418634408,
+    "expo_tau_h": 4.235710646315461,
+    "windchill_k": 0.9696063600826588,
+    "cold_repair_rate": 0.07182241601655019,
+    "recover_hi": 30.808020707780496,
+    "fts_slope": 0.03607055283772129,
+    "prod_loss_k": 1668.9627149667854,
+    "deliv_buffer": 0.20223424756887748,
+    "s_def": 0.10766474168012273,
+    "b_trip": 0.15342286626296445,
+    "ice_gain": 0.05446521295801101,
+    "bg_cold_mult": 0.0,
+    "prod_loss_max": 0.607004947831475
+   }
+  },
+  {
+   "loss_total": 19.346,
+   "loss_events": 19.346,
+   "x": {
+    "vuln_base": 0.40008279044265166,
+    "coal_mult": 0.6117161814214224,
+    "thr_mu": -8.944683464113,
+    "thr_sigma": 3.580004344226236,
+    "expo_tau_h": 3.433521380986762,
+    "windchill_k": 0.9401330132002913,
+    "cold_repair_rate": 0.08,
+    "recover_hi": 31.777213098326584,
+    "fts_slope": 0.03214688324830098,
+    "prod_loss_k": 1805.3915395134034,
+    "deliv_buffer": 0.20316344981106027,
+    "s_def": 0.09627039295176867,
+    "b_trip": 0.15588649120782813,
+    "ice_gain": 0.042568094701448025,
+    "bg_cold_mult": 0.0,
+    "prod_loss_max": 0.6102577297940184
+   }
+  },
+  {
+   "loss_total": 19.79,
+   "loss_events": 19.79,
+   "x": {
+    "vuln_base": 0.4247405713496554,
+    "coal_mult": 0.4693945298725674,
+    "thr_mu": -7.8851484690942435,
+    "thr_sigma": 3.7704061534153226,
+    "expo_tau_h": 4.655829583470645,
+    "windchill_k": 0.8900690588102336,
+    "cold_repair_rate": 0.07633804377625364,
+    "recover_hi": 29.931946898187647,
+    "fts_slope": 0.037770562038867875,
+    "prod_loss_k": 1561.594400579963,
+    "deliv_buffer": 0.20496526822405864,
+    "s_def": 0.11510558785256814,
+    "b_trip": 0.16734679702344593,
+    "ice_gain": 0.05409320725546574,
+    "bg_cold_mult": 0.0,
+    "prod_loss_max": 0.6060870861812888
+   }
+  }
+ ]
+}

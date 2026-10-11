@@ -1,0 +1,569 @@
+{
+ "registration": "9d4928916c7a9b9e",
+ "ran_at": "2026-10-11T12:20:46",
+ "minutes": 22.4,
+ "summary": {
+  "C_A": {
+   "label": "Track A frozen notebook",
+   "passed_seeds": 0,
+   "storm_passed": false,
+   "collapses": 0,
+   "homes_dark_hours": [
+    228856193.0863472,
+    261369287.24436238,
+    281815066.7059017
+   ],
+   "peak_shed_frac": [
+    0.36534033412967926,
+    0.41054292630789724,
+    0.46909173694993256
+   ],
+   "max_below_59_4_min": [
+    0,
+    0,
+    0
+   ],
+   "api_errors": 0
+  },
+  "D_A": {
+   "label": "Track A notebook, AI unplugged",
+   "passed_seeds": 0,
+   "storm_passed": false,
+   "collapses": 0,
+   "homes_dark_hours": [
+    233057824.73135212,
+    269451616.8742395,
+    286365267.01439023
+   ],
+   "peak_shed_frac": [
+    0.3653366939807311,
+    0.40917759979226825,
+    0.46907548403179744
+   ],
+   "max_below_59_4_min": [
+    0,
+    0,
+    0
+   ],
+   "api_errors": 0
+  },
+  "C_B": {
+   "label": "Track B frozen notebook",
+   "passed_seeds": 0,
+   "storm_passed": false,
+   "collapses": 0,
+   "homes_dark_hours": [
+    120069120.70438175,
+    134701491.33827698,
+    142096800.60522783
+   ],
+   "peak_shed_frac": [
+    0.2872842125125619,
+    0.29837178131363296,
+    0.31852473408877297
+   ],
+   "max_below_59_4_min": [
+    0,
+    0,
+    0
+   ],
+   "api_errors": 0
+  },
+  "D_B": {
+   "label": "Track B notebook, AI unplugged",
+   "passed_seeds": 0,
+   "storm_passed": false,
+   "collapses": 0,
+   "homes_dark_hours": [
+    180668387.10955703,
+    204526412.08372018,
+    209628026.60558286
+   ],
+   "peak_shed_frac": [
+    0.30106913085696907,
+    0.31344517804411354,
+    0.3162661534111341
+   ],
+   "max_below_59_4_min": [
+    0,
+    0,
+    0
+   ],
+   "api_errors": 0
+  },
+  "A": {
+   "label": "Day-1 notebook",
+   "passed_seeds": 0,
+   "storm_passed": false,
+   "collapses": 1,
+   "homes_dark_hours": [
+    1208100829.9526625,
+    1253881198.9765341,
+    1765944221.4850712
+   ],
+   "peak_shed_frac": [
+    1.0199559734478043,
+    1.0257842932960775,
+    0.26515847872355863
+   ],
+   "max_below_59_4_min": [
+    3,
+    1,
+    10
+   ],
+   "api_errors": 0
+  },
+  "B": {
+   "label": "Day-1 notebook, AI told it is Feb 2021",
+   "passed_seeds": 0,
+   "storm_passed": false,
+   "collapses": 0,
+   "homes_dark_hours": [
+    1088264704.9526625,
+    1209013058.1860068,
+    1253873618.6304436
+   ],
+   "peak_shed_frac": [
+    0.9063037364064775,
+    0.9849860543581653,
+    1.0141276535995312
+   ],
+   "max_below_59_4_min": [
+    2,
+    1,
+    3
+   ],
+   "api_errors": 0
+  },
+  "T0": {
+   "label": "Gemma-3-27B, Day-1 notebook",
+   "passed_seeds": 0,
+   "storm_passed": false,
+   "collapses": 0,
+   "homes_dark_hours": [
+    1176949665.087216,
+    1227120867.6390932,
+    1224556125.0
+   ],
+   "peak_shed_frac": [
+    0.9908143742064385,
+    1.0024710139029849,
+    0.993728534130575
+   ],
+   "max_below_59_4_min": [
+    2,
+    1,
+    0
+   ],
+   "api_errors": 0
+  },
+  "T": {
+   "label": "Gemma-3-27B, Track B frozen notebook",
+   "passed_seeds": 0,
+   "storm_passed": false,
+   "collapses": 0,
+   "homes_dark_hours": [
+    160893086.92080897,
+    153408181.18845874,
+    175231997.51077348
+   ],
+   "peak_shed_frac": [
+    0.31212591646959464,
+    0.31718152032597935,
+    0.3126203789618041
+   ],
+   "max_below_59_4_min": [
+    0,
+    0,
+    0
+   ],
+   "api_errors": 0
+  }
+ },
+ "rows": [
+  {
+   "registration": "9d4928916c7a9b9e",
+   "config": "C_A",
+   "label": "Track A frozen notebook",
+   "seed": 0,
+   "passed": false,
+   "verdict": "Failed: 37% of homes dark at the worst hour (hour 184)",
+   "collapsed": false,
+   "collapse_hour": null,
+   "peak_shed_frac": 0.36534033412967926,
+   "homes_dark_hours": 228856193.0863472,
+   "min_freq": 59.77068137955273,
+   "max_below_59_4_min": 0,
+   "ai_calls": 82,
+   "api_errors": 0
+  },
+  {
+   "registration": "9d4928916c7a9b9e",
+   "config": "C_A",
+   "label": "Track A frozen notebook",
+   "seed": 1,
+   "passed": false,
+   "verdict": "Failed: 41% of homes dark at the worst hour (hour 181)",
+   "collapsed": false,
+   "collapse_hour": null,
+   "peak_shed_frac": 0.41054292630789724,
+   "homes_dark_hours": 261369287.24436238,
+   "min_freq": 59.73097749656606,
+   "max_below_59_4_min": 0,
+   "ai_calls": 97,
+   "api_errors": 0
+  },
+  {
+   "registration": "9d4928916c7a9b9e",
+   "config": "C_A",
+   "label": "Track A frozen notebook",
+   "seed": 2,
+   "passed": false,
+   "verdict": "Failed: 47% of homes dark at the worst hour (hour 181)",
+   "collapsed": false,
+   "collapse_hour": null,
+   "peak_shed_frac": 0.46909173694993256,
+   "homes_dark_hours": 281815066.7059017,
+   "min_freq": 59.686958217075315,
+   "max_below_59_4_min": 0,
+   "ai_calls": 89,
+   "api_errors": 0
+  },
+  {
+   "registration": "9d4928916c7a9b9e",
+   "config": "D_A",
+   "label": "Track A notebook, AI unplugged",
+   "seed": 0,
+   "passed": false,
+   "verdict": "Failed: 37% of homes dark at the worst hour (hour 184)",
+   "collapsed": false,
+   "collapse_hour": null,
+   "peak_shed_frac": 0.3653366939807311,
+   "homes_dark_hours": 233057824.73135212,
+   "min_freq": 59.575985507630946,
+   "max_below_59_4_min": 0,
+   "ai_calls": 0,
+   "api_errors": 0
+  },
+  {
+   "registration": "9d4928916c7a9b9e",
+   "config": "D_A",
+   "label": "Track A notebook, AI unplugged",
+   "seed": 1,
+   "passed": false,
+   "verdict": "Failed: 41% of homes dark at the worst hour (hour 181)",
+   "collapsed": false,
+   "collapse_hour": null,
+   "peak_shed_frac": 0.40917759979226825,
+   "homes_dark_hours": 269451616.8742395,
+   "min_freq": 59.436196575629026,
+   "max_below_59_4_min": 0,
+   "ai_calls": 0,
+   "api_errors": 0
+  },
+  {
+   "registration": "9d4928916c7a9b9e",
+   "config": "D_A",
+   "label": "Track A notebook, AI unplugged",
+   "seed": 2,
+   "passed": false,
+   "verdict": "Failed: 47% of homes dark at the worst hour (hour 179)",
+   "collapsed": false,
+   "collapse_hour": null,
+   "peak_shed_frac": 0.46907548403179744,
+   "homes_dark_hours": 286365267.01439023,
+   "min_freq": 59.760013635087645,
+   "max_below_59_4_min": 0,
+   "ai_calls": 0,
+   "api_errors": 0
+  },
+  {
+   "registration": "9d4928916c7a9b9e",
+   "config": "C_B",
+   "label": "Track B frozen notebook",
+   "seed": 0,
+   "passed": false,
+   "verdict": "Failed: 29% of homes dark at the worst hour (hour 197)",
+   "collapsed": false,
+   "collapse_hour": null,
+   "peak_shed_frac": 0.2872842125125619,
+   "homes_dark_hours": 120069120.70438175,
+   "min_freq": 59.44212971475032,
+   "max_below_59_4_min": 0,
+   "ai_calls": 233,
+   "api_errors": 0
+  },
+  {
+   "registration": "9d4928916c7a9b9e",
+   "config": "C_B",
+   "label": "Track B frozen notebook",
+   "seed": 1,
+   "passed": false,
+   "verdict": "Failed: 30% of homes dark at the worst hour (hour 197)",
+   "collapsed": false,
+   "collapse_hour": null,
+   "peak_shed_frac": 0.29837178131363296,
+   "homes_dark_hours": 134701491.33827698,
+   "min_freq": 59.269999999999996,
+   "max_below_59_4_min": 0,
+   "ai_calls": 218,
+   "api_errors": 0
+  },
+  {
+   "registration": "9d4928916c7a9b9e",
+   "config": "C_B",
+   "label": "Track B frozen notebook",
+   "seed": 2,
+   "passed": false,
+   "verdict": "Failed: 32% of homes dark at the worst hour (hour 181)",
+   "collapsed": false,
+   "collapse_hour": null,
+   "peak_shed_frac": 0.31852473408877297,
+   "homes_dark_hours": 142096800.60522783,
+   "min_freq": 59.5027586691461,
+   "max_below_59_4_min": 0,
+   "ai_calls": 205,
+   "api_errors": 0
+  },
+  {
+   "registration": "9d4928916c7a9b9e",
+   "config": "D_B",
+   "label": "Track B notebook, AI unplugged",
+   "seed": 0,
+   "passed": false,
+   "verdict": "Failed: 30% of homes dark at the worst hour (hour 199)",
+   "collapsed": false,
+   "collapse_hour": null,
+   "peak_shed_frac": 0.30106913085696907,
+   "homes_dark_hours": 180668387.10955703,
+   "min_freq": 59.48640903074514,
+   "max_below_59_4_min": 0,
+   "ai_calls": 0,
+   "api_errors": 0
+  },
+  {
+   "registration": "9d4928916c7a9b9e",
+   "config": "D_B",
+   "label": "Track B notebook, AI unplugged",
+   "seed": 1,
+   "passed": false,
+   "verdict": "Failed: 31% of homes dark at the worst hour (hour 199)",
+   "collapsed": false,
+   "collapse_hour": null,
+   "peak_shed_frac": 0.31344517804411354,
+   "homes_dark_hours": 204526412.08372018,
+   "min_freq": 59.755127893625385,
+   "max_below_59_4_min": 0,
+   "ai_calls": 0,
+   "api_errors": 0
+  },
+  {
+   "registration": "9d4928916c7a9b9e",
+   "config": "D_B",
+   "label": "Track B notebook, AI unplugged",
+   "seed": 2,
+   "passed": false,
+   "verdict": "Failed: 32% of homes dark at the worst hour (hour 181)",
+   "collapsed": false,
+   "collapse_hour": null,
+   "peak_shed_frac": 0.3162661534111341,
+   "homes_dark_hours": 209628026.60558286,
+   "min_freq": 59.696692573998696,
+   "max_below_59_4_min": 0,
+   "ai_calls": 0,
+   "api_errors": 0
+  },
+  {
+   "registration": "9d4928916c7a9b9e",
+   "config": "A",
+   "label": "Day-1 notebook",
+   "seed": 0,
+   "passed": false,
+   "verdict": "Failed: 102% of homes dark at the worst hour (hour 322)",
+   "collapsed": false,
+   "collapse_hour": null,
+   "peak_shed_frac": 1.0199559734478043,
+   "homes_dark_hours": 1208100829.9526625,
+   "min_freq": 59.097278392242835,
+   "max_below_59_4_min": 3,
+   "ai_calls": 35,
+   "api_errors": 0
+  },
+  {
+   "registration": "9d4928916c7a9b9e",
+   "config": "A",
+   "label": "Day-1 notebook",
+   "seed": 1,
+   "passed": false,
+   "verdict": "Failed: 103% of homes dark at the worst hour (hour 322)",
+   "collapsed": false,
+   "collapse_hour": null,
+   "peak_shed_frac": 1.0257842932960775,
+   "homes_dark_hours": 1253881198.9765341,
+   "min_freq": 59.10976057603615,
+   "max_below_59_4_min": 1,
+   "ai_calls": 42,
+   "api_errors": 0
+  },
+  {
+   "registration": "9d4928916c7a9b9e",
+   "config": "A",
+   "label": "Day-1 notebook",
+   "seed": 2,
+   "passed": false,
+   "verdict": "Failed: total blackout at hour 178",
+   "collapsed": true,
+   "collapse_hour": 178,
+   "peak_shed_frac": 0.26515847872355863,
+   "homes_dark_hours": 1765944221.4850712,
+   "min_freq": 59.082993247158726,
+   "max_below_59_4_min": 10,
+   "ai_calls": 19,
+   "api_errors": 0
+  },
+  {
+   "registration": "9d4928916c7a9b9e",
+   "config": "B",
+   "label": "Day-1 notebook, AI told it is Feb 2021",
+   "seed": 0,
+   "passed": false,
+   "verdict": "Failed: 91% of homes dark at the worst hour (hour 322)",
+   "collapsed": false,
+   "collapse_hour": null,
+   "peak_shed_frac": 0.9063037364064775,
+   "homes_dark_hours": 1088264704.9526625,
+   "min_freq": 59.14421425805717,
+   "max_below_59_4_min": 2,
+   "ai_calls": 37,
+   "api_errors": 0
+  },
+  {
+   "registration": "9d4928916c7a9b9e",
+   "config": "B",
+   "label": "Day-1 notebook, AI told it is Feb 2021",
+   "seed": 1,
+   "passed": false,
+   "verdict": "Failed: 98% of homes dark at the worst hour (hour 322)",
+   "collapsed": false,
+   "collapse_hour": null,
+   "peak_shed_frac": 0.9849860543581653,
+   "homes_dark_hours": 1209013058.1860068,
+   "min_freq": 58.87,
+   "max_below_59_4_min": 1,
+   "ai_calls": 44,
+   "api_errors": 0
+  },
+  {
+   "registration": "9d4928916c7a9b9e",
+   "config": "B",
+   "label": "Day-1 notebook, AI told it is Feb 2021",
+   "seed": 2,
+   "passed": false,
+   "verdict": "Failed: 101% of homes dark at the worst hour (hour 322)",
+   "collapsed": false,
+   "collapse_hour": null,
+   "peak_shed_frac": 1.0141276535995312,
+   "homes_dark_hours": 1253873618.6304436,
+   "min_freq": 59.06949657950429,
+   "max_below_59_4_min": 3,
+   "ai_calls": 43,
+   "api_errors": 0
+  },
+  {
+   "registration": "9d4928916c7a9b9e",
+   "config": "T0",
+   "label": "Gemma-3-27B, Day-1 notebook",
+   "seed": 0,
+   "passed": false,
+   "verdict": "Failed: 99% of homes dark at the worst hour (hour 322)",
+   "collapsed": false,
+   "collapse_hour": null,
+   "peak_shed_frac": 0.9908143742064385,
+   "homes_dark_hours": 1176949665.087216,
+   "min_freq": 59.18147783613533,
+   "max_below_59_4_min": 2,
+   "ai_calls": 37,
+   "api_errors": 0
+  },
+  {
+   "registration": "9d4928916c7a9b9e",
+   "config": "T0",
+   "label": "Gemma-3-27B, Day-1 notebook",
+   "seed": 1,
+   "passed": false,
+   "verdict": "Failed: 100% of homes dark at the worst hour (hour 322)",
+   "collapsed": false,
+   "collapse_hour": null,
+   "peak_shed_frac": 1.0024710139029849,
+   "homes_dark_hours": 1227120867.6390932,
+   "min_freq": 59.24261026784975,
+   "max_below_59_4_min": 1,
+   "ai_calls": 42,
+   "api_errors": 0
+  },
+  {
+   "registration": "9d4928916c7a9b9e",
+   "config": "T0",
+   "label": "Gemma-3-27B, Day-1 notebook",
+   "seed": 2,
+   "passed": false,
+   "verdict": "Failed: 99% of homes dark at the worst hour (hour 322)",
+   "collapsed": false,
+   "collapse_hour": null,
+   "peak_shed_frac": 0.993728534130575,
+   "homes_dark_hours": 1224556125.0,
+   "min_freq": 59.36172158722853,
+   "max_below_59_4_min": 0,
+   "ai_calls": 43,
+   "api_errors": 0
+  },
+  {
+   "registration": "9d4928916c7a9b9e",
+   "config": "T",
+   "label": "Gemma-3-27B, Track B frozen notebook",
+   "seed": 0,
+   "passed": false,
+   "verdict": "Failed: 31% of homes dark at the worst hour (hour 199)",
+   "collapsed": false,
+   "collapse_hour": null,
+   "peak_shed_frac": 0.31212591646959464,
+   "homes_dark_hours": 160893086.92080897,
+   "min_freq": 59.736659363019605,
+   "max_below_59_4_min": 0,
+   "ai_calls": 233,
+   "api_errors": 0
+  },
+  {
+   "registration": "9d4928916c7a9b9e",
+   "config": "T",
+   "label": "Gemma-3-27B, Track B frozen notebook",
+   "seed": 1,
+   "passed": false,
+   "verdict": "Failed: 32% of homes dark at the worst hour (hour 199)",
+   "collapsed": false,
+   "collapse_hour": null,
+   "peak_shed_frac": 0.31718152032597935,
+   "homes_dark_hours": 153408181.18845874,
+   "min_freq": 59.705165582687826,
+   "max_below_59_4_min": 0,
+   "ai_calls": 219,
+   "api_errors": 0
+  },
+  {
+   "registration": "9d4928916c7a9b9e",
+   "config": "T",
+   "label": "Gemma-3-27B, Track B frozen notebook",
+   "seed": 2,
+   "passed": false,
+   "verdict": "Failed: 31% of homes dark at the worst hour (hour 201)",
+   "collapsed": false,
+   "collapse_hour": null,
+   "peak_shed_frac": 0.3126203789618041,
+   "homes_dark_hours": 175231997.51077348,
+   "min_freq": 59.48517828279889,
+   "max_below_59_4_min": 0,
+   "ai_calls": 206,
+   "api_errors": 0
+  }
+ ]
+}

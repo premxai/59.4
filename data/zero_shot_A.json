@@ -1,0 +1,56 @@
+{
+ "diagnosis": "There are no failures yet. The current manual is purely reactive: there is no forecast, no trend gauge and no habits. The AI is woken only once reserves are already thin, gas facilities are unprotected, and nothing ensures prompt, gradual restoration. Hard storms typically fail through late preparation, supply collapse after gas freeze-offs, frequency excursions and slow restoration.",
+ "proposals": [
+  {
+   "title": "Forecast-led preparation, anticipatory shedding, protected gas, prompt restore",
+   "organ": "habit",
+   "lesson_title": "Prepare early, shed ahead, restore promptly",
+   "lesson_text": "When deep cold is forecast, line up extra plants, imports and conservation early. If supply is falling, shed a little ahead while keeping gas sites powered. Bring homes back as soon as reserves recover.",
+   "predicted_effect": "Earlier precommitment and imports should reduce the depth of the shortfall. Anticipatory shedding with gas protection should avoid freeze-off feedback and frequency collapse. Gradual restoration with a sustained reserve check should limit time spent dark. Calm days should be unaffected because the triggers need forecast cold or thin reserves.",
+   "predicted_extra_storms_passed": 1,
+   "predicted_change_pct": -30,
+   "ops": [
+    {
+     "op": "add_sensor",
+     "args": "{\"name\": \"cold_ahead\", \"expr\": \"min2(fc_min_24, fc_min_48)\", \"description\": \"coldest statewide temperature forecast in the next two days\"}"
+    },
+    {
+     "op": "add_sensor",
+     "args": "{\"name\": \"supply_drop\", \"expr\": \"slope(supply, 3)\", \"description\": \"how fast supply is changing over the last 3 hours (negative = falling)\"}"
+    },
+    {
+     "op": "add_rule",
+     "args": "{\"if\": \"cold_ahead < -10\", \"then\": [\"precommit(0.9)\", \"imports(500)\", \"conservation(0.03)\"], \"priority\": 1, \"description\": \"Deep cold forecast: commit extra units, schedule imports, ask for conservation before it arrives\"}"
+    },
+    {
+     "op": "add_rule",
+     "args": "{\"if\": \"reserve_margin < 0.06 or (supply_drop < 0 and reserve_margin < 0.1)\", \"then\": [\"dr(max)\", \"battery(discharge)\"], \"priority\": 2, \"description\": \"Use demand response and batteries before cutting homes\"}"
+    },
+    {
+     "op": "add_rule",
+     "args": "{\"if\": \"reserve_margin < 0.03 or (supply_drop < 0 and reserve_margin < 0.05)\", \"then\": [\"protect_gas()\", \"shed_to_reserve(300, 2)\", \"rotation(30)\"], \"priority\": 3, \"description\": \"Reserves thin or supply falling: shed ahead of the drop with rotation, never cutting gas facilities\"}"
+    },
+    {
+     "op": "add_rule",
+     "args": "{\"if\": \"shed > 0 and reserve_margin > 0.08 and supply_drop >= 0 and min(reserve_margin, 2) > 0.05\", \"then\": [\"protect_gas()\", \"restore(200)\"], \"priority\": 4, \"description\": \"Reserves recovered and supply steady: restore homes gradually but promptly\"}"
+    },
+    {
+     "op": "add_guardrail",
+     "args": "{\"when\": \"freq < 59.5 or below_59_4_min > 0\", \"enforce\": [\"protect_gas()\", \"rt_shed()\"], \"description\": \"Frequency emergency: control room cuts load immediately, keeping gas facilities powered\"}"
+    },
+    {
+     "op": "add_guardrail",
+     "args": "{\"when\": \"shed > 0\", \"enforce\": [\"protect_gas()\"], \"description\": \"Whenever load is shed, gas facilities stay powered\"}"
+    },
+    {
+     "op": "set_alert",
+     "args": "{\"when\": \"reserve_margin < 0.08 or supply_drop < 0 and reserve_margin < 0.12 or cold_ahead < -10 and hour == 18\", \"description\": \"Wake the AI when reserves thin, supply is falling, or deep cold is forecast\"}"
+    },
+    {
+     "op": "set_context",
+     "args": "{\"show\": [\"demand\", \"supply\", \"reserve\", \"reserve_margin\", \"supply_trend\", \"supply_drop\", \"cold_ahead\", \"freq\", \"shed\", \"temp\", \"battery_soc\", \"dr_left\"], \"show_forecast\": true, \"memory_top_k\": 3, \"recent_hours\": 12}"
+    }
+   ]
+  }
+ ]
+}

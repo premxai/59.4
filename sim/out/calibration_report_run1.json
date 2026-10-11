@@ -1,0 +1,474 @@
+{
+ "loss_events": 16.579,
+ "loss_with_quiet": 16.579,
+ "free_params": {
+  "vuln_base": 0.19800483584095732,
+  "coal_mult": 2.370612917138598,
+  "thr_mu": -8.085765742562284,
+  "thr_sigma": 3.080940541725088,
+  "expo_tau_h": 7.450952754270231,
+  "windchill_k": 0.6,
+  "cold_repair_rate": 0.011237159613622854,
+  "recover_hi": 23.82772000692209,
+  "fts_slope": 0.026328147749685088,
+  "prod_loss_k": 904.5684386737116,
+  "deliv_buffer": 0.1992906604738064,
+  "s_def": 0.14378996057356158,
+  "b_trip": 0.2202506569951943,
+  "ice_gain": 0.07917058260458278
+ },
+ "targets_vs_sim": [
+  {
+   "measure": "2011_peak_shed_mw",
+   "target": 4948.0,
+   "sim_mean_3seeds": 1424.165,
+   "scale": 1500.0,
+   "weight": 1.5
+  },
+  {
+   "measure": "2011_shed_hours",
+   "target": 7.4,
+   "sim_mean_3seeds": 8.0,
+   "scale": 3.0,
+   "weight": 1.0
+  },
+  {
+   "measure": "2011_planned_mw",
+   "target": 12413.0,
+   "sim_mean_3seeds": 12430.186,
+   "scale": 1500.0,
+   "weight": 0.5
+  },
+  {
+   "measure": "2011_forced_peak_mw",
+   "target": 14702.0,
+   "sim_mean_3seeds": 10781.437,
+   "scale": 2500.0,
+   "weight": 1.5
+  },
+  {
+   "measure": "2011_coal_out_mw",
+   "target": 5200.0,
+   "sim_mean_3seeds": 5707.833,
+   "scale": 2000.0,
+   "weight": 0.7
+  },
+  {
+   "measure": "2011_gas_fuel_mw",
+   "target": 1282.0,
+   "sim_mean_3seeds": 369.846,
+   "scale": 1000.0,
+   "weight": 0.7
+  },
+  {
+   "measure": "2011_prod_loss",
+   "target": 0.21,
+   "sim_mean_3seeds": 0.092,
+   "scale": 0.06,
+   "weight": 0.7
+  },
+  {
+   "measure": "2011_min_freq",
+   "target": 59.576,
+   "sim_mean_3seeds": 59.571,
+   "scale": 0.08,
+   "weight": 1.0
+  },
+  {
+   "measure": "2011_wind_mean_mw",
+   "target": 3397.7356735312496,
+   "sim_mean_3seeds": 2542.291,
+   "scale": 1500.0,
+   "weight": 0.5
+  },
+  {
+   "measure": "2011_weather_gross_mw",
+   "target": 24087.0,
+   "sim_mean_3seeds": 10511.372,
+   "scale": 8000.0,
+   "weight": 0.3
+  },
+  {
+   "measure": "1989_forced_peak_mw",
+   "target": 11809.0,
+   "sim_mean_3seeds": 14962.913,
+   "scale": 2500.0,
+   "weight": 1.5
+  },
+  {
+   "measure": "1989_weather_gross_mw",
+   "target": 15559.0,
+   "sim_mean_3seeds": 16967.885,
+   "scale": 6000.0,
+   "weight": 0.3
+  },
+  {
+   "measure": "1989_peak_shed_mw",
+   "target": 1710.0,
+   "sim_mean_3seeds": 721.277,
+   "scale": 1000.0,
+   "weight": 1.0
+  },
+  {
+   "measure": "1989_shed_hours",
+   "target": 5.8,
+   "sim_mean_3seeds": 1.0,
+   "scale": 3.0,
+   "weight": 0.5
+  },
+  {
+   "measure": "1989_min_freq",
+   "target": 59.65,
+   "sim_mean_3seeds": 59.559,
+   "scale": 0.08,
+   "weight": 1.0
+  },
+  {
+   "measure": "1989_gas_fuel_mw",
+   "target": 1500.0,
+   "sim_mean_3seeds": 0.0,
+   "scale": 1000.0,
+   "weight": 0.5
+  },
+  {
+   "measure": "2014_forced_peak_mw",
+   "target": 9355.0,
+   "sim_mean_3seeds": 7325.725,
+   "scale": 2500.0,
+   "weight": 1.0
+  },
+  {
+   "measure": "2014_shed_mw",
+   "target": 0.0,
+   "sim_mean_3seeds": 0.0,
+   "scale": 300.0,
+   "weight": 1.5
+  },
+  {
+   "measure": "2014_eea_max",
+   "target": 2.0,
+   "sim_mean_3seeds": 0.0,
+   "scale": 1.0,
+   "weight": 0.5
+  },
+  {
+   "measure": "2011feb10_shed_mw",
+   "target": 0.0,
+   "sim_mean_3seeds": 0.0,
+   "scale": 300.0,
+   "weight": 1.5
+  },
+  {
+   "measure": "2018jan17_shed_mw",
+   "target": 0.0,
+   "sim_mean_3seeds": 0.0,
+   "scale": 300.0,
+   "weight": 1.5
+  }
+ ],
+ "quiet_winters": {
+  "quiet_2012_2013": {
+   "shed_hours": 0,
+   "peak_shed_mw": 0,
+   "collapsed": false
+  },
+  "quiet_2015_2016": {
+   "shed_hours": 0,
+   "peak_shed_mw": 0,
+   "collapsed": false
+  },
+  "quiet_2017_2018": {
+   "shed_hours": 0,
+   "peak_shed_mw": 0,
+   "collapsed": false
+  },
+  "quiet_2018_2019": {
+   "shed_hours": 0,
+   "peak_shed_mw": 0,
+   "collapsed": false
+  },
+  "quiet_2019_2020": {
+   "shed_hours": 0,
+   "peak_shed_mw": 0,
+   "collapsed": false
+  }
+ },
+ "demand_fit": {
+  "rmse_mw": 2615,
+  "event_2011_peak_mw": 59000,
+  "checks": {
+   "2011-02-10": {
+    "pred_peak": 55971,
+    "obs_served_peak": 57284
+   },
+   "2018-01-17": {
+    "pred_peak": 64771,
+    "obs_served_peak": 65750
+   },
+   "2014-01-06": {
+    "pred_peak": 56952,
+    "obs_served_peak": 55995
+   }
+  }
+ },
+ "wind_fit": {
+  "rmse_cf": 0.1223,
+  "mean_cf_obs": 0.3843
+ },
+ "observed_2011": {
+  "wind_mean_mw": 3398,
+  "coal_gen_drop_mw": 5166
+ },
+ "search": {
+  "stage1": 1500,
+  "stage2": 700,
+  "seeds": [
+   0,
+   1,
+   2
+  ],
+  "elapsed_s": 411
+ },
+ "candidates": [
+  {
+   "loss_total": 16.579,
+   "loss_events": 16.579,
+   "x": {
+    "vuln_base": 0.19800483584095732,
+    "coal_mult": 2.370612917138598,
+    "thr_mu": -8.085765742562284,
+    "thr_sigma": 3.080940541725088,
+    "expo_tau_h": 7.450952754270231,
+    "windchill_k": 0.6,
+    "cold_repair_rate": 0.011237159613622854,
+    "recover_hi": 23.82772000692209,
+    "fts_slope": 0.026328147749685088,
+    "prod_loss_k": 904.5684386737116,
+    "deliv_buffer": 0.1992906604738064,
+    "s_def": 0.14378996057356158,
+    "b_trip": 0.2202506569951943,
+    "ice_gain": 0.07917058260458278
+   }
+  },
+  {
+   "loss_total": 16.863,
+   "loss_events": 16.863,
+   "x": {
+    "vuln_base": 0.17016293837555385,
+    "coal_mult": 2.4230805733786376,
+    "thr_mu": -8.406989591435124,
+    "thr_sigma": 3.2492076101598864,
+    "expo_tau_h": 7.000255820118513,
+    "windchill_k": 0.6,
+    "cold_repair_rate": 0.012982305807904708,
+    "recover_hi": 24.149716577686174,
+    "fts_slope": 0.02458419356588113,
+    "prod_loss_k": 559.3555381853436,
+    "deliv_buffer": 0.16977719549159279,
+    "s_def": 0.1167345695208387,
+    "b_trip": 0.23847595695766996,
+    "ice_gain": 0.08128448989912966
+   }
+  },
+  {
+   "loss_total": 16.934,
+   "loss_events": 15.934,
+   "x": {
+    "vuln_base": 0.19204645627573608,
+    "coal_mult": 2.351462463620824,
+    "thr_mu": -7.252518447289113,
+    "thr_sigma": 2.3797765550185472,
+    "expo_tau_h": 7.598256016113529,
+    "windchill_k": 0.5781408197252399,
+    "cold_repair_rate": 0.02588261983714641,
+    "recover_hi": 30.467848279130997,
+    "fts_slope": 0.031197856451471617,
+    "prod_loss_k": 601.5449496899361,
+    "deliv_buffer": 0.23533741045230377,
+    "s_def": 0.13544274690646696,
+    "b_trip": 0.15291771116760966,
+    "ice_gain": 0.06472876756470564
+   }
+  },
+  {
+   "loss_total": 17.053,
+   "loss_events": 16.053,
+   "x": {
+    "vuln_base": 0.2046210193762812,
+    "coal_mult": 2.46398826841364,
+    "thr_mu": -8.109754329268291,
+    "thr_sigma": 3.4266377030218518,
+    "expo_tau_h": 7.368392007219435,
+    "windchill_k": 0.6,
+    "cold_repair_rate": 0.013887824997500851,
+    "recover_hi": 25.23772619505189,
+    "fts_slope": 0.03040218072630615,
+    "prod_loss_k": 804.4575567815702,
+    "deliv_buffer": 0.1887168304933466,
+    "s_def": 0.1244481730808519,
+    "b_trip": 0.22133892323594784,
+    "ice_gain": 0.08082018750741295
+   }
+  },
+  {
+   "loss_total": 17.79,
+   "loss_events": 16.79,
+   "x": {
+    "vuln_base": 0.17951678122515832,
+    "coal_mult": 2.5,
+    "thr_mu": -8.239098790870921,
+    "thr_sigma": 3.3843680815580997,
+    "expo_tau_h": 7.1472743848577664,
+    "windchill_k": 0.6,
+    "cold_repair_rate": 0.014553666019869222,
+    "recover_hi": 20.212005966418694,
+    "fts_slope": 0.029964612264592853,
+    "prod_loss_k": 1034.0092160107397,
+    "deliv_buffer": 0.2249961359641391,
+    "s_def": 0.15149461427377325,
+    "b_trip": 0.2257034655528466,
+    "ice_gain": 0.1
+   }
+  },
+  {
+   "loss_total": 17.934,
+   "loss_events": 16.934,
+   "x": {
+    "vuln_base": 0.1710323971586058,
+    "coal_mult": 2.463113966292624,
+    "thr_mu": -8.034389095503307,
+    "thr_sigma": 3.1916105244270567,
+    "expo_tau_h": 6.865323709491924,
+    "windchill_k": 0.5824969308132137,
+    "cold_repair_rate": 0.012887368552882155,
+    "recover_hi": 26.76169368704107,
+    "fts_slope": 0.032744577706717966,
+    "prod_loss_k": 805.163160779084,
+    "deliv_buffer": 0.19779387857052738,
+    "s_def": 0.1187916950678398,
+    "b_trip": 0.20717778545812893,
+    "ice_gain": 0.07928170958913135
+   }
+  },
+  {
+   "loss_total": 17.94,
+   "loss_events": 17.607,
+   "x": {
+    "vuln_base": 0.2033181389594217,
+    "coal_mult": 1.4450685705111876,
+    "thr_mu": -4.8654983223071415,
+    "thr_sigma": 6.0,
+    "expo_tau_h": 3.5606619028185684,
+    "windchill_k": 0.40086370230982726,
+    "cold_repair_rate": 0.05922075332464112,
+    "recover_hi": 28.179497137052742,
+    "fts_slope": 0.059670232250220695,
+    "prod_loss_k": 720.5431847101336,
+    "deliv_buffer": 0.15997323372880148,
+    "s_def": 0.12979051760355395,
+    "b_trip": 0.18542040643541793,
+    "ice_gain": 0.1
+   }
+  },
+  {
+   "loss_total": 17.944,
+   "loss_events": 17.944,
+   "x": {
+    "vuln_base": 0.1602140211551615,
+    "coal_mult": 1.7355407648992665,
+    "thr_mu": -5.925130616652117,
+    "thr_sigma": 6.0,
+    "expo_tau_h": 2.702293178451363,
+    "windchill_k": 0.3333181241651396,
+    "cold_repair_rate": 0.06533939349216678,
+    "recover_hi": 29.282629411926422,
+    "fts_slope": 0.054315076397782616,
+    "prod_loss_k": 950.3118615349072,
+    "deliv_buffer": 0.15199322880607946,
+    "s_def": 0.17640556573249835,
+    "b_trip": 0.165948615907288,
+    "ice_gain": 0.1
+   }
+  },
+  {
+   "loss_total": 18.015,
+   "loss_events": 18.015,
+   "x": {
+    "vuln_base": 0.15371538934519283,
+    "coal_mult": 1.7894642577471571,
+    "thr_mu": -6.58811214922576,
+    "thr_sigma": 5.541942046621928,
+    "expo_tau_h": 2.0,
+    "windchill_k": 0.2547907176534922,
+    "cold_repair_rate": 0.04850096756542934,
+    "recover_hi": 28.451923861158107,
+    "fts_slope": 0.061248504786920496,
+    "prod_loss_k": 746.000604863051,
+    "deliv_buffer": 0.16518986864621832,
+    "s_def": 0.15257490573741078,
+    "b_trip": 0.1717750582061569,
+    "ice_gain": 0.1
+   }
+  },
+  {
+   "loss_total": 18.027,
+   "loss_events": 17.027,
+   "x": {
+    "vuln_base": 0.17239576532153092,
+    "coal_mult": 2.5,
+    "thr_mu": -8.4567217719265,
+    "thr_sigma": 3.26999613389688,
+    "expo_tau_h": 7.288598565721362,
+    "windchill_k": 0.5904367202291332,
+    "cold_repair_rate": 0.010980452546181104,
+    "recover_hi": 21.895738821900263,
+    "fts_slope": 0.036045743229273806,
+    "prod_loss_k": 910.388603787005,
+    "deliv_buffer": 0.18974785888053636,
+    "s_def": 0.14122326908845714,
+    "b_trip": 0.21582544362763112,
+    "ice_gain": 0.08261599608438709
+   }
+  },
+  {
+   "loss_total": 18.465,
+   "loss_events": 17.465,
+   "x": {
+    "vuln_base": 0.19675476128748415,
+    "coal_mult": 2.4639097211629815,
+    "thr_mu": -8.15733852663487,
+    "thr_sigma": 3.3215153383386506,
+    "expo_tau_h": 7.733503725480036,
+    "windchill_k": 0.5939606331587728,
+    "cold_repair_rate": 0.012700351216256223,
+    "recover_hi": 26.248293911624167,
+    "fts_slope": 0.031019814929520675,
+    "prod_loss_k": 654.8964147474925,
+    "deliv_buffer": 0.18927434010907745,
+    "s_def": 0.12007622365241716,
+    "b_trip": 0.22536306003330675,
+    "ice_gain": 0.08329691214031672
+   }
+  },
+  {
+   "loss_total": 19.01,
+   "loss_events": 18.01,
+   "x": {
+    "vuln_base": 0.19336755439156433,
+    "coal_mult": 2.3483235546367744,
+    "thr_mu": -8.580983487936816,
+    "thr_sigma": 3.6421189538243337,
+    "expo_tau_h": 7.762842510773683,
+    "windchill_k": 0.6,
+    "cold_repair_rate": 0.012691232592254144,
+    "recover_hi": 27.574863866757575,
+    "fts_slope": 0.03195529872181894,
+    "prod_loss_k": 757.5866557437259,
+    "deliv_buffer": 0.17768217078187665,
+    "s_def": 0.11446206419189793,
+    "b_trip": 0.1844652750376037,
+    "ice_gain": 0.09287265343881121
+   }
+  }
+ ]
+}

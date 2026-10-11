@@ -1,0 +1,975 @@
+plant_id,name,lat,lon,county,fuel,fuel_detail,nameplate_mw,winter_mw,operable_nameplate_mw_2025,operating_year,retirement_year,n_generators
+298,Limestone,31.4219,-96.2525,Limestone,coal,coal,1849.8,1688.0,1849.8,1985.0,,2
+791,Canyon,29.87056,-98.194733,Comal,hydro,hydro,6.0,6.0,6.0,1989.0,,2
+794,Lewisville,33.068473,-96.963806,Denton,hydro,hydro,2.8,2.0,2.8,1992.0,,1
+3437,Eagle Pass,28.829535,-100.552234,Maverick,hydro,hydro,9.6,6.0,9.6,1932.0,,3
+3439,Laredo,27.5667,-99.5089,Webb,gas,gas_ct,450.8,364.8,263.6,1951.0,,5
+3441,Nueces Bay,27.819412,-97.419203,Nueces,gas,gas_cc,942.7,855.0,730.2,1949.0,,5
+3443,Victoria,28.7883,-97.01,Victoria,gas,gas_cc,712.9,607.0,376.9,1955.0,,4
+3452,Lake Hubbard,32.8358,-96.5458,Dallas,gas,gas_steam,927.5,915.0,927.5,1970.0,,2
+3453,Mountain Creek,32.7231,-96.9358,Dallas,gas,gas_steam,958.3,904.0,852.2,1945.0,,5
+3454,North Lake,32.950556,-96.975,Dallas,gas,gas_steam,708.5,715.0,0.0,1959.0,2009.0,3
+3460,Cedar Bayou,29.75,-94.9256,Chambers,gas,gas_steam,2295.0,2255.0,1530.0,1970.0,,3
+3464,Greens Bayou,29.822201,-95.219429,Harris,gas,gas_steam,878.4,802.0,432.0,1973.0,,7
+3466,P H Robinson,29.486667,-94.979444,Galveston,gas,gas_steam,2314.5,2211.0,0.0,1966.0,2009.0,4
+3468,Sam Bertron,29.726775,-95.059827,Harris,gas,gas_steam,875.1,785.0,0.0,1956.0,2019.0,6
+3469,T H Wharton,29.9417,-95.5306,Harris,gas,gas_cc,1189.9,1178.0,1189.9,1967.0,,17
+3470,W A Parish,29.4828,-95.6311,Fort Bend,coal,coal,4008.4,3675.0,4008.4,1958.0,,9
+3489,Eagle Mountain,32.9056,-97.4792,Tarrant,gas,gas_steam,706.1,665.0,0.0,1954.0,2012.0,3
+3490,Graham,33.1344,-98.6117,Young,gas,gas_steam,634.7,634.0,634.7,1960.0,,2
+3491,Handley,32.7283,-97.2192,Tarrant,gas,gas_steam,1433.3,1364.0,1314.8,1948.0,,5
+3492,Morgan Creek,32.3358,-100.9156,Mitchell,gas,gas_steam,1224.3,1171.0,536.4,1959.0,,8
+3494,Permian Basin,31.5839,-102.9633,Ward,gas,gas_steam,1097.4,1029.0,447.0,1958.0,,7
+3497,Big Brown,31.8206,-96.0544,Freestone,coal,coal,1186.8,1208.0,0.0,1971.0,2018.0,2
+3502,Lake Creek,31.4647,-96.985,McLennan,gas,gas_steam,321.6,323.0,0.0,1953.0,2014.0,5
+3504,Stryker Creek,31.93985,-94.989834,Cherokee,gas,gas_steam,713.4,682.0,713.4,1958.0,,7
+3507,Trinidad (TX),32.124519,-96.101277,Henderson,gas,gas_steam,243.3,240.0,243.3,1965.0,,3
+3548,Decker Creek,30.3033,-97.6128,Travis,gas,gas_steam,932.0,1023.0,206.0,1971.0,,6
+3549,Holly Street,30.25,-97.716667,Travis,gas,gas_steam,358.0,391.0,0.0,1967.0,2007.0,2
+3559,Silas Ray,25.9131,-97.5214,Cameron,gas,gas_cc,170.4,146.0,142.5,1952.0,,12
+3561,Bryan (TX),30.64741,-96.372316,Brazos,gas,gas_steam,138.0,130.0,22.0,1955.0,,5
+3574,C E Newman,32.9125,-96.6231,Dallas,gas,gas_steam,44.0,37.0,0.0,1963.0,2011.0,1
+3576,Ray Olinger,33.068055,-96.452481,Collin,gas,gas_steam,427.7,401.0,427.7,1967.0,,4
+3581,Abbott TP 3,29.593951,-98.040734,Guadalupe,hydro,hydro,2.8,2.8,2.8,1927.0,,2
+3582,Dunlap TP 1,29.640187,-98.045934,Guadalupe,hydro,hydro,3.6,3.6,3.6,1927.0,,2
+3583,H 4,29.495193,-97.624948,Gonzales,hydro,hydro,2.4,2.4,2.4,1931.0,,1
+3584,H 5,29.4681,-97.4919,Gonzales,hydro,hydro,2.4,2.4,2.4,1931.0,,1
+3585,Nolte,29.537565,-97.932106,Guadalupe,hydro,hydro,2.4,2.4,2.4,1927.0,,2
+3586,TP 4,29.548136,-97.999587,Guadalupe,hydro,hydro,2.4,2.4,2.4,1932.0,,1
+3594,Austin,30.293424,-97.784408,Travis,hydro,hydro,18.0,17.0,18.0,1940.0,,2
+3595,Buchanan Dam (TX),30.7507,-98.4176,Llano,hydro,hydro,54.9,54.9,54.9,1938.0,,3
+3597,Granite Shoals,30.556,-98.3384,Burnet,hydro,hydro,54.0,54.0,54.0,1951.0,,2
+3598,Inks,30.731599,-98.385422,Burnet,hydro,hydro,15.0,13.8,15.0,1938.0,,1
+3599,Marble Falls,30.555288,-98.257593,Burnet,hydro,hydro,39.6,39.6,39.6,1951.0,,2
+3600,Marshall Ford,30.3899,-97.9073,Travis,hydro,hydro,108.0,108.0,108.0,1941.0,,3
+3601,Sim Gideon,30.1456,-97.2708,Bastrop,gas,gas_steam,623.0,620.0,623.0,1965.0,,3
+3609,Leon Creek,29.3525,-98.5761,Bexar,gas,gas_ct,418.3,342.0,229.6,1953.0,,6
+3611,O W Sommers,29.308056,-98.3242,Bexar,gas,gas_steam,892.0,830.0,892.0,1972.0,,2
+3612,V H Braunig,29.2567,-98.3825,Bexar,gas,gas_steam,1138.0,1050.0,1138.0,1966.0,,7
+3613,W B Tuttle,29.53,-98.4181,Bexar,gas,gas_steam,493.9,426.0,0.0,1954.0,2011.0,4
+3627,North Texas,32.77878,-97.694542,Parker,gas,gas_steam,71.0,71.0,0.0,1958.0,2014.0,3
+3628,R W Miller,32.6581,-98.3103,Palo Pinto,gas,gas_steam,603.6,615.0,603.6,1968.0,,5
+3630,Pearsall,28.9275,-99.0919,Frio,gas,gas_ice,267.6,270.6,201.6,1961.0,,27
+3631,Sam Rayburn,28.8947,-97.135,Victoria,gas,gas_cc,240.2,227.8,192.8,1963.0,,9
+4195,Powerlane Plant,33.1707,-96.1264,Hunt,oil,oil,112.2,106.6,112.2,1966.0,,6
+4266,Spencer,33.1975,-97.1061,Denton,gas,gas_steam,126.5,122.0,126.5,1966.0,,2
+4937,Thomas C Ferguson,30.558,-98.3721,Llano,gas,gas_cc,1020.6,976.0,574.6,1974.0,,4
+4939,Barney M Davis,27.6064,-97.3117,Nueces,gas,gas_cc,1082.2,947.0,1082.2,1974.0,,4
+6128,Amistad Dam & Power,29.449827,-101.06011,Val Verde,hydro,hydro,66.0,58.0,66.0,1983.0,,2
+6145,Comanche Peak,32.298365,-97.785515,Somervell,nuclear,nuclear,2430.0,2460.0,2430.0,1990.0,,2
+6146,Martin Lake,32.2606,-94.5706,Rusk,coal,coal,2379.6,2455.0,2379.6,1977.0,,3
+6147,Monticello,33.0917,-95.0417,Titus,coal,coal,1980.0,1955.0,0.0,1974.0,2018.0,3
+6178,Coleto Creek,28.7128,-97.214167,Goliad,coal,coal,622.4,655.0,622.4,1980.0,,1
+6179,Fayette Power Project,29.9172,-96.7506,Fayette,coal,coal,1690.0,1636.0,1690.0,1979.0,,3
+6180,Oak Grove (TX),31.1803,-96.4866,Robertson,coal,coal,1795.4,1710.0,1795.4,2010.0,,2
+6181,J T Deely,29.308056,-98.3228,Bexar,coal,coal,932.0,840.0,0.0,1977.0,2023.0,2
+6183,San Miguel,28.7044,-98.4775,Atascosa,coal,coal,410.0,391.0,410.0,1982.0,,1
+6243,Dansby,30.7217,-96.4608,Brazos,gas,gas_steam,203.2,206.2,203.2,1978.0,,3
+6251,South Texas Project,28.795,-96.0481,Matagorda,nuclear,nuclear,2708.6,2660.0,2708.6,1988.0,,2
+6410,Falcon Dam & Power,26.5575,-99.1642,Starr,hydro,hydro,31.5,30.5,31.5,1954.0,,3
+6414,Whitney,31.8694,-97.3667,Bosque,hydro,hydro,41.8,42.0,41.8,1953.0,,2
+6416,Denison,33.8181,-96.5692,Grayson,hydro,hydro,104.3,100.0,104.3,1945.0,,2
+6648,Sandow No 4,30.565871,-97.064032,Milam,coal,coal,590.6,600.0,0.0,1981.0,2018.0,1
+7030,Major Oak Power,31.091925,-96.69503,Robertson,coal,coal,349.2,307.0,349.2,1990.0,,2
+7097,J K Spruce,29.309722,-98.3203,Bexar,coal,coal,1488.5,1345.0,1488.5,1992.0,,2
+7325,San Jacinto Steam Electric Station,29.694838,-95.040622,Harris,gas,gas_ct,176.4,174.0,176.4,1995.0,,2
+7394,Gonzales Hydro Plant,29.497166,-97.45516,Gonzales,hydro,hydro,0.9,0.9,0.0,1984.0,,3
+7512,Arthur Von Rosenberg,29.257046,-98.384045,Bexar,gas,gas_cc,575.0,549.0,575.0,2000.0,,3
+7900,Sand Hill,30.2098,-97.6129,Travis,gas,gas_cc,696.4,627.8,696.4,2001.0,,8
+8063,DeCordova Steam Electric Station,32.403056,-97.700556,Hood,gas,gas_steam,1425.9,1378.0,626.7,1975.0,,6
+10154,Power Island,29.2293,-95.1952,Brazoria,gas,gas_ct,141.0,138.0,141.0,1985.0,,3
+10167,Seadrift Coke LP,28.513929,-96.794154,Calhoun,other,other,7.6,7.6,7.6,1983.0,,1
+10184,Central Utility Plant,30.397351,-97.842586,Travis,gas,gas_ice,14.3,8.8,14.3,1988.0,,3
+10203,Valero Refinery Corpus Christi East,27.8114,-97.4442,Nueces,gas,gas_ct,40.0,40.0,0.0,1984.0,2010.0,2
+10243,Ticona Polymers Inc,27.5697,-97.8228,Nueces,gas,gas_ct,44.2,38.0,44.2,1989.0,,1
+10261,Enterprise Products Operating,29.8247,-94.9197,Chambers,gas,gas_ct,25.7,21.2,20.7,1984.0,,8
+10298,Bayou Cogen Plant,29.6225,-95.0458,Harris,gas,gas_ct,623.0,712.0,318.4,1984.0,,8
+10418,Ascend Performance Materials Texas Inc.,29.2558,-95.2103,Brazoria,gas,gas_steam,52.1,47.7,52.1,1993.0,,2
+10436,ExxonMobil Baytown Refinery,29.753517,-94.997277,Harris,gas,gas_ct,209.3,173.5,209.3,1952.0,,7
+10554,Formosa Utility Venture Ltd,28.6917,-96.5417,Calhoun,gas,gas_cc,933.4,954.2,933.4,1987.0,,13
+10638,Pasadena,29.7172,-95.1908,Harris,gas,gas_ct,6.5,3.6,0.0,1985.0,2012.0,1
+10692,ExxonMobil Baytown Turbine,29.759124,-95.009648,Harris,gas,gas_ct,381.8,374.1,381.8,1989.0,,5
+10790,Victoria Texas Plant,28.675088,-96.956014,Victoria,gas,gas_ct,102.4,88.0,102.4,1987.0,,1
+50026,Corpus Refinery,27.8322,-97.5281,Nueces,gas,gas_ct,74.5,62.6,74.5,1988.0,,2
+50043,Houston Chemical Complex Battleground,29.7314,-95.0839,Harris,gas,gas_cc,380.7,300.0,380.7,1982.0,,4
+50054,Rice University,29.721048,-95.39536,Harris,gas,gas_ct,6.9,6.6,6.9,1986.0,,2
+50109,Paris Energy Center,33.6968,-95.5577,Lamar,gas,gas_cc,265.6,263.0,265.6,1989.0,,3
+50118,Hal C Weaver Power Plant,30.2867,-97.7356,Travis,gas,gas_cc,165.0,157.3,152.5,1951.0,,7
+50121,Valero Refinery Corpus Christi West,27.8175,-97.4814,Nueces,oil,oil,69.2,65.8,69.2,1983.0,,3
+50127,Signal Hill Generating LLC,33.8625,-98.5894,Wichita,gas,gas_cc,80.0,75.1,80.0,1987.0,,4
+50137,Texas Gulf Sulphur,29.2639,-95.8997,Wharton,gas,gas_ct,101.9,80.0,101.9,1984.0,,1
+50150,Union Carbide Seadrift Cogen,28.5105,-96.7706,Calhoun,gas,gas_ct,168.0,177.0,168.0,1964.0,,8
+50153,Texas City Plant Union Carbide,29.37612,-94.946477,Galveston,gas,gas_ct,65.8,64.8,25.8,1996.0,,2
+50229,Texas Petrochemicals,29.6981,-95.2547,Harris,gas,gas_steam,35.0,35.0,35.0,1972.0,,1
+50304,Shell Deer Park,29.723185,-95.128856,Harris,gas,gas_ct,274.0,277.0,274.0,1979.0,,4
+50404,BP Chemicals Green Lake Plant,28.5707,-96.8333,Calhoun,other,other,38.8,38.8,38.8,1989.0,,2
+50475,Corpus Christi,27.811083,-97.595813,Nueces,gas,gas_ct,41.0,41.0,41.0,1989.0,,1
+50569,DFW Gas Recovery,33.019646,-96.961986,Denton,biomass,biomass,12.4,12.8,0.0,1988.0,2022.0,6
+50615,TXU Sweetwater Generating Plant,32.492831,-100.364973,Nolan,gas,gas_cc,344.0,289.0,0.0,1989.0,2012.0,4
+50815,"Odyssey Energy Altura Cogen, LLC",29.8161,-95.10773,Harris,gas,gas_cc,643.6,605.0,643.6,1985.0,,7
+52065,Houston Plant,29.71977,-95.270562,Harris,other,other,7.5,7.5,7.5,1970.0,,2
+52071,Sandow No 5,30.5681,-97.0614,Milam,coal,coal,661.5,600.0,0.0,2010.0,2018.0,1
+52088,Texas City Power Plant,29.378697,-94.943829,Galveston,gas,gas_cc,450.0,435.0,450.0,1987.0,,4
+52120,Freeport Energy,28.991289,-95.407481,Brazoria,gas,gas_cc,1059.6,905.8,603.1,1953.0,,11
+52132,Power Station 4,29.378164,-94.92195,Galveston,gas,gas_cc,191.1,190.0,191.1,1986.0,,3
+52176,C R Wing Cogen Plant,32.273178,-101.422386,Howard,gas,gas_ct,244.8,239.8,169.8,1987.0,,3
+54330,Westhollow Technology Center,29.726017,-95.638249,Harris,gas,gas_ct,3.7,3.7,3.7,1988.0,,1
+54338,Rio Grande Valley Sugar Growers,26.269683,-97.867012,Hidalgo,biomass,biomass,24.9,18.9,0.0,1973.0,,5
+54364,Works 4,34.003489,-98.553539,Wichita,oil,oil,6.0,6.0,4.9,1974.0,,4
+54520,Village Creek Water Reclamation Facility,32.775093,-97.14209,Tarrant,gas,gas_ct,12.4,12.4,12.4,1994.0,,4
+54676,Oyster Creek Unit VIII,28.9802,-95.342,Brazoria,gas,gas_cc,497.9,430.0,497.9,1994.0,,4
+54817,Johnson County,32.3994,-97.4078,Johnson,gas,gas_cc,282.6,280.0,282.6,1996.0,,2
+54979,Big Spring Wind Power Facility,32.2075,-101.388333,Howard,wind,wind,34.3,34.3,34.3,1998.0,,1
+55015,Sweeny Cogen Facility,29.0728,-95.745,Brazoria,gas,gas_ct,572.0,504.0,572.0,1997.0,,4
+55025,Yates Gas Plant,30.8847,-101.9208,Pecos,gas,gas_ct,5.6,5.6,0.0,1986.0,2019.0,2
+55047,Pasadena Cogeneration,29.72475,-95.176479,Harris,gas,gas_cc,815.0,776.0,815.0,1998.0,,5
+55052,Jameson Gas Processing Plant,32.05,-100.6917,Coke,gas,gas_ice,1.8,1.8,1.8,1981.0,,4
+55053,Bridgeport Gas Processing Plant,33.195763,-97.802547,Wise,gas,gas_ice,10.4,10.4,10.4,2000.0,,13
+55062,Tenaska Frontier Generation Station,30.5924,-95.9178,Grimes,gas,gas_cc,939.7,926.0,939.7,2000.0,,4
+55086,Gregory Power Plant,27.88929,-97.258417,San Patricio,gas,gas_cc,469.8,411.0,469.8,2000.0,,3
+55091,Midlothian Energy Facility,32.4302,-97.0537,Ellis,gas,gas_cc,1734.0,1710.0,1734.0,2000.0,,6
+55097,Lamar Power Project,33.6308,-95.59,Lamar,gas,gas_cc,1112.6,1149.0,1112.6,2000.0,,6
+55098,Frontera Energy Center,26.208,-98.3992,Hidalgo,gas,gas_cc,529.0,559.0,529.0,1999.0,,3
+55123,Magic Valley Generating Station,26.3403,-98.19,Hidalgo,gas,gas_cc,801.0,697.0,801.0,2002.0,,3
+55132,Tenaska Gateway Generating Station,32.017826,-94.619743,Rusk,gas,gas_cc,939.6,921.0,939.6,2001.0,,4
+55137,Rio Nogales Power Project,29.593056,-97.973215,Guadalupe,gas,gas_cc,1108.0,916.0,1108.0,2002.0,,4
+55139,Wolf Hollow I LP,32.33422,-97.731686,Hood,gas,gas_cc,788.4,775.0,788.4,2003.0,,3
+55144,Hays Energy Project,29.7806,-97.9894,Hays,gas,gas_cc,989.0,1048.0,989.0,2002.0,,4
+55153,Guadalupe Generating Station,29.6244,-98.1419,Guadalupe,gas,gas_cc,1088.2,1042.0,1088.2,2000.0,,6
+55154,Lost Pines 1 Power Project,30.1478,-97.2714,Bastrop,gas,gas_cc,609.0,540.0,609.0,2001.0,,3
+55168,Bastrop Energy Center,30.1458,-97.55,Bastrop,gas,gas_cc,618.7,610.0,618.7,2002.0,,3
+55172,Thad Hill Energy Center,31.8594,-97.3586,Bosque,gas,gas_cc,807.0,801.0,807.0,2000.0,,5
+55187,Channelview Cogeneration Plant,29.836952,-95.121744,Harris,gas,gas_cc,918.3,862.2,918.3,2001.0,,5
+55206,Corpus Christi Energy Center,27.8139,-97.4283,Nueces,gas,gas_cc,593.3,518.0,593.3,2002.0,,3
+55215,Odessa-Ector Power Plant,31.8403,-102.3264,Ector,gas,gas_cc,1152.8,1202.6,1152.8,2001.0,,6
+55223,Ennis Power Company LLC,32.32,-96.675,Ellis,gas,gas_cc,418.0,392.9,418.0,2002.0,,2
+55226,Freestone Energy Center,31.8907,-96.1131,Freestone,gas,gas_cc,1036.0,1095.2,1036.0,2002.0,,6
+55230,Jack County,33.101,-97.9574,Wise,gas,gas_cc,1280.0,1280.0,1280.0,2006.0,,6
+55299,Channel Energy Center LLC,29.7189,-95.2319,Harris,gas,gas_cc,923.8,790.0,923.8,2001.0,,4
+55311,BASF Freeport Works,29.002,-95.394,Brazoria,gas,gas_ct,92.7,96.7,92.7,1999.0,,2
+55313,Ingleside Cogeneration,27.882778,-97.242778,San Patricio,gas,gas_cc,517.0,508.0,517.0,1999.0,,3
+55320,Wise County Power LLC,33.0583,-97.9103,Wise,gas,gas_cc,821.7,782.0,821.7,2004.0,,3
+55327,Baytown Energy Center,29.7731,-94.9019,Chambers,gas,gas_cc,932.9,819.0,932.9,2002.0,,4
+55365,Exelon LaPorte Generating Station,29.7028,-95.0718,Harris,gas,gas_ct,236.0,152.0,236.0,2001.0,,4
+55390,State Farm Insur Support Center Central,32.9192,-96.9894,Dallas,oil,oil,10.8,10.8,10.8,1998.0,,6
+55464,Deer Park Energy Center,29.713414,-95.134508,Harris,gas,gas_cc,1176.0,1237.0,1176.0,2003.0,,6
+55470,Green Power 2,29.378097,-94.932773,Galveston,gas,gas_cc,861.0,645.0,861.0,2003.0,,5
+55480,Forney Energy Center,32.7563,-96.4916,Kaufman,gas,gas_cc,1894.2,1966.0,1894.2,2003.0,,8
+55501,Kiamichi Energy Facility,34.6831,-95.9349,Pittsburg,gas,gas_cc,1370.0,1400.0,1370.0,2003.0,,6
+55526,Atascocita,29.9522,-95.2422,Harris,biomass,biomass,8.5,8.5,0.0,2003.0,2018.0,5
+55545,Hidalgo Energy Center,26.34172,-98.175759,Hidalgo,gas,gas_cc,551.3,543.0,551.3,2000.0,,3
+55551,Baytown,29.6744,-94.9139,Chambers,biomass,biomass,4.0,4.0,0.0,2003.0,2016.0,4
+55552,Bluebonnet,29.8108,-95.2539,Harris,biomass,biomass,4.0,4.0,0.0,2003.0,2016.0,4
+55554,Coastal Plains,29.427503,-95.187642,Galveston,biomass,biomass,6.8,6.8,0.0,2003.0,2019.0,4
+55581,King Mountain Wind Ranch 1,31.2092,-102.2417,Upton,wind,wind,278.0,278.0,278.0,2001.0,,1
+55588,GRS Sunset Farms,30.3431,-97.6203,Travis,biomass,biomass,4.0,3.6,0.0,1996.0,2016.0,4
+55708,Nacogdoches Power,31.832132,-94.90064,Nacogdoches,biomass,biomass,114.0,100.0,114.0,2012.0,,1
+55747,NWP Indian Mesa Wind Farm,30.931467,-102.201433,Pecos,wind,wind,82.5,82.5,82.5,2001.0,,1
+55795,Woodward Mountain II,30.9514,-102.414067,Pecos,wind,wind,78.0,78.0,78.0,2001.0,,1
+55796,Woodward Mountain I,30.9514,-102.414067,Pecos,wind,wind,82.0,82.0,82.0,2001.0,,1
+55968,Trent Wind Farm,32.4301,-100.235652,Nolan,wind,wind,152.0,152.0,152.0,2001.0,,1
+55992,Desert Sky,30.9178,-102.0867,Pecos,wind,wind,167.7,167.7,167.7,2002.0,,1
+56111,Brazos Wind Farm,32.94793,-101.147784,Scurry,wind,wind,182.4,182.4,182.4,2003.0,,1
+56113,Tessman Road,29.4289,-98.3433,Bexar,biomass,biomass,9.8,9.8,0.0,2003.0,2021.0,7
+56152,Freeport Energy Center,28.988761,-95.395417,Brazoria,gas,gas_cc,260.0,258.7,260.0,2007.0,,2
+56211,Sweetwater Wind 1 LLC,32.3606,-100.3389,Nolan,wind,wind,37.5,37.5,37.5,2003.0,,1
+56212,Sweetwater Wind 2 LLC,32.3472,-100.3703,Nolan,wind,wind,98.8,98.8,98.8,2005.0,,1
+56233,EG178 Facility,32.747058,-100.954661,Scurry,gas,gas_cc,153.9,106.0,153.9,2005.0,,3
+56240,Buffalo Gap Wind Farm,32.311556,-100.061589,Taylor,wind,wind,120.6,120.6,120.6,2006.0,,1
+56270,Callahan Divide Wind Energy Center,32.303889,-100.021667,Taylor,wind,wind,114.0,114.0,114.0,2005.0,,1
+56291,Horse Hollow Wind Energy Center,32.214024,-100.05712,Taylor,wind,wind,735.5,735.5,735.5,2005.0,,3
+56311,Sweetwater Wind 3 LLC,32.290833,-100.4219,Nolan,wind,wind,135.0,144.0,135.0,2005.0,,1
+56337,Sweetwater Wind 4 LLC,32.3122,-100.5303,Nolan,wind,wind,241.0,241.0,241.0,2007.0,,1
+56349,Quail Run Energy Center,31.8414,-102.315,Ector,gas,gas_cc,550.4,532.2,550.4,2002.0,,6
+56350,Colorado Bend Energy Center,29.2878,-96.0683,Wharton,gas,gas_cc,654.1,608.0,654.1,2002.0,,8
+56372,Sweetwater Wind 5,32.236944,-100.4833,Nolan,wind,wind,80.5,80.5,80.5,2007.0,,1
+56373,Domain Integrated Energy System,30.397419,-97.724992,Travis,gas,gas_ct,5.0,5.0,0.0,2004.0,2013.0,1
+56374,Robert Mueller Energy Center,30.304994,-97.707675,Travis,gas,gas_ct,6.1,6.1,6.1,2006.0,,2
+56394,Forest Creek Wind Farm LLC,32.039,-101.22,Glasscock,wind,wind,124.2,124.2,124.2,2006.0,,1
+56395,Mesquite Wind Power LLC,32.6256,-99.4928,Shackelford,wind,wind,200.0,200.0,200.0,2007.0,,1
+56457,Post Wind Farm LP,32.92544,-101.219397,Borden,wind,wind,84.0,84.0,84.0,2006.0,,1
+56479,Sand Bluff Wind Farm,31.991442,-101.302637,Glasscock,wind,wind,89.5,89.5,89.5,2007.0,,1
+56483,Post Oak Wind LLC,32.5144,-99.6564,Shackelford,wind,wind,200.0,200.0,200.0,2008.0,,1
+56484,Buffalo Gap 2 Wind Farm,32.318221,-100.176986,Nolan,wind,wind,232.5,232.5,232.5,2007.0,,1
+56506,Scurry County Wind LP,32.7204,-100.9952,Scurry,wind,wind,130.5,130.5,130.5,2007.0,,1
+56524,Austin Gas Recovery,30.3344,-97.6217,Travis,biomass,biomass,6.4,6.4,4.8,2007.0,,4
+56528,Skyline Gas Recovery,32.5397,-96.6653,Dallas,biomass,biomass,6.4,6.4,0.0,2007.0,2019.0,4
+56592,Champion Wind Farm LLC,32.3983,-100.6481,Nolan,wind,wind,126.5,126.5,126.5,2008.0,,1
+56593,Roscoe Wind Farm LLC,32.4694,-100.6664,Nolan,wind,wind,209.0,209.0,209.0,2008.0,,1
+56602,Snyder Wind Farm,32.739294,-100.738949,Scurry,wind,wind,63.0,63.0,0.0,2007.0,,1
+56611,Sandy Creek Energy Station,31.474378,-96.957149,McLennan,coal,coal,1008.0,932.6,1008.0,2013.0,,1
+56638,Buffalo Gap 3 Wind Farm,32.2878,-100.1,Nolan,wind,wind,170.2,170.2,170.2,2008.0,,1
+56644,Stanton Wind Energy LLC,32.2353,-101.8367,Martin,wind,wind,120.0,120.0,120.0,2008.0,,1
+56649,South Trent Wind Farm,32.4081,-100.1286,Nolan,wind,wind,101.2,101.2,101.2,2009.0,,1
+56661,Pattern Gulf Wind,27.0011,-97.5994,Kenedy,wind,wind,283.2,283.2,283.2,2008.0,,1
+56673,Whirlwind Energy Center,34.105,-101.0986,Floyd,wind,wind,59.8,57.0,59.8,2007.0,,1
+56674,Winchester Power Park,30.02547,-96.9945,Fayette,gas,gas_ct,242.0,184.0,242.0,2010.0,,4
+56708,CFB Power Plant,28.650278,-96.539722,Calhoun,gas,gas_steam,310.0,286.2,310.0,2012.0,,2
+56754,Goat Wind LP,31.951944,-100.791389,Sterling,wind,wind,149.6,149.6,149.6,2008.0,,2
+56763,Capricorn Ridge Wind LLC,31.951958,-101.018936,Sterling,wind,wind,662.5,662.5,662.5,2007.0,,4
+56771,Silver Star I Wind Power Project,32.338659,-98.476051,Erath,wind,wind,52.8,52.8,52.8,2008.0,,1
+56773,McAdoo Wind Energy LLC,33.752201,-100.967402,Dickens,wind,wind,150.0,150.0,150.0,2008.0,,1
+56774,Turkey Track Wind Energy LLC,32.1981,-100.2686,Nolan,wind,wind,169.5,169.5,169.5,2008.0,,1
+56775,Scurry County Wind II,32.718056,-100.793333,Scurry,wind,wind,120.0,120.0,120.0,2007.0,,1
+56776,Gunsight Mountain Wind Energy LLC,32.240278,-101.473611,Howard,wind,wind,120.0,120.0,120.0,2016.0,,1
+56779,Sherbino I Wind Farm,30.807272,-102.355628,Pecos,wind,wind,150.0,150.0,0.0,2008.0,,1
+56783,Elbow Creek Wind Project LLC,32.1408,-101.3986,Howard,wind,wind,121.9,121.9,121.9,2008.0,,1
+56795,Penascal Wind Power LLC,27.022112,-97.498478,Kenedy,wind,wind,201.6,201.6,201.6,2009.0,,1
+56806,Cedar Bayou 4,29.751645,-94.92312,Chambers,gas,gas_cc,535.5,532.0,535.5,2009.0,,3
+56823,Hackberry Wind Farm,32.7683,-99.4228,Shackelford,wind,wind,165.6,162.3,165.6,2008.0,,1
+56864,Covel Gardens Gas Recovery,29.3467,-98.6536,Bexar,biomass,biomass,9.6,9.6,0.0,2005.0,2023.0,6
+56920,Panther Creek Wind Farm I,32.100823,-101.451385,Howard,wind,wind,142.5,153.9,142.5,2008.0,,1
+56921,Panther Creek Wind Farm II,31.9361,-101.2983,Glasscock,wind,wind,115.5,124.7,115.5,2008.0,,1
+56956,Bull Creek Wind,32.929014,-101.578617,Borden,wind,wind,180.0,180.0,180.0,2008.0,,1
+56959,Ocotillo Windpower,32.1217,-101.3853,Howard,wind,wind,58.8,58.8,58.8,2008.0,,1
+56961,Notrees Windpower Hybrid,31.995,-102.828333,Ector,wind,wind,188.5,188.5,188.5,2009.0,,3
+56979,Panther Creek Wind Farm Three,31.9925,-101.1167,Sterling,wind,wind,215.5,231.5,215.5,2009.0,,1
+56981,Pyron Wind Farm LLC Hybrid,32.5886,-100.6728,Fisher,wind,wind,258.9,258.9,258.9,2009.0,,2
+56983,Papalote Creek I LLC,27.9386,-97.4586,San Patricio,wind,wind,180.0,180.0,180.0,2009.0,,1
+56984,Inadale Wind Farm LLC Hybrid,32.4969,-100.5797,Nolan,wind,wind,206.9,206.9,206.9,2009.0,,2
+57020,Westside Landfill Gas Recovery,32.724553,-97.537118,Parker,biomass,biomass,4.8,4.8,3.2,2010.0,,3
+57071,Denton Power LLC,33.191854,-97.0761,Denton,biomass,biomass,1.6,1.6,0.0,2008.0,2020.0,1
+57095,Penascal II Wind Project LLC,27.122529,-97.557372,Kenedy,wind,wind,201.6,201.6,201.6,2010.0,,1
+57153,Langford Wind Power,31.085435,-100.67882,Tom Green,wind,wind,150.0,150.0,150.0,2009.0,,1
+57156,Barton Chapel Wind Farm,33.052226,-98.328415,Jack,wind,wind,120.0,120.0,120.0,2009.0,,1
+57165,Farmers Branch Renewable Energy Facility,33.031111,-96.957222,Denton,biomass,biomass,3.2,3.2,3.2,2011.0,,2
+57167,Mesquite Creek LFGTE Project,29.7372,-98.0228,Comal,biomass,biomass,3.2,3.2,3.2,2010.0,,2
+57197,Blue Wing Solar Energy Generation,29.304177,-98.400339,Bexar,solar,solar,13.9,13.5,13.9,2010.0,,1
+57212,Papalote Creek II LLC,27.9958,-97.2967,San Patricio,wind,wind,200.1,200.1,200.1,2010.0,,1
+57260,Cedro Hill Wind LLC,27.576111,-98.905278,Webb,wind,wind,300.0,300.0,300.0,2010.0,,2
+57303,Loraine Windpark Project LLC,32.4375,-100.7444,Mitchell,wind,wind,150.0,148.5,150.0,2009.0,,2
+57322,Mont Belvieu Cogeneration Unit,29.838138,-94.900661,Chambers,gas,gas_ct,15.0,15.0,15.0,2009.0,,1
+57415,Sherbino II,30.772575,-102.505808,Pecos,wind,wind,132.0,132.0,132.0,2011.0,,1
+57504,TECO CHP-1,29.703454,-95.398317,Harris,gas,gas_ct,98.0,97.0,98.0,2010.0,,2
+57520,Trinity Hills,33.383611,-98.711944,Young,wind,wind,198.0,198.0,198.0,2011.0,,1
+57617,Hidalgo Wind Farm LLC,26.465556,-98.411111,Hidalgo,wind,wind,250.0,250.0,250.0,2016.0,,1
+57659,East Blackland Solar Project 1,30.4214,-97.4614,Travis,solar,solar,144.0,144.0,144.0,2021.0,,1
+57699,Webberville Solar Project,30.238492,-97.508812,Travis,solar,solar,30.0,30.0,30.0,2011.0,,1
+57751,Los Vientos Wind 1A,26.33072,-97.5857,Cameron,wind,wind,200.0,200.0,200.0,2012.0,,1
+57752,Los Vientos Wind 1B,26.34892,-97.6668,Cameron,wind,wind,201.6,201.6,201.6,2012.0,,1
+57802,Magic Valley Wind Farm I LLC,26.475278,-97.691111,Willacy,wind,wind,203.0,203.0,203.0,2012.0,,1
+57927,Baffin Wind,27.184652,-97.59818,Kenedy,wind,wind,188.0,188.0,188.0,2014.0,,1
+57974,Bobcat Bluff Wind Project LLC,33.493056,-98.581944,Archer,wind,wind,161.0,161.0,161.0,2012.0,,1
+57981,Senate Wind LLC,33.205801,-98.365069,Jack,wind,wind,150.0,150.0,150.0,2012.0,,1
+57983,Stephens Ranch Wind Energy LLC,32.926389,-101.647778,Borden,wind,wind,376.0,376.0,376.0,2014.0,,2
+58000,"Anacacho Wind Farm, LLC",29.234722,-100.209167,Kinney,wind,wind,99.8,99.8,99.8,2012.0,,1
+58001,Temple Power Station,31.055833,-97.317222,Bell,gas,gas_cc,1606.4,1580.0,1606.4,2014.0,,6
+58005,Rayburn Energy Station LLC,33.582573,-96.617893,Grayson,gas,gas_cc,803.2,764.0,803.2,2014.0,,3
+58009,SunE CPS3 LLC,29.221944,-98.669167,Bexar,solar,solar,10.6,10.6,10.6,2012.0,,2
+58013,IKEA Round Rock 027,30.557044,-97.690286,Williamson,solar,solar,1.4,1.3,1.4,2012.0,,1
+58021,Whitetail,27.488056,-99.005278,Webb,wind,wind,92.0,92.3,92.0,2012.0,,1
+58027,SunE CPS2 LLC,29.245,-98.418333,Bexar,solar,solar,10.0,9.9,10.0,2012.0,,1
+58048,Mozart Wind Farm,32.969722,-100.524167,Kent & Stonewall,wind,wind,30.0,30.0,30.0,2012.0,,1
+58068,SunE CPS1 LLC,29.245,-98.418333,Bexar,solar,solar,10.0,9.9,10.0,2012.0,,1
+58069,PRSI FCC Generator,29.723333,-95.210278,Harris,oil,oil,4.7,3.0,4.7,1979.0,,1
+58080,Wolf Ridge Wind,33.733006,-97.428406,Cooke,wind,wind,112.5,112.5,112.5,2008.0,,1
+58151,Central Utility Plant - Texas A&M,30.617778,-96.343333,Brazos,gas,gas_cc,50.1,50.1,45.1,1956.0,,3
+58242,Pattern Panhandle Wind LLC,35.4275,-101.253056,Carson,wind,wind,218.0,218.0,218.0,2014.0,,1
+58321,Goldthwaite Wind Energy Facility,31.383333,-98.466667,Mills,wind,wind,150.0,150.0,150.0,2013.0,,1
+58372,Blue Summit Wind LLC,34.292913,-99.367734,Wilbarger,wind,wind,135.4,135.4,135.4,2012.0,,1
+58378,Petra Nova Carbon Capture Cogen,29.475278,-95.634167,Fort Bend,gas,gas_ct,82.2,56.0,82.2,2013.0,,1
+58424,Harbor Wind LLC,27.832222,-97.440278,Nueces,wind,wind,9.0,9.0,0.0,2012.0,,1
+58471,Ector County Energy Center,32.069167,-102.585556,Ector,gas,gas_ct,358.8,336.0,358.8,2015.0,,2
+58488,"Bryan Solar, LLC",29.6,-104.3,Presidio,solar,solar,10.0,10.0,10.0,2013.0,,1
+58537,OCI Alamo Solar I Hybrid,29.271667,-98.444722,Bexar,solar,solar,41.7,41.7,40.7,2013.0,,2
+58596,"Grandview Wind Farm, LLC",35.238333,-101.310833,Carson,wind,wind,211.2,211.2,211.2,2014.0,,1
+58614,Patriot Wind Farm,27.580489,-97.640077,Nueces,wind,wind,226.1,226.1,226.1,2019.0,,1
+58681,Route 66 Wind Plant,35.205278,-101.434167,Carson,wind,wind,150.0,150.0,150.0,2015.0,,1
+58710,Barilla Solar,30.96,-103.35,Pecos,solar,solar,30.2,30.2,30.2,2015.0,,1
+58716,"OCI Alamo 2, LLC",29.469444,-98.331944,Bexar,solar,solar,4.4,4.4,4.4,2014.0,,1
+58717,"OCI Alamo 4, LLC",29.33,-100.39,Kinney,solar,solar,39.6,39.6,39.6,2014.0,,1
+58720,Pattern Panhandle Wind 2 LLC,35.442778,-101.372778,Carson,wind,wind,181.7,181.7,181.7,2014.0,,1
+58765,Miami Wind Energy Center,35.653889,-100.538611,Roberts,wind,wind,288.6,288.6,288.6,2014.0,,1
+58766,Wake Wind Energy Center,33.825,-101.099722,Crosby,wind,wind,257.3,257.0,257.3,2016.0,,1
+58772,Longhorn Wind,34.311111,-101.251111,Briscoe,wind,wind,200.0,200.0,200.0,2015.0,,1
+58773,TX Hereford Wind,34.748056,-102.174444,Deaf Smith,wind,wind,200.0,200.0,200.0,2014.0,,1
+58774,Spinning Spur Wind II,35.276944,-102.682778,Oldham,wind,wind,161.0,161.0,161.0,2014.0,,1
+58775,Spinning Spur Wind III,35.295,-102.721111,Oldham,wind,wind,194.0,194.0,194.0,2015.0,,1
+58838,Keechi Wind,33.143056,-98.161111,Jack,wind,wind,110.0,110.0,110.0,2015.0,,1
+58870,Rentech Nitrogen Pasadena Cogeneration,29.739444,-95.194722,Harris,other,other,15.4,14.2,15.4,2015.0,,1
+58946,Ameresco Dallas LLC,32.648611,-96.644444,Dallas,biomass,biomass,4.2,4.2,4.2,2011.0,,3
+59005,Mariah del Norte,34.6675,-102.577778,Parmer,wind,wind,230.4,230.4,230.4,2016.0,,1
+59034,1370 Shannon,33.509722,-98.360833,Clay,wind,wind,204.0,204.0,204.0,2015.0,,1
+59063,Stella Wind Farm,26.941667,-97.6425,Kenedy,wind,wind,201.0,201.0,201.0,2018.0,,1
+59066,Bruennings Breeze Wind Farm,26.522222,-97.691111,Willacy,wind,wind,228.0,228.0,228.0,2017.0,,1
+59068,"Colbeck's Corner, LLC",35.254184,-101.186622,Carson,wind,wind,200.0,200.0,200.0,2016.0,,1
+59118,Cameron Wind 1 LLC,26.195278,-97.466111,Cameron,wind,wind,181.4,181.4,181.4,2015.0,,2
+59145,Freeport LP Pretreatment Facility,28.979167,-95.306944,Brazoria,gas,gas_ct,87.0,87.0,87.0,2019.0,,1
+59193,Chapman Ranch Wind I,27.5925,-97.500833,Nueces,wind,wind,236.0,249.0,236.0,2017.0,,1
+59204,OCI Alamo 3 LLC,29.479167,-98.297222,Bexar,solar,solar,5.5,5.5,5.5,2015.0,,1
+59205,OCI Alamo 5 LLC,29.216667,-99.716111,Uvalde,solar,solar,100.0,100.0,100.0,2015.0,,1
+59206,Alamo 6,30.993056,-102.270833,Pecos,solar,solar,105.0,116.0,105.0,2017.0,,1
+59207,OCI Alamo 7 LLC,33.04,-99.5525,Haskell,solar,solar,100.0,100.0,100.0,2016.0,,1
+59238,Windthorst-2,33.495278,-98.5,Archer,wind,wind,67.6,67.6,67.6,2014.0,,1
+59245,Fluvanna,32.931944,-101.143611,Scurry,wind,wind,155.4,155.4,155.4,2017.0,,1
+59246,Goodnight,35.093889,-101.326111,Armstrong,wind,wind,265.5,265.5,265.5,2024.0,,1
+59320,Los Vientos Windpower III,26.388611,-98.806111,Starr,wind,wind,200.0,200.0,200.0,2015.0,,1
+59321,Los Vientos Windpower IV,26.380556,-98.818333,Starr,wind,wind,200.0,200.0,200.0,2016.0,,1
+59332,Mesquite Creek Wind,32.7,-101.741111,Dawson,wind,wind,211.2,211.2,211.2,2015.0,,1
+59381,"The Methodist Hospital, Gas Turbine",29.709444,-95.400278,Harris,gas,gas_ct,5.0,4.0,5.0,2010.0,,1
+59384,South Plains Wind Phase I,34.080556,-101.323611,Floyd,wind,wind,200.0,200.0,200.0,2015.0,,1
+59391,Red Gate Power Plant,26.451111,-98.1775,Hidalgo,gas,gas_ice,224.4,219.6,224.4,2016.0,,12
+59442,Logans Gap Wind LLC,31.8225,-98.690556,Comanche,wind,wind,200.1,200.1,200.1,2015.0,,1
+59621,TX Jumbo Road Wind,34.72,-102.253333,Deaf Smith,wind,wind,299.7,299.7,299.7,2015.0,,1
+59649,Nelson Gardens Landfill Gas to Energy,29.33,-98.66,Bexar,biomass,biomass,4.4,4.4,4.4,2014.0,,4
+59654,Sendero,27.18,-98.916667,Jim Hogg,wind,wind,78.0,78.0,78.0,2015.0,,1
+59712,"San Roman Wind I, LLC",26.125979,-97.377599,Cameron,wind,wind,95.3,95.3,95.3,2017.0,,1
+59732,Green Pastures Wind I,33.628222,-99.411169,Baylor,wind,wind,150.0,150.0,150.0,2015.0,,1
+59733,Green Pastures Wind II,33.645964,-99.532944,Knox,wind,wind,150.0,150.0,150.0,2015.0,,1
+59734,Briscoe Wind Farm,34.432267,-101.237233,Briscoe,wind,wind,150.0,150.0,150.0,2015.0,,1
+59812,Wolf Hollow II,32.337679,-97.734612,Hood,gas,gas_cc,1231.2,1181.0,1231.2,2017.0,,3
+59938,Sky Global Power One,29.550278,-96.537778,Colorado,gas,gas_ice,51.0,50.4,51.0,2016.0,,6
+59943,Rattlesnake Den,31.74325,-101.493407,Glasscock,wind,wind,207.2,207.2,207.2,2015.0,,1
+59972,Bearkat,31.727237,-101.582,Glasscock,wind,wind,196.7,196.7,196.7,2018.0,,1
+59994,RE Roserock,30.960209,-103.306662,Pecos,solar,solar,160.0,157.5,160.0,2016.0,,1
+60044,Buckthorn Westex,30.57552,-102.551292,Pecos,solar,solar,154.0,154.0,154.0,2018.0,,1
+60059,Los Vientos V Wind Power,26.411689,-98.571554,Starr,wind,wind,110.0,110.0,110.0,2015.0,,1
+60087,South Plains II,34.196962,-101.381494,Floyd,wind,wind,300.0,300.0,300.0,2016.0,,1
+60104,"Javelina Wind Energy, LLC",27.32,-99.0,Webb,wind,wind,249.7,249.7,249.7,2015.0,,1
+60122,Colorado Bend II,29.289415,-96.065399,Wharton,gas,gas_cc,1230.3,1210.3,1230.3,2017.0,,3
+60123,Castle Gap Solar Hybrid,31.255,-102.272,Upton,solar,solar,189.9,189.9,189.9,2018.0,,2
+60210,Cotton Plains Wind Farm,34.060333,-101.187628,Floyd,wind,wind,50.4,50.4,50.4,2017.0,,1
+60217,Rocksprings,29.72753,-100.79431,Val Verde,wind,wind,149.3,149.3,149.3,2017.0,,1
+60264,Bacliff,29.49233,-94.98483,Galveston,gas,gas_ct,427.2,360.0,427.2,2018.0,,6
+60271,"Canyon Wind Project, LLC",32.631073,-101.008494,Scurry,wind,wind,308.8,308.8,308.8,2024.0,,1
+60338,Electra Wind Farm,34.102943,-99.118746,Wilbarger,wind,wind,230.0,230.0,230.0,2016.0,,1
+60339,Horse Creek Wind Farm,33.35,-99.54,Haskell,wind,wind,230.0,230.0,230.0,2016.0,,1
+60366,Old Settler Wind,34.060333,-101.187628,Floyd,wind,wind,151.2,151.2,151.2,2017.0,,1
+60372,Lamesa Solar,32.715611,-101.926522,Dawson,solar,solar,102.0,100.0,102.0,2017.0,,1
+60427,CoServ Community Solar Station,33.2706,-96.979168,Denton,solar,solar,2.0,2.0,2.0,2015.0,,1
+60436,East Pecos Solar,31.000883,-102.281744,Pecos,solar,solar,118.5,118.5,118.5,2017.0,,1
+60459,Calhoun Port Comfort,28.64807,-96.54621,Calhoun,gas,gas_ct,121.0,92.0,121.0,2017.0,,2
+60460,Chamon,29.883214,-95.111345,Harris,gas,gas_ct,121.0,92.0,121.0,2017.0,,2
+60468,Friendswood Energy,29.647267,-95.451516,Harris,gas,gas_ct,121.5,119.0,121.5,2018.0,,1
+60472,CPS 1 Community Solar,29.377966,-98.26922,Bexar,solar,solar,1.0,1.0,1.0,2016.0,,1
+60502,"Tyler Bluff Wind Project, LLC",33.703851,-97.372009,Cooke,wind,wind,125.6,125.0,125.6,2016.0,,1
+60506,ETT Presidio NaS Battery,29.566263,-104.35535,Presidio,storage,storage,4.0,4.0,0.0,2010.0,,1
+60581,Upton County Solar,31.241808,-102.29027,Upton,solar,solar,150.0,150.0,150.0,2017.0,,1
+60645,"Javelina Wind Energy II, LLC",27.44,-98.91,Webb,wind,wind,200.0,200.0,200.0,2016.0,,1
+60649,Rabbit Hill Energy Storage Project,30.587828,-97.687023,Williamson,storage,storage,9.9,9.9,9.9,2020.0,,1
+60657,"Salt Fork Wind Project, LLC",35.18172,-100.934408,Donley,wind,wind,174.0,174.0,174.0,2016.0,,1
+60682,Pearl Solar,30.98784,-102.26831,Pecos,solar,solar,50.0,50.0,50.0,2017.0,,1
+60690,"Blue Summit Storage, LLC",34.299,-99.399,Wilbarger,storage,storage,30.0,30.0,30.0,2017.0,,1
+60743,"Rattlesnake Power, LLC",31.360331,-99.551356,McCulloch,wind,wind,160.0,160.0,160.0,2018.0,,1
+60774,Phantom Solar,31.114983,-97.845111,Bell,solar,solar,15.4,15.4,15.4,2017.0,,1
+60789,Bluebell Solar,31.87,-100.828,Sterling,solar,solar,30.0,30.0,30.0,2018.0,,1
+60856,Astra Wind Farm,34.769544,-102.052422,Randall,wind,wind,163.0,163.0,163.0,2017.0,,1
+60901,Willow Springs Wind Farm,33.345366,-99.624257,Haskell,wind,wind,250.0,250.0,250.0,2017.0,,1
+60902,Dermott Wind,32.863769,-100.975128,Scurry,wind,wind,253.0,253.0,253.0,2017.0,,1
+60983,Buckthorn Wind,32.371306,-98.377389,Erath,wind,wind,100.5,100.5,100.5,2017.0,,1
+60987,Santa Rita Wind Energy,31.181377,-101.318787,Reagan,wind,wind,300.0,300.0,300.0,2018.0,,1
+60989,SolaireHolman Solar Project,30.45512,-103.4747,Brewster,solar,solar,50.0,50.0,50.0,2017.0,,1
+61001,Cactus Flats Wind Energy Project,31.112474,-100.028142,Concho,wind,wind,148.4,148.4,148.4,2018.0,,1
+61032,Heart of Texas Wind Project,31.242177,-99.421266,McCulloch,wind,wind,180.0,180.0,180.0,2020.0,,1
+61205,Bandera Electric Coop PV,29.681032,-99.762212,Real,solar,solar,1.5,1.5,1.5,2017.0,,1
+61212,Flat Top Wind I,31.684511,-98.603358,Mills,wind,wind,200.0,200.0,200.0,2018.0,,1
+61241,Tres City Power LLC,28.7853,-97.0093,Victoria,gas,gas_ct,100.0,96.0,100.0,2020.0,,2
+61242,"Tres Port Power, LLC",28.69637,-96.9453,Victoria,gas,gas_ct,100.0,96.0,100.0,2019.0,,2
+61309,IKEA Grand Prairie Rooftop PV System,32.82,-97.05,Dallas,solar,solar,1.2,0.7,1.2,2017.0,,1
+61343,Karankawa Wind LLC,28.170179,-97.817507,San Patricio,wind,wind,307.1,307.1,307.1,2019.0,,1
+61346,RE Maplewood,30.976638,-102.257753,Pecos,solar,solar,250.0,250.0,250.0,2021.0,,2
+61355,Arlington Outlet Hydroelectric Generator,32.639069,-97.242906,Tarrant,hydro,hydro,1.3,1.3,0.0,2015.0,2025.0,1
+61362,NRG Elbow Creek Energy Storage Project,32.167575,-101.479217,Howard,storage,storage,2.0,2.0,0.0,2017.0,2024.0,1
+61368,Midway Solar - TX,30.995503,-102.223537,Pecos,solar,solar,182.0,182.0,182.0,2018.0,,1
+61370,Walnut Springs Solar,32.07868,-97.768464,Bosque,solar,solar,5.0,5.0,5.0,2016.0,,1
+61402,Foard City Wind,33.915315,-99.740278,Foard,wind,wind,352.8,350.3,352.8,2019.0,,1
+61409,Highway 56 Solar,33.614436,-96.690448,Grayson,solar,solar,5.3,5.3,5.3,2017.0,,1
+61410,Whitesboro Solar,33.616526,-96.868721,Grayson,solar,solar,5.0,5.0,5.0,2017.0,,1
+61411,Whitesboro Solar II,33.624853,-96.867474,Grayson,solar,solar,5.0,5.0,5.0,2017.0,,1
+61417,Gopher Creek Wind Farm,32.875073,-101.208955,Borden,wind,wind,158.0,158.0,158.0,2019.0,,1
+61493,E-Volve Energy Holdings LLC,29.740788,-96.15994,Austin,solar,solar,1.2,1.2,0.0,2015.0,2025.0,1
+61513,Marlin Solar,31.286739,-96.877205,Limestone,solar,solar,5.3,5.3,5.3,2017.0,,1
+61514,North Gainesville Solar,33.656072,-97.148569,Cooke,solar,solar,5.2,5.2,5.2,2017.0,,1
+61524,Whitewright Solar,33.498186,-96.378894,Fannin,solar,solar,10.0,10.0,10.0,2017.0,,1
+61532,Leon Solar,33.16114,-96.239739,Hunt,solar,solar,10.0,10.0,10.0,2017.0,,1
+61625,West Moore Solar II,33.61748,-96.6284,Grayson,solar,solar,5.0,5.0,5.0,2018.0,,1
+61643,Denton Energy Center,33.214869,-97.209692,Denton,gas,gas_ice,225.6,225.6,225.6,2018.0,,12
+61697,Lamesa II,32.713326,-101.885218,Dawson,solar,solar,50.0,50.0,50.0,2018.0,,1
+61700,PowerFin Kingsbery,30.265877,-97.684861,Travis,solar,solar,2.6,2.6,2.6,2018.0,,1
+61741,Kingsberry Energy Storage System,30.266028,-97.686139,Travis,storage,storage,1.5,1.5,1.5,2018.0,,1
+61742,System Control Center,30.219946,-97.708808,Travis,storage,storage,5.0,5.0,5.0,2012.0,,2
+61773,"Palmas Wind, LLC",26.288889,-97.496389,Cameron,wind,wind,144.9,142.6,144.9,2020.0,,1
+61776,"Midway Wind, LLC",27.954976,-97.300202,San Patricio,wind,wind,162.9,162.9,162.9,2019.0,,1
+61782,Live Oak Wind Project,31.048557,-100.623114,Schleicher,wind,wind,199.5,199.5,199.5,2019.0,,1
+61810,Chisum,33.63291,-95.39071,Lamar,solar,solar,10.0,10.0,10.0,2018.0,,1
+61865,"Rio Bravo Windpower, LLC",26.649,-99.0387,Starr,wind,wind,237.6,237.6,237.6,2019.0,,1
+61867,Bovine,29.631324,-96.076894,Austin,solar,solar,10.0,10.0,10.0,2018.0,,1
+61868,Bronson,29.537482,-95.969548,Fort Bend,solar,solar,10.0,10.0,10.0,2018.0,,1
+61871,Sterling Solar (TX),33.166173,-96.172617,Hunt,solar,solar,10.0,10.0,10.0,2018.0,,1
+61872,Lampwick,30.872228,-99.537261,Menard,solar,solar,7.5,7.5,7.5,2019.0,,1
+61873,Yellow Jacket,31.933841,-97.653747,Bosque,solar,solar,5.0,5.0,5.0,2018.0,,1
+61874,Eddy II,31.291151,-97.260738,McLennan,solar,solar,10.0,10.0,10.0,2018.0,,1
+61875,Cascade Solar (TX),29.205355,-96.023384,Wharton,solar,solar,10.0,10.0,10.0,2019.0,,1
+61895,Toyota HQ Plan,33.084219,-96.84113,Collin,solar,solar,7.7,3.5,7.7,2017.0,,1
+61906,Phoebe Solar,31.843422,-102.868295,Winkler,solar,solar,250.0,250.0,250.0,2019.0,,1
+61920,Galloway 1 Solar Farm,31.435932,-99.796613,Concho,solar,solar,250.0,250.0,250.0,2021.0,,1
+61921,Tahoka Wind,33.150904,-101.679188,Lynn,wind,wind,300.0,300.0,300.0,2018.0,,1
+61962,Holstein 1 Solar Farm,32.104125,-100.162375,Nolan,solar,solar,200.0,200.0,200.0,2020.0,,1
+61966,Victoria Port II,28.698477,-96.946125,Victoria,gas,gas_ct,100.0,92.0,100.0,2022.0,,2
+61967,Norton Solar Farm,31.534768,-100.113803,Runnels,solar,solar,125.0,125.0,125.0,2025.0,,1
+61969,"Torrecillas Wind Energy, LLC",27.614411,-98.7945,Webb,wind,wind,300.0,300.0,300.0,2019.0,,1
+61970,Blue Summit II Wind,34.225882,-99.477986,Wilbarger,wind,wind,99.4,99.4,99.4,2019.0,,1
+62038,Santa Rita East,31.207988,-101.110787,Irion,wind,wind,302.4,302.4,302.4,2019.0,,1
+62141,Rambler,31.517,-100.6,Tom Green,solar,solar,200.0,200.0,200.0,2020.0,,1
+62142,Amadeus Wind Farm,32.96736,-100.56428,Fisher,wind,wind,250.0,250.0,250.0,2020.0,,1
+62152,IKEA Live Oak Rooftop PV System,29.48,-98.25,Bexar,solar,solar,1.7,1.7,1.7,2019.0,,1
+62207,Reloj del Sol Wind Farm,27.03028,-99.388388,Zapata,wind,wind,209.4,209.4,209.4,2021.0,,1
+62227,"Seymour Hills Wind Project, LLC",33.57824,-99.1921,Baylor,wind,wind,30.2,30.2,30.2,2019.0,,1
+62249,Misae Solar,34.380532,-100.099625,Childress,solar,solar,240.0,240.0,240.0,2020.0,,1
+62258,Mesteno,26.523692,-98.745522,Starr,wind,wind,201.6,200.0,201.6,2019.0,,1
+62259,Ranchero Wind Farm LLC,30.594908,-101.453021,Crockett,wind,wind,300.0,300.0,300.0,2019.0,,1
+62356,Lockett Windfarm,34.072251,-99.264676,Wilbarger,wind,wind,183.8,183.8,183.8,2019.0,,1
+62411,Griffin Trail Wind,33.609313,-99.58229,Knox,wind,wind,225.6,225.6,225.6,2021.0,,1
+62415,West of the Pecos Solar,31.4308,-103.7289,Reeves,solar,solar,100.0,100.0,100.0,2019.0,,1
+62416,Cranell Wind Farm LLC,28.197778,-97.444953,Refugio,wind,wind,220.0,220.0,220.0,2022.0,,1
+62417,Peyton Creek Wind Farm LLC,28.8433,-95.8631,Matagorda,wind,wind,151.2,151.2,151.2,2020.0,,1
+62448,Lapetus,32.460054,-102.672809,Andrews,solar,solar,100.0,100.0,100.0,2019.0,,1
+62483,Taygete Energy Project LLC,31.165245,-103.125868,Pecos,solar,solar,255.0,255.0,255.0,2021.0,,1
+62505,G.S.E. One LLC,33.500378,-96.146489,Fannin,solar,solar,83.0,82.5,83.0,2021.0,,1
+62548,SJRR (LIG),29.88193,-95.11148,Harris,gas,gas_ct,100.0,90.0,100.0,2022.0,,2
+62561,"Roadrunner, LLC Hybrid",31.219444,-102.19222,Upton,solar,solar,463.3,450.0,463.3,2019.0,,3
+62562,"High Lonesome Wind Power, LLC Hybrid",31.171652,-101.881147,Upton,wind,wind,562.8,550.5,562.8,2023.0,,3
+62566,Blue Summit III Wind,34.170488,-99.563436,Hardeman,wind,wind,200.2,200.2,200.2,2019.0,,1
+62587,Mesquite Star,32.255978,-100.320309,Nolan,wind,wind,418.9,418.9,418.9,2020.0,,1
+62609,Commerce ESS,29.43445,-98.61765,Bexar,storage,storage,10.0,10.0,10.0,2019.0,,1
+62610,Commerce Solar,29.43445,-98.61765,Bexar,solar,solar,5.0,5.0,5.0,2019.0,,1
+62618,Hidalgo Wind Farm II,26.492862,-98.448267,Hidalgo,wind,wind,50.4,50.4,50.4,2020.0,,1
+62620,Sage Draw Wind,33.303497,-101.65722,Lynn,wind,wind,338.4,338.4,338.4,2021.0,,1
+62630,Jumbo Hill Wind Project,32.386,-102.949,Andrews,wind,wind,160.7,160.7,160.7,2020.0,,1
+62715,Wildcat Creek Wind Farm LLC,33.54915,-97.32958,Cooke,wind,wind,175.3,175.3,175.3,2021.0,,1
+62753,Prospect Storage,29.149166,-95.651111,Brazoria,storage,storage,9.9,9.9,9.9,2020.0,,1
+62755,Prospero Solar,32.287873,-102.840399,Andrews,solar,solar,300.0,300.0,300.0,2020.0,,1
+62762,NASA Johnson Space Center CHP,29.562372,-95.089302,Harris,gas,gas_ct,11.2,11.4,11.2,2018.0,,2
+62765,El Campo Wind,33.732181,-99.726392,Knox,wind,wind,242.8,242.8,242.8,2020.0,,1
+62772,Coniglio Solar,33.404486,-96.082472,Fannin,solar,solar,123.6,123.6,123.6,2021.0,,1
+62773,"BT Cooke Solar, LLC",33.5493,-97.1798,Cooke,solar,solar,59.0,59.0,59.0,2020.0,,1
+62774,Kellam Solar,32.4744,-95.7156,Van Zandt,solar,solar,59.0,59.0,59.0,2020.0,,1
+62783,Blackjack Creek Wind Farm,28.2078,-97.522673,Bee,wind,wind,239.6,239.6,239.6,2023.0,,1
+62804,Greasewood Solar,31.030996,-102.488209,Pecos,solar,solar,255.0,255.0,255.0,2021.0,,1
+62809,BMP Wind (TX),32.28938,-99.291596,Callahan,wind,wind,340.0,340.0,340.0,2021.0,,1
+62836,Maryneal Windpower,32.199366,-100.491908,Nolan,wind,wind,182.4,182.4,182.4,2021.0,,1
+62845,ENGIE Long Draw Solar LLC,32.741383,-101.621793,Borden,solar,solar,225.0,225.0,225.0,2020.0,,1
+62853,Maverick Creek Wind,31.262546,-99.843961,Concho,wind,wind,491.6,491.6,491.6,2022.0,,1
+62855,West Raymond Wind Farm LLC,26.376651,-97.993045,Willacy,wind,wind,239.8,239.8,239.8,2021.0,,1
+62909,"Raymond Wind Farm, LLC",26.364153,-97.780439,Willacy,wind,wind,200.2,200.2,200.2,2021.0,,1
+62932,Oberon IB,31.692358,-102.69743,Ector,solar,solar,30.0,30.0,30.0,2020.0,,1
+62933,Oberon IA,31.703258,-102.701206,Ector,solar,solar,150.0,150.0,150.0,2020.0,,1
+62945,Fighting Jays Solar Project,29.358425,-95.746388,Fort Bend,solar,solar,227.5,227.5,227.5,2022.0,,1
+62953,Griffin Solar,31.474114,-97.141218,McLennan,solar,solar,5.0,5.0,5.0,2019.0,,1
+63027,Mars Solar,27.421553,-98.834962,Webb,solar,solar,10.0,10.0,10.0,2019.0,,1
+63030,"Canadian Breaks, LLC",35.200164,-102.315517,Deaf Smith,wind,wind,210.1,210.1,210.1,2019.0,,1
+63100,Prairie Hill Wind Project,31.549868,-96.904072,Limestone,wind,wind,300.0,300.0,300.0,2020.0,,1
+63101,Las Lomas Wind Project,26.69842,-99.05745,Zapata,wind,wind,201.6,201.6,201.6,2020.0,,1
+63180,"TPE Whitney Solar, LLC",32.05,-97.35,Bosque,solar,solar,9.9,9.9,9.9,2017.0,,1
+63194,Delilah Solar Energy LLC,33.284418,-95.163557,Red River,solar,solar,300.0,300.0,300.0,2024.0,,1
+63209,Aviator Wind,31.79261,-100.69729,Coke,wind,wind,525.0,525.0,525.0,2021.0,,1
+63211,Samson Solar Energy,33.25102,-95.193426,Franklin,solar,solar,250.0,250.0,250.0,2022.0,,1
+63222,Impact Solar 1,33.467803,-95.370856,Lamar,solar,solar,198.5,198.5,198.5,2020.0,,1
+63223,Brightside,28.430988,-97.889555,Bee,solar,solar,50.7,50.7,50.7,2022.0,,1
+63233,Emerald Grove,31.09331,-102.35964,Pecos,solar,solar,108.0,108.0,108.0,2023.0,,1
+63255,2W Permian Solar Project Hybrid,32.116388,-102.528333,Andrews,solar,solar,460.0,460.0,460.0,2021.0,,2
+63273,Wagyu,29.242304,-95.658144,Brazoria,solar,solar,120.0,120.0,120.0,2020.0,,1
+63320,Titan Solar Project,31.70038,-104.458136,Culberson,solar,solar,260.0,260.0,260.0,2021.0,,1
+63328,Juno Solar Project,32.772889,-101.39102,Borden,solar,solar,305.6,305.6,305.6,2021.0,,2
+63329,Aragorn Solar Project,31.719983,-104.442292,Culberson,solar,solar,187.2,180.0,187.2,2021.0,,1
+63335,HO Clarke Generating,29.64536,-95.45169,Harris,gas,gas_ct,484.0,398.4,484.0,2021.0,,8
+63343,Galloway 2 Solar Farm,31.446237,-99.902973,Concho,solar,solar,110.0,110.0,110.0,2023.0,,1
+63351,Bluebell Solar II,31.888,-100.825,Sterling,solar,solar,115.0,115.0,115.0,2020.0,,1
+63388,Oxy Renewable Energy - Goldsmith,32.0015,-102.6337,Ector,solar,solar,16.8,16.8,16.8,2020.0,,1
+63519,Crane Solar Project,31.254361,-102.31165,Crane,solar,solar,150.0,150.0,150.0,2020.0,,1
+63624,"La Chalupa, LLC",26.249888,-97.511842,Cameron,wind,wind,198.5,198.5,198.5,2021.0,,1
+63655,Coyote Wind LLC,32.84879,-100.866458,Scurry,wind,wind,242.5,242.5,242.5,2021.0,,1
+63688,Topaz Generating,29.426389,-94.976667,Galveston,gas,gas_ct,605.0,498.0,605.0,2021.0,,10
+63737,Chisholm Grid Energy Storage System,32.904444,-97.386111,Tarrant,storage,storage,100.0,100.0,100.0,2021.0,,1
+63738,Helena Wind,28.621959,-97.937625,Bee,wind,wind,268.2,268.2,268.2,2022.0,,1
+63739,Las Majadas Wind Farm,26.364843,-97.545341,Willacy,wind,wind,272.6,272.6,272.6,2021.0,,1
+63757,Madero Grid,26.169846,-98.329793,Hidalgo,storage,storage,100.0,100.0,100.0,2023.0,,1
+63764,Elm Branch Solar 1,32.23256,-96.706121,Ellis,solar,solar,134.7,134.7,134.7,2021.0,,1
+63769,Briar Creek Solar 1,32.067483,-96.585136,Navarro,solar,solar,127.0,127.0,127.0,2021.0,,1
+63797,Ellis Solar LLC,32.467194,-97.054333,Ellis,solar,solar,80.0,80.0,80.0,2023.0,,1
+63840,Sparta Solar,28.655277,-98.001388,Bee,solar,solar,250.0,250.0,250.0,2024.0,,1
+63882,Samson Solar Energy II LLC,33.458,-95.349,Lamar,solar,solar,200.0,200.0,200.0,2025.0,,1
+63883,Samson Solar Energy III LLC,33.426498,-95.357449,Lamar,solar,solar,250.0,250.0,250.0,2022.0,,1
+63884,Delilah Solar Energy II LLC,33.481551,-95.269247,Red River,solar,solar,310.0,310.0,310.0,2025.0,,1
+63892,Lily Solar Hybrid,32.533273,-96.428985,Kaufman,solar,solar,201.9,196.0,201.9,2021.0,,2
+63905,Azure Sky Solar,33.021601,-99.61463,Haskell,solar,solar,316.2,316.2,316.2,2021.0,,2
+63985,Fort Bend Solar LLC,29.560311,-95.98036,Fort Bend,solar,solar,240.0,240.0,240.0,2023.0,,1
+64026,"ANSON Solar Center, LLC",32.811041,-99.91749,Jones,solar,solar,200.0,200.0,200.0,2021.0,,1
+64075,Taygete II Energy Project,31.186,-103.128,Pecos,solar,solar,203.8,203.8,203.8,2023.0,,1
+64079,CatanSolar,28.871642,-97.696944,Karnes,solar,solar,10.0,10.0,10.0,2020.0,,1
+64089,Ignacio Grid Energy Storage System,26.166944,-98.325,Hidalgo,storage,storage,100.0,100.0,100.0,2023.0,,1
+64133,"Old 300 Solar Center, LLC",29.33355,-95.82544,Fort Bend,solar,solar,430.0,430.0,430.0,2024.0,,1
+64149,"Western Trail Wind, LLC",33.85245,-99.06509,Wilbarger,wind,wind,366.6,366.6,366.6,2022.0,,1
+64164,"Azure Sky Wind Project, LLC Hybrid",33.169139,-99.266006,Throckmorton,wind,wind,470.2,470.2,470.2,2023.0,,2
+64165,Priddy Wind Project,31.5481,-98.49491,Mills,wind,wind,302.4,302.4,302.4,2022.0,,1
+64202,"Big Star Solar, LLC (Hybrid)",29.894053,-97.270537,Bastrop,solar,solar,200.0,200.0,200.0,2025.0,,1
+64204,Elara Solar,28.883196,-99.178605,Frio,solar,solar,132.4,130.0,132.4,2021.0,,1
+64227,"Alexis Solar, LLC",26.88913,-98.233324,Brooks,solar,solar,10.0,7.3,10.0,2019.0,,1
+64233,Hecate Energy Frye Solar LLC,34.4067,-101.59661,Swisher,solar,solar,500.0,500.0,500.0,2024.0,,1
+64239,7V Solar Ranch,29.806984,-97.07408,Fayette,solar,solar,240.0,240.0,240.0,2025.0,,1
+64258,AP Sunray LLC,29.291845,-99.612368,Uvalde,solar,solar,203.5,203.5,203.5,2024.0,,1
+64259,BPL Crown Solar LLC,31.346717,-97.082774,Falls,solar,solar,100.0,100.0,100.0,2024.0,,1
+64260,BPL Sol Solar LLC,31.346717,-97.082774,Falls,solar,solar,100.0,100.0,100.0,2024.0,,1
+64293,Alvin,29.433245,-95.249367,Brazoria,storage,storage,9.9,9.9,9.9,2020.0,,1
+64294,Odessa,31.871315,-102.398409,Ector,storage,storage,9.9,9.9,9.9,2020.0,,1
+64295,Angleton,29.167065,-95.440647,Brazoria,storage,storage,9.9,9.9,9.9,2020.0,,1
+64296,Brazoria,29.062635,-95.577587,Brazoria,storage,storage,9.9,9.9,9.9,2020.0,,1
+64297,Heights,29.389595,-94.949867,Galveston,storage,storage,9.9,9.9,9.9,2020.0,,1
+64298,Magnolia TX,29.488335,-95.133947,Galveston,storage,storage,9.9,9.9,9.9,2020.0,,1
+64312,Bat Cave,30.737745,-99.231778,Mason,storage,storage,100.0,100.0,100.0,2021.0,,1
+64314,Dickinson,29.461255,-95.056987,Galveston,storage,storage,9.9,9.9,9.9,2021.0,,1
+64315,Loop 463,28.816475,-97.074867,Victoria,storage,storage,9.9,9.9,9.9,2021.0,,1
+64316,Lopeno,26.687614,-99.109418,Zapata,storage,storage,9.9,9.9,9.9,2022.0,,1
+64317,North Fork TX,30.748955,-97.875708,Williamson,storage,storage,100.0,100.0,100.0,2021.0,,1
+64318,Pueblo BA,28.678935,-100.463708,Maverick,storage,storage,19.8,19.8,19.8,2022.0,,2
+64319,Ranchtown,29.617885,-98.735948,Bexar,storage,storage,9.9,9.9,9.9,2021.0,,1
+64321,Sweeny,29.055615,-95.687237,Brazoria,storage,storage,9.9,9.9,9.9,2021.0,,1
+64322,Zapata,26.932675,-99.233708,Zapata,storage,storage,19.8,19.8,19.8,2022.0,,2
+64325,Prospero Solar II,32.275814,-102.844806,Andrews,solar,solar,250.0,250.0,250.0,2021.0,,1
+64347,Mockingbird Solar Center,33.39167,-95.42519,Lamar,solar,solar,471.0,471.0,471.0,2024.0,,1
+64383,Braes Bayou Plant,29.480277,-95.620277,Fort Bend,gas,gas_ct,484.0,398.4,484.0,2022.0,,8
+64389,Niagara Bottling - Seguin,29.589139,-97.977198,Guadalupe,solar,solar,4.9,4.9,4.9,2021.0,,1
+64423,TX7 Flat Top,31.19791,-103.36067,Reeves,storage,storage,9.9,9.9,9.9,2020.0,,1
+64424,TX8 Worsham,31.35658,-103.33645,Pecos,storage,storage,9.9,9.9,9.9,2020.0,,1
+64425,TX2 Port Lavaca,28.58673,-96.68376,Calhoun,storage,storage,9.9,9.9,9.9,2020.0,,1
+64447,Brazoria West,29.191,-95.663,Brazoria,solar,solar,200.0,200.0,200.0,2022.0,,1
+64528,Gambit Energy Storage - Angleton Storage,29.16801,-95.445062,Brazoria,storage,storage,100.0,100.0,100.0,2021.0,,1
+64538,Corazon Energy LLC,27.634677,-99.258329,Webb,solar,solar,200.0,200.0,200.0,2021.0,,1
+64544,Ranchland Wind Project II,32.308524,-99.164198,Callahan,wind,wind,148.0,148.0,148.0,2024.0,,1
+64545,Ranchland Wind Storage,32.308524,-99.164198,Callahan,storage,storage,73.0,73.0,73.0,2023.0,,1
+64551,Ranchland Wind Project I,32.308524,-99.164498,Callahan,wind,wind,114.9,114.9,114.9,2024.0,,1
+64591,"El Algodon Alto Wind Farm, LLC",27.992706,-97.743983,San Patricio,wind,wind,200.2,200.2,200.2,2022.0,,1
+64639,TG East,33.746323,-99.665516,Knox,wind,wind,336.0,336.0,336.0,2022.0,,1
+64672,"Blue Jay Solar I, LLC",30.705329,-96.069829,Grimes,storage,storage,51.6,51.6,51.6,2023.0,,1
+64710,White Mesa Wind,30.91,-101.263,Crockett,wind,wind,500.6,500.6,500.6,2021.0,,1
+64769,WAL194,29.776274,-94.974458,Harris,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64770,WAL202,33.100353,-96.800708,Collin,oil,oil,1.3,1.3,1.3,2020.0,,1
+64771,WAL266,32.922049,-97.081986,Tarrant,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64772,WAL284,32.576159,-97.130048,Tarrant,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64773,WAL407,31.089722,-97.729279,Bell,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64774,WAL414,33.857046,-98.499006,Wichita,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64775,WAL447,29.395822,-100.901074,Val Verde,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64776,WAL452,26.243944,-98.245055,Hidalgo,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64777,WAL456,25.976057,-97.519445,Cameron,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64778,WAL461,28.702031,-100.482722,Maverick,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64791,WAL462,29.421764,-95.230784,Brazoria,gas,gas_ice,1.3,1.3,1.3,2019.0,,1
+64792,WAL504,29.26514,-94.832945,Galveston,gas,gas_ice,1.2,1.2,1.2,2022.0,,3
+64793,WAL522,29.894458,-95.06497,Harris,gas,gas_ice,1.2,1.2,1.2,2020.0,,3
+64794,WAL529,29.372305,-95.000453,Galveston,gas,gas_ice,1.3,1.3,1.3,2019.0,,1
+64795,WAL536,32.48078,-99.698015,Jones,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64796,WAL537,31.8957,-102.332512,Ector,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64797,WAL546,29.558105,-95.761271,Fort Bend,gas,gas_ice,1.2,1.2,1.2,2020.0,,3
+64798,WAL565,32.101054,-96.403764,Navarro,gas,gas_ice,1.2,1.2,1.2,2022.0,,3
+64799,WAL602,30.12423,-95.45769,Montgomery,gas,gas_ice,1.2,1.2,1.2,2020.0,,3
+64800,WAL744,29.995621,-95.176468,Harris,gas,gas_ice,1.2,1.2,1.2,2020.0,,3
+64801,WAL752,29.64662,-95.161425,Harris,gas,gas_ice,1.2,1.2,1.2,2020.0,,3
+64802,WAL768,29.789117,-95.722232,Harris,gas,gas_ice,1.2,1.2,1.2,2019.0,,3
+64803,WAL772,29.721093,-95.646224,Harris,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64804,WAL791,27.769271,-98.043187,Jim Wells,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64805,WAL849,30.064779,-95.429453,Harris,gas,gas_ice,1.2,1.2,1.2,2020.0,,3
+64806,WAL872,29.573168,-95.283899,Brazoria,gas,gas_ice,1.2,1.2,1.2,2020.0,,3
+64807,WAL896,32.673532,-97.036234,Dallas,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64808,WAL897,30.896466,-102.907161,Pecos,gas,gas_ice,1.3,1.3,1.3,2021.0,,1
+64809,WAL940,32.755036,-97.433843,Tarrant,gas,gas_ice,1.2,1.2,1.2,2020.0,,3
+64810,WAL947,33.673162,-96.612131,Grayson,gas,gas_ice,1.2,1.2,1.2,2020.0,,3
+64811,Upton County BESS,31.23924,-102.32169,Upton,storage,storage,24.8,24.8,24.8,2023.0,,1
+64812,WAL972,32.811848,-97.424739,Tarrant,gas,gas_ice,1.2,1.2,1.2,2020.0,,3
+64813,WAL1040,29.877618,-95.651482,Harris,gas,gas_ice,1.2,1.2,1.2,2019.0,,3
+64814,WAL1062,29.551973,-95.159125,Harris,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64815,WAL1103,29.998163,-95.486202,Harris,gas,gas_ice,1.2,1.2,1.2,2019.0,,3
+64816,WAL1232,31.080808,-97.457755,Bell,gas,gas_ice,1.2,1.2,1.2,2020.0,,3
+64821,FELPS 1 - Calaveras,29.220361,-98.250865,Wilson,solar,solar,1.0,1.0,1.0,2021.0,,1
+64823,FELPS 2 - Calaveras,29.220942,-98.251671,Wilson,solar,solar,1.0,1.0,1.0,2021.0,,1
+64824,FELPS 3 - Floresville South,29.129219,-98.106298,Wilson,solar,solar,1.0,1.0,1.0,2021.0,,1
+64825,FELPS 4 - Floresville South,29.128666,-98.107043,Wilson,solar,solar,1.0,1.0,1.0,2021.0,,1
+64826,FELPS 5- Floresville South,29.128151,-98.107343,Wilson,solar,solar,1.0,1.0,1.0,2021.0,,1
+64827,FELPS 6- Floresville West,29.13398,-98.193353,Wilson,solar,solar,1.0,1.0,1.0,2021.0,,1
+64828,FELPS 7- Floresville West,29.133613,-98.192753,Wilson,solar,solar,1.0,1.0,1.0,2021.0,,1
+64829,WAL1272,32.691018,-100.91789,Scurry,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64859,"IP Radian, LLC",31.5481,-99.1872,Brown,solar,solar,320.0,320.0,320.0,2023.0,,1
+64883,WAL1455,32.764483,-97.169261,Tarrant,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64884,WAL1801,32.668729,-97.131834,Tarrant,gas,gas_ice,1.2,1.2,1.2,2022.0,,3
+64885,WAL2257,29.853797,-95.509083,Harris,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64886,WAL2439,29.817549,-94.900456,Chambers,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64887,WAL2667,32.793829,-96.689543,Dallas,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64888,WAL2724,29.693424,-95.210408,Harris,gas,gas_ice,1.2,1.2,1.2,2020.0,,3
+64889,WAL2883,33.097094,-96.798596,Collin,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64890,WAL2980,32.89517,-97.286531,Tarrant,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64891,WAL2993,29.613582,-95.644645,Fort Bend,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64892,"TPE Erath Solar, LLC",32.26246,-98.207541,Erath,solar,solar,9.9,9.9,9.9,2021.0,,1
+64893,WAL3224,32.842209,-96.598028,Dallas,gas,gas_ice,1.2,1.2,1.2,2022.0,,3
+64895,WAL3226,29.783981,-95.804075,Fort Bend,gas,gas_ice,1.2,1.2,1.2,2019.0,,3
+64896,WAL3284,32.66674,-97.209254,Tarrant,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64897,WAL3285,32.59732,-96.946914,Dallas,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64898,WAL3297,29.920574,-95.602626,Harris,gas,gas_ice,1.2,1.2,1.2,2020.0,,3
+64899,WAL3298,29.535168,-95.018815,Galveston,gas,gas_ice,1.2,1.2,1.2,2020.0,,3
+64900,WAL3302,29.679366,-95.5614,Harris,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64901,WAL3320,26.260742,-98.315859,Hidalgo,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64902,WAL3390,30.190279,-95.589487,Montgomery,gas,gas_ice,1.2,1.2,1.2,2020.0,,3
+64915,Flower Valley I,31.197283,-103.361769,Reeves,storage,storage,9.9,9.9,9.9,2021.0,,1
+64916,Swoose I,31.45115,-103.096242,Ward,storage,storage,9.9,9.9,9.9,2021.0,,1
+64917,Triple Butte I,30.75956,-103.06786,Pecos,storage,storage,7.5,7.5,7.5,2021.0,,1
+64922,WAL3406,32.959048,-96.81664,Dallas,gas,gas_ice,1.2,1.2,1.2,2022.0,,3
+64923,WAL3425,29.630428,-95.237434,Harris,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64924,WAL3432,32.592923,-96.879836,Dallas,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64925,WAL3500,29.80599,-95.1652,Harris,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64926,WAL3510,29.545976,-95.235941,Brazoria,gas,gas_ice,1.3,1.3,1.3,2019.0,,1
+64927,Aktina Solar,29.122,-96.276,Wharton,solar,solar,500.0,500.0,500.0,2023.0,,1
+64933,WAL3518,27.612565,-99.471825,Webb,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64934,WAL3572,29.557643,-95.382896,Brazoria,gas,gas_ice,1.3,1.3,1.3,2019.0,,1
+64935,WAL3584,29.72355,-95.46539,Harris,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64936,WAL3631,32.576636,-97.338514,Tarrant,gas,gas_ice,1.2,1.2,1.2,2020.0,,3
+64937,WAL3773,32.765261,-97.483775,Tarrant,gas,gas_ice,1.2,1.2,1.2,2020.0,,3
+64938,WAL3777,33.179721,-96.883994,Denton,oil,oil,1.3,1.3,1.3,2020.0,,1
+64939,WAL3827,29.690142,-95.774624,Fort Bend,gas,gas_ice,1.2,1.2,1.2,2020.0,,3
+64940,WAL3886,26.267703,-98.204552,Hidalgo,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64942,WAL4298,29.936325,-95.25261,Harris,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64943,WAL4509,32.677829,-97.467729,Tarrant,gas,gas_ice,1.2,1.2,1.2,2020.0,,3
+64944,WAL4512,29.818196,-95.767961,Harris,gas,gas_ice,1.2,1.2,1.2,2020.0,,3
+64945,WAL4526,29.829831,-95.377269,Harris,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64946,WAL4538,29.803665,-95.72045,Harris,gas,gas_ice,1.2,1.2,1.2,2019.0,,3
+64947,WAL5045,30.014278,-95.594987,Harris,gas,gas_ice,1.2,1.2,1.2,2020.0,,3
+64948,WAL5080,32.847939,-97.18405,Tarrant,gas,gas_ice,1.2,1.2,1.2,2022.0,,3
+64949,WAL5091,29.975997,-95.697345,Harris,gas,gas_ice,1.2,1.2,1.2,2020.0,,3
+64950,WAL5116,29.664286,-95.098302,Harris,gas,gas_ice,1.2,1.2,1.2,2020.0,,3
+64951,WAL5165,26.191785,-98.128306,Hidalgo,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64952,WAL5211,33.156306,-96.682687,Collin,oil,oil,1.3,1.3,1.3,2020.0,,1
+64953,WAL5287,30.077307,-95.51277,Harris,gas,gas_ice,1.2,1.2,1.2,2020.0,,3
+64954,WAL5311,33.216844,-96.735704,Collin,oil,oil,1.3,1.3,1.3,2020.0,,1
+64955,WAL5312,32.774643,-97.291803,Tarrant,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64956,WAL5316,32.882111,-97.387586,Tarrant,gas,gas_ice,1.2,1.2,1.2,2020.0,,3
+64957,WAL5388,29.470152,-95.089643,Galveston,gas,gas_ice,1.3,1.3,1.3,2020.0,,1
+64958,WAL5479,30.453115,-97.606035,Travis,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64959,WAL5480,30.53366,-97.612014,Williamson,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64960,WAL5612,29.716069,-95.313027,Harris,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64961,WAL5713,27.610637,-99.462215,Webb,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64962,WAL5764,32.967341,-97.411976,Tarrant,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+64963,WAL6929,31.11497,-97.414441,Bell,gas,gas_ice,1.2,1.2,1.2,2020.0,,3
+65026,HEB00292,28.982463,-95.958458,Matagorda,gas,gas_ice,1.2,1.2,1.2,2016.0,,3
+65028,"Roseland Solar Project, LLC",31.461242,-96.824928,Falls,storage,storage,51.8,51.8,51.8,2023.0,,1
+65034,Bernard Creek Solar,29.45527,-96.088253,Wharton,solar,solar,230.0,230.0,230.0,2023.0,,1
+65048,Hubbard Wind,31.77471,-96.828196,Limestone,wind,wind,300.0,300.0,300.0,2021.0,,1
+65070,Austin TX GigaFactory,30.22021,-97.61968,Travis,solar,solar,5.4,5.4,5.4,2023.0,,4
+65162,Lacy Creek Wind Energy Center,31.729906,-101.29894,Sterling,wind,wind,301.3,301.3,301.3,2022.0,,1
+65259,Byrd Ranch Storage,29.056,-95.686,Brazoria,storage,storage,50.0,50.0,50.0,2022.0,,1
+65261,HEB00020,29.992502,-95.744444,Harris,gas,gas_ice,1.2,1.2,1.2,2018.0,,3
+65262,HEB00028,29.466105,-95.09527,Galveston,gas,gas_ice,1.2,1.2,1.2,2017.0,,3
+65263,HEB00038,26.202647,-98.164666,Hidalgo,gas,gas_ice,1.2,1.2,1.2,2018.0,,3
+65264,HEB00054,29.601653,-95.250237,Harris,gas,gas_ice,1.2,1.2,1.2,2018.0,,3
+65265,HEB00057,27.665051,-97.28064,Nueces,gas,gas_ice,1.2,1.2,1.2,2017.0,,3
+65266,HEB00070,32.433318,-99.758324,Taylor,gas,gas_ice,1.2,1.2,1.2,2018.0,,3
+65267,HEB00099,29.995329,-95.576602,Harris,gas,gas_ice,1.2,1.2,1.2,2017.0,,3
+65268,HEB00109,29.786159,-95.539403,Harris,gas,gas_ice,1.2,1.2,1.2,2018.0,,3
+65269,HEB00110,29.53658,-95.53628,Fort Bend,gas,gas_ice,1.2,1.2,1.2,2017.0,,3
+65271,Noble Solar,33.261505,-97.238057,Denton,solar,solar,400.0,400.0,400.0,2022.0,,2
+65274,HEB00182,31.07212,-97.370901,Bell,gas,gas_ice,1.2,1.2,1.2,2018.0,,3
+65303,Sun Valley Solar Project,31.86976,-97.01498,Hill,solar,solar,250.0,250.0,250.0,2022.0,,1
+65306,Limestone Wind Project,31.85346,-96.624458,Navarro,wind,wind,299.2,299.2,299.2,2022.0,,1
+65308,Horizon Solar,28.9377,-99.10765,Frio,solar,solar,200.0,200.0,200.0,2023.0,,1
+65333,Shakes Solar,28.44208,-99.75582,Dimmit,solar,solar,200.0,200.0,200.0,2022.0,,1
+65335,Appaloosa Run Wind,31.157269,-101.831603,Upton,wind,wind,171.8,171.8,171.8,2022.0,,1
+65372,Mark One Power Station,29.227109,-95.430756,Brazoria,gas,gas_ct,484.0,398.4,484.0,2022.0,,8
+65373,Brotman Power Station,29.364128,-95.435068,Brazoria,gas,gas_ct,484.0,398.4,484.0,2023.0,,8
+65410,Cunningham Storage,33.004305,-96.075913,Hunt,storage,storage,190.0,190.0,190.0,2023.0,,1
+65463,Hornet Solar (TX),34.485162,-101.971401,Swisher,solar,solar,600.0,600.0,600.0,2025.0,,1
+65489,Dickens,33.781077,-100.883227,Dickens,storage,storage,200.0,200.0,200.0,2024.0,,1
+65490,Hydra,30.992905,-102.289475,Pecos,storage,storage,200.0,200.0,200.0,2024.0,,1
+65491,Paleo,33.889462,-101.80158,Hale,storage,storage,200.0,200.0,200.0,2024.0,,1
+65492,Pavo,30.885123,-102.42261,Pecos,storage,storage,175.0,175.0,175.0,2024.0,,1
+65493,Tortolas,29.432362,-95.250698,Brazoria,storage,storage,50.0,50.0,50.0,2024.0,,1
+65521,"Longbow Solar, LLC",29.289809,-95.298609,Brazoria,solar,solar,78.1,78.1,78.1,2022.0,,1
+65535,Bakke,32.295946,-102.54,Andrews,oil,oil,9.0,9.0,9.0,2013.0,,15
+65536,Citrus City,26.320997,-98.351744,Hidalgo,oil,oil,9.0,9.0,9.0,2013.0,,15
+65537,Clara,29.845265,-95.553945,Harris,oil,oil,9.0,9.0,9.0,2013.0,,15
+65538,Cutten,29.956811,-95.527643,Harris,oil,oil,9.0,9.0,9.0,2013.0,,15
+65539,E. Porte Ct.,26.19208,-97.664239,Cameron,oil,oil,9.0,9.0,9.0,2013.0,,15
+65540,Frankel,32.381434,-102.78282,Andrews,oil,oil,9.0,9.0,9.0,2013.0,,15
+65541,GCWA,29.380114,-94.953418,Galveston,oil,oil,7.2,7.2,7.2,2013.0,,12
+65542,Goldsmith,31.975269,-102.63501,Ector,oil,oil,9.0,9.0,9.0,2013.0,,15
+65543,Mckeever,29.508402,-95.479339,Fort Bend,oil,oil,9.0,9.0,9.0,2013.0,,15
+65544,N. Mary Francis,31.921616,-102.431039,Ector,oil,oil,9.0,9.0,9.0,2013.0,,15
+65546,Inertia Wind Project,33.186882,-99.595332,Haskell,wind,wind,301.0,301.0,301.0,2023.0,,1
+65571,Verizon Hidden Ridge Solar Project,32.87662,-96.95372,Dallas,solar,solar,2.9,1.9,2.9,2022.0,,3
+65573,Ridge Rd,26.16815,-98.09831,Hidalgo,oil,oil,9.0,9.0,9.0,2013.0,,15
+65574,Santa Rosa,26.23055,-97.82349,Cameron,oil,oil,9.0,9.0,9.0,2013.0,,15
+65575,Southwick,29.59576,-95.36578,Harris,oil,oil,9.0,9.0,9.0,2013.0,,15
+65576,Stonegate,29.785353,-95.875497,Fort Bend,oil,oil,9.0,9.0,9.0,2013.0,,15
+65578,Tumbleweed,32.35123,-102.5577,Andrews,oil,oil,9.0,9.0,9.0,2013.0,,15
+65579,Vaquero,26.168074,-97.654049,Cameron,oil,oil,9.0,9.0,9.0,2013.0,,15
+65580,Villa Cavasos,26.02131,-97.596284,Cameron,oil,oil,9.0,9.0,9.0,2013.0,,15
+65581,Westover,31.8362,-102.4461,Ector,oil,oil,9.0,9.0,9.0,2013.0,,15
+65588,Antlia,29.806021,-100.804452,Val Verde,storage,storage,70.0,70.0,70.0,2025.0,,1
+65589,Carina,27.81922,-97.535461,Nueces,storage,storage,150.0,150.0,150.0,2025.0,,1
+65631,"Pisgah Ridge Solar, LLC",31.896737,-96.467327,Navarro,solar,solar,250.0,250.0,250.0,2022.0,,1
+65644,Lumina II Solar Project,32.883528,-100.746389,Scurry,solar,solar,486.6,480.0,486.6,2024.0,,2
+65645,Lumina Solar Project,32.901081,-100.982695,Scurry,solar,solar,486.6,480.0,486.6,2024.0,,2
+65654,Texas Solar Nova 1,33.320637,-100.982201,Kent,solar,solar,252.0,331.1,252.0,2023.0,,1
+65660,Texas Solar Nova 2,33.32056,-100.981664,Kent,solar,solar,200.0,262.4,200.0,2024.0,,1
+65661,Nebula Solar,26.090103,-97.798453,Cameron,solar,solar,135.0,135.0,135.0,2022.0,,1
+65662,Vancourt Solar Interconnections,26.090103,-97.798453,Cameron,solar,solar,45.0,45.0,45.0,2022.0,,1
+65693,TX10 Hummingbird Storage,33.3256,-97.31433,Denton,storage,storage,100.0,100.0,100.0,2024.0,,1
+65694,TX11 Republic Road Storage,30.881424,-96.62542,Robertson,storage,storage,50.0,50.0,50.0,2022.0,,1
+65695,TX12 Silicon Hill Storage,30.41217,-97.57405,Travis,storage,storage,100.0,100.0,100.0,2022.0,,1
+65696,TX13 Endurance Park Storage,32.85583,-100.991681,Scurry,storage,storage,50.0,50.0,50.0,2022.0,,1
+65698,TX15 Limousin Oak Storage,30.65991,-95.973798,Grimes,storage,storage,100.0,100.0,100.0,2024.0,,1
+65699,TX19 River Valley Storage 1,30.41477,-97.35701,Williamson,storage,storage,50.0,50.0,50.0,2023.0,,1
+65700,TX21 River Valley Storage 2,30.41432,-97.35518,Williamson,storage,storage,50.0,50.0,50.0,2023.0,,1
+65701,TX23 Roughneck Storage,29.15923,-95.6626,Brazoria,storage,storage,50.0,50.0,50.0,2022.0,,1
+65760,"El Sauz Ranch Wind, LLC",26.500883,-97.599064,Willacy,wind,wind,301.0,301.0,301.0,2025.0,,1
+65762,Waco Solar,31.710422,-96.818676,Limestone,solar,solar,400.0,400.0,400.0,2024.0,,1
+65763,Young Wind,33.119213,-98.852577,Young,wind,wind,500.0,500.0,500.0,2022.0,,1
+65790,Castle Gap Wind,31.39376,-98.35936,Mills,wind,wind,196.8,196.8,196.8,2023.0,,1
+65793,"Concho Valley Solar, LLC",31.214,-100.255,Tom Green,solar,solar,172.8,159.8,172.8,2023.0,,1
+65809,Caterina,28.34705,-99.673703,Dimmit,storage,storage,9.9,9.9,9.9,2022.0,,1
+65810,Cedarville (TX),31.514106,-103.452361,Reeves,storage,storage,9.9,9.9,9.9,2022.0,,1
+65811,Coyote Springs (TX),31.39471,-103.630336,Reeves,storage,storage,9.9,9.9,9.9,2022.0,,1
+65812,Farmersville (TX),33.16111,-96.409125,Collin,storage,storage,9.9,9.9,9.9,2024.0,,1
+65813,Faulkner,31.262381,-103.794852,Reeves,storage,storage,9.9,9.9,9.9,2022.0,,1
+65814,Gomez,31.036537,-103.024156,Pecos,storage,storage,9.9,9.9,9.9,2023.0,,1
+65829,Holcomb (TX),28.03534,-99.361732,La Salle,storage,storage,9.9,9.9,9.9,2023.0,,1
+65830,Junction (TX),30.492453,-99.770197,Kimble,storage,storage,9.9,9.9,9.9,2023.0,,1
+65831,Lonestar,31.594864,-103.249847,Ward,storage,storage,9.9,9.9,9.9,2022.0,,1
+65832,Olney,33.371086,-98.720465,Young,storage,storage,9.9,9.9,9.9,2023.0,,1
+65833,Rattlesnake (TX),31.568978,-103.226631,Ward,storage,storage,9.9,9.9,9.9,2022.0,,1
+65834,Saddleback BESS2,31.332883,-103.498425,Reeves,storage,storage,9.9,9.9,9.9,2022.0,,1
+65835,Screwbean,31.821423,-104.045071,Culberson,storage,storage,9.9,9.9,9.9,2023.0,,1
+65836,Toyah Power Station,31.113909,-103.66551,Reeves,storage,storage,10.4,9.9,10.4,2021.0,,1
+65837,Val Verde,26.234145,-98.079848,Hidalgo,storage,storage,9.9,9.9,9.9,2024.0,,1
+65838,Hoef's Road Storage,31.031247,-103.46256,Reeves,storage,storage,2.0,2.0,0.0,2021.0,2024.0,1
+65849,Oriana Solar LLC,28.905346,-96.978078,Victoria,solar,solar,180.0,180.0,180.0,2025.0,,1
+65860,Avila,30.904629,-102.915916,Pecos,storage,storage,160.0,160.0,160.0,2025.0,,1
+65861,Cachi,29.65313,-98.015155,Guadalupe,storage,storage,200.0,200.0,200.0,2025.0,,1
+65891,Orange Grove,27.918286,-97.98045,Jim Wells,solar,solar,131.0,131.0,131.0,2025.0,,1
+65894,Stillhouse Solar,30.967591,-97.165108,Bell,solar,solar,210.0,210.0,210.0,2025.0,,1
+65937,"Porter Solar, LLC (TX)",33.310446,-97.369773,Denton,solar,solar,245.0,245.0,245.0,2024.0,,1
+65947,Tres Bahias,28.68851,-96.509833,Calhoun,solar,solar,196.3,196.3,196.3,2024.0,,1
+65975,Starr Solar Ranch,26.523359,-99.017108,Starr,solar,solar,136.0,136.0,136.0,2024.0,,1
+65979,Peregrine Solar,28.4279,-97.4544,Goliad,solar,solar,300.0,300.0,300.0,2025.0,,1
+65981,Second Division Solar,29.170545,-95.741574,Brazoria,solar,solar,100.0,100.0,100.0,2024.0,,1
+65998,"True North Solar, LLC",31.468564,-96.794168,Falls,solar,solar,238.8,240.0,238.8,2024.0,,1
+66006,House Mountain,30.495668,-103.450965,Brewster,storage,storage,73.2,63.0,73.2,2024.0,,1
+66007,Flower Valley II,31.197285,-103.361771,Reeves,storage,storage,101.0,101.0,101.0,2022.0,,1
+66008,Swoose II,31.45115,-103.361771,Ward,storage,storage,101.0,101.0,101.0,2022.0,,1
+66009,Crossett Power Management LLC,31.191687,-102.317227,Crane,storage,storage,203.0,203.0,203.0,2022.0,,1
+66046,Brazoria County Solar Project (Danciger),29.1779,-95.7612,Brazoria,solar,solar,200.0,200.0,200.0,2022.0,,1
+66123,Prairie Switch Wind LLC,29.0919,-96.09,Wharton,wind,wind,163.2,163.2,163.2,2025.0,,1
+66137,Zier Solar,29.350992,-100.562028,Kinney,solar,solar,200.4,200.4,200.4,2024.0,,2
+66157,Red Tailed Hawk Solar LLC,29.159228,-96.141572,Wharton,solar,solar,360.0,360.0,360.0,2024.0,,1
+66170,Revolution,31.233457,-102.308519,Crane,storage,storage,150.0,150.0,150.0,2023.0,,1
+66262,Cutlass Solar II,29.39,-95.78,Fort Bend,solar,solar,202.8,200.0,202.8,2024.0,,1
+66310,Cutlass Solar 1 LLC,29.409669,-95.73405,Fort Bend,solar,solar,110.9,110.9,110.9,2022.0,,1
+66321,"King Creek Wind Farm 1, LLC",33.268,-99.468,Haskell,wind,wind,184.0,184.0,184.0,2022.0,,1
+66323,"King Creek Wind Farm 2, LLC",33.182414,-99.389888,Throckmorton,wind,wind,209.0,209.0,209.0,2022.0,,1
+66324,BPL Files Solar,32.18398,-97.07141,Hill,solar,solar,157.5,145.0,157.5,2023.0,,1
+66335,Timmerman Power Plant,29.875,-97.807,Caldwell,gas,gas_ice,180.0,180.0,180.0,2025.0,,10
+66336,St. Gall Energy Storage I,30.924381,-102.953583,Pecos,storage,storage,102.6,100.0,102.6,2024.0,,1
+66337,Tidwell Prairie Storage 1,31.09828,-96.66368,Robertson,storage,storage,200.0,200.0,200.0,2025.0,,1
+66338,Callisto I Energy Center,29.646811,-95.450539,Harris,storage,storage,223.4,200.0,223.4,2024.0,,1
+66410,Grizzly Ridge Solar,31.738177,-98.213739,Hamilton,solar,solar,100.0,100.0,100.0,2023.0,,1
+66420,Five Wells Solar Center - Hybrid,30.998647,-97.259017,Bell,solar,solar,617.9,579.0,617.9,2023.0,,2
+66471,Eiffel Solar Project,33.599167,-95.525056,Lamar,solar,solar,240.0,240.0,240.0,2023.0,,1
+66517,TX Houston 7080 Express Lane,29.825138,-95.247062,Harris,solar,solar,1.9,1.9,1.9,2025.0,,1
+66520,TX Sunnyvale 367 Long Creek Road Solar,32.77442,-96.56668,Dallas,solar,solar,2.0,2.0,2.0,2025.0,,1
+66531,Pioneer Hutt Wind Energy,31.7983,-101.9043,Midland,wind,wind,140.0,140.0,140.0,2024.0,,1
+66540,Shamrock Wind,30.936,-101.607,Crockett,wind,wind,323.9,323.9,323.9,2023.0,,2
+66549,HEB00063,29.55952,-95.39038,Brazoria,gas,gas_ice,1.6,1.6,1.6,2017.0,,4
+66550,HEB00069,27.694932,-97.262513,Nueces,gas,gas_ice,1.6,1.6,1.6,2017.0,,4
+66561,BUC00040,29.787919,-95.799137,Fort Bend,gas,gas_ice,1.6,1.6,1.6,2017.0,,4
+66562,HEB00591,30.518818,-97.65854,Williamson,gas,gas_ice,1.6,1.6,1.6,2018.0,,4
+66563,HEB00092,28.851871,-96.996805,Victoria,gas,gas_ice,1.6,1.6,1.6,2018.0,,4
+66564,HEB00095,27.607476,-99.473866,Webb,gas,gas_ice,1.6,1.6,1.6,2018.0,,4
+66565,HEBCCBakery,27.786287,-97.46234,Nueces,gas,gas_ice,3.2,3.2,3.2,2019.0,,8
+66566,HEBSnackPlant,29.844469,-95.540618,Harris,gas,gas_ice,1.6,1.6,1.6,2019.0,,4
+66567,HEBHoustonDistributionCenter,29.8397,-95.53685,Harris,gas,gas_ice,12.8,12.8,12.8,2021.0,,32
+66571,BKV-BPP Ponder Solar,33.155767,-97.254644,Denton,solar,solar,2.5,2.5,2.5,2024.0,,1
+66572,Highpeak Solar 1,32.494346,-101.276601,Howard,solar,solar,10.0,10.0,10.0,2024.0,,1
+66593,HEB00048,30.106498,-94.170414,Jefferson,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+66594,HEB00594,30.178935,-95.538096,Montgomery,gas,gas_ice,1.2,1.2,1.2,2019.0,,3
+66595,FTBLID2,29.575316,-95.636882,Fort Bend,gas,gas_ice,11.2,11.2,11.2,2021.0,,28
+66596,Praxair,29.004862,-95.388434,Brazoria,gas,gas_ice,1.2,1.2,1.2,2019.0,,3
+66597,RavenChem,29.820648,-94.913987,Harris,gas,gas_ice,3.2,3.2,3.2,2021.0,,8
+66604,Remy Jade Power Station,29.848372,-95.016398,Harris,gas,gas_ct,484.0,398.4,484.0,2024.0,,8
+66612,HEB_CPS00085,29.433657,-98.703454,Bexar,gas,gas_ice,1.6,1.6,1.6,2019.0,,4
+66613,HEB_CPSSADC,29.417338,-98.360879,Bexar,gas,gas_ice,6.4,6.4,6.4,2020.0,,16
+66614,OTHERCitizensHospital,28.812804,-96.977765,Victoria,gas,gas_ice,2.8,2.8,2.8,2020.0,,7
+66616,Wolf Tank Storage,27.577207,-99.276018,Webb,storage,storage,150.0,150.0,150.0,2023.0,,1
+66688,"Bright Arrow Solar, LLC",33.22392,-95.730767,Hopkins,solar,solar,403.6,403.6,403.6,2025.0,,2
+66690,"Brazos Bend BESS, LLC",29.56318,-95.80023,Fort Bend,storage,storage,100.0,100.0,100.0,2024.0,,1
+66774,Ash Creek Solar,31.900806,-97.033734,Hill,solar,solar,408.9,408.9,408.9,2025.0,,1
+66782,Hamilton BESS,29.376438,-100.848513,Val Verde,storage,storage,9.9,9.9,9.9,2024.0,,1
+66783,Weil Tract BESS,27.796921,-97.487069,Nueces,storage,storage,9.9,9.9,9.9,2024.0,,1
+66784,Pauline BESS,32.335025,-96.057897,Henderson,storage,storage,9.9,9.9,9.9,2024.0,,1
+66788,Mineral Wells East BESS,32.798754,-98.064973,Palo Pinto,storage,storage,9.9,9.9,9.9,2024.0,,1
+66789,Lufkin South BESS,31.291983,-94.724236,Angelina,storage,storage,9.9,9.9,9.9,2024.0,,1
+66790,Judkins BESS,31.715592,-102.598106,Ector,storage,storage,9.9,9.9,9.9,2024.0,,1
+66791,Garden City East BESS,31.867209,-101.469373,Glasscock,storage,storage,9.9,9.9,9.9,2024.0,,1
+66792,Falfurrias BESS,27.242427,-98.140545,Brooks,storage,storage,9.9,9.9,9.9,2024.0,,1
+66794,Diboll BESS,31.193794,-94.798183,Angelina,storage,storage,9.9,9.9,9.9,2024.0,,1
+66795,CISCO BESS,32.391533,-98.978156,Eastland,storage,storage,9.9,9.9,9.9,2024.0,,1
+66801,"Fence Post Solar Hybrid Project, LLC",32.072844,-96.22393,Navarro,solar,solar,308.0,306.0,308.0,2024.0,,2
+66804,Borden County BESS,32.72233,-101.638499,Borden,storage,storage,150.0,150.0,150.0,2024.0,,1
+66821,Orion III Solar Project,30.960219,-97.12452,Milam,solar,solar,250.0,250.0,250.0,2024.0,,1
+66859,Orion I Solar Project,30.996511,-97.001505,Milam,solar,solar,200.0,200.0,200.0,2024.0,,1
+66871,"GulfStar Power, LLC",29.191296,-95.967518,Wharton,storage,storage,300.0,300.0,300.0,2025.0,,1
+66872,"Estonian Solar Project, LLC",33.457143,-95.667897,Delta,solar,solar,304.5,304.5,304.5,2025.0,,2
+66880,Hayhurst Texas Solar,31.815992,-104.085297,Culberson,solar,solar,24.8,24.8,24.8,2024.0,,1
+66902,Roadrunner Wind Farm,32.437418,-99.108907,Eastland,wind,wind,256.0,256.0,256.0,2024.0,,1
+66903,"BT Hickerson Solar, LLC",31.819958,-97.517494,Bosque,solar,solar,310.0,310.0,310.0,2025.0,,1
+66905,Ables Springs Solar & Storage,32.819566,-96.184835,Kaufman,storage,storage,100.0,100.0,100.0,2025.0,,1
+66919,La Casa Wind,32.635105,-98.677196,Stephens,wind,wind,150.0,150.0,150.0,2025.0,,1
+66926,SMT Mercedes LLC,26.230501,-97.912557,Hidalgo,storage,storage,10.0,10.0,10.0,2023.0,,1
+66927,SMT Mission LLC,26.189433,-98.322929,Hidalgo,storage,storage,10.0,10.0,10.0,2023.0,,1
+66928,SMT Santa Rosa LLC,26.232466,-97.823173,Cameron,storage,storage,10.0,10.0,10.0,2023.0,,1
+66929,SMT Alamo LLC,26.230677,-98.114039,Hidalgo,storage,storage,10.0,10.0,10.0,2023.0,,1
+66930,SMT Bay City LLC,28.987572,-95.969842,Matagorda,storage,storage,10.0,10.0,10.0,2023.0,,1
+66931,SMT Elsa LLC,26.296101,-98.0096,Hidalgo,storage,storage,10.0,10.0,10.0,2023.0,,1
+66932,SMT Los Fresnos LLC,26.074676,-97.52318,Cameron,storage,storage,10.0,10.0,10.0,2023.0,,1
+66933,SMT Harlingen II LLC,26.179999,-97.725607,Cameron,storage,storage,10.0,10.0,10.0,2023.0,,1
+66934,SMT Rio Grande I LLC,26.408729,-98.937425,Starr,storage,storage,10.0,10.0,10.0,2023.0,,1
+66935,SMT Rio Grande II LLC,26.390951,-98.820386,Starr,storage,storage,10.0,10.0,10.0,2023.0,,1
+66941,Orion II Solar Project,31.029028,-96.934783,Milam,solar,solar,250.0,250.0,250.0,2024.0,,1
+66992,"CG PS Victoria WWTP, LLC",28.79346,-97.01223,Victoria,oil,oil,1.3,1.3,1.3,2020.0,,1
+67006,Greasewood II LLC,31.10409,-102.60625,Pecos,solar,solar,306.0,306.0,306.0,2024.0,,1
+67019,"Copperhead Solar, LLC",31.45,-96.86,McLennan,solar,solar,250.0,250.0,250.0,2024.0,,2
+67023,Dileo Solar,31.78,-97.51,Hill,solar,solar,71.4,71.4,71.4,2023.0,,1
+67024,Pitts Dudik Solar,31.8932,-96.8751,Hill,solar,solar,49.6,49.6,49.6,2023.0,,1
+67058,TX Fort Worth 5200 Gold Spike Drive,32.831328,-97.347267,Tarrant,solar,solar,4.0,4.0,4.0,2025.0,,1
+67083,"Longbow BESS, LLC",29.281605,-95.295533,Brazoria,storage,storage,174.0,174.0,174.0,2024.0,,1
+67095,"Montgomery Ranch Wind Farm, LLC",33.841272,-99.657805,Foard,wind,wind,202.5,202.5,202.5,2025.0,,1
+67123,Fagus Solar Park,34.350994,-100.049306,Childress,solar,solar,331.6,331.6,331.6,2025.0,,1
+67175,Rodeo Ranch Energy Storage,31.36,-103.33,Reeves,storage,storage,300.0,300.0,300.0,2023.0,,1
+67236,Anemoi Energy Storage,26.45,-98.48,Hidalgo,storage,storage,200.0,200.0,200.0,2024.0,,1
+67237,Ebony Energy Storage,29.620088,-98.334481,Comal,storage,storage,207.9,200.0,207.9,2024.0,,1
+67284,Ganado Solar,29.109147,-96.528761,Jackson,solar,solar,221.0,221.0,221.0,2023.0,,2
+67308,AbbVie Waco,31.48819,-97.20061,McLennan,gas,gas_ice,5.6,5.6,5.6,2023.0,,14
+67309,OTHERBenEKDallas,32.818471,-96.853215,Dallas,gas,gas_ice,1.6,1.6,1.6,2023.0,,4
+67310,HEB00055,32.938924,-97.131314,Tarrant,gas,gas_ice,1.2,1.2,1.2,2023.0,,3
+67311,HEB00760,29.487596,-95.405161,Brazoria,gas,gas_ice,1.2,1.2,1.2,2023.0,,3
+67312,HEB00776,29.803572,-95.760533,Harris,gas,gas_ice,1.2,1.2,1.2,2022.0,,3
+67313,HEB00789,33.155153,-96.846331,Denton,gas,gas_ice,1.2,1.2,1.2,2022.0,,3
+67314,HEB00790,33.055367,-96.796681,Collin,gas,gas_ice,1.2,1.2,1.2,2022.0,,3
+67315,HEB00796,33.116616,-96.653082,Collin,gas,gas_ice,1.2,1.2,1.2,2023.0,,3
+67316,OTHERNFBWA,29.705627,-95.619133,Fort Bend,gas,gas_ice,2.4,2.4,2.4,2021.0,,6
+67317,HEBTEMDistCenter,31.152387,-97.361183,Bell,gas,gas_ice,6.4,6.4,6.4,2023.0,,16
+67318,OTHERTexasA&M,30.641955,-96.460971,Brazos,gas,gas_ice,9.6,9.6,9.6,2018.0,,24
+67319,HEB00769,29.553909,-95.150678,Harris,gas,gas_ice,1.2,1.2,1.2,2021.0,,3
+67381,OTHERTraditionClearfork,32.707171,-97.408328,Tarrant,gas,gas_ice,1.2,1.2,1.2,2023.0,,3
+67424,Hopkins Energy LLC,33.21732,-95.4621,Hopkins,solar,solar,250.0,250.0,250.0,2024.0,,1
+67425,"Century Oak Wind Project, LLC",32.428686,-99.159114,Eastland,wind,wind,151.5,151.5,151.5,2024.0,,1
+67433,HEB00794,33.175806,-96.728417,Collin,gas,gas_ice,1.2,1.2,1.2,2023.0,,3
+67434,HEB00767,30.221151,-95.681969,Montgomery,gas,gas_ice,1.2,1.2,1.2,2022.0,,3
+67443,Lane City Wind,29.209729,-96.029597,Wharton,wind,wind,202.5,202.5,202.5,2025.0,,1
+67493,Pavlov,28.994112,-96.126203,Matagorda,storage,storage,9.9,9.9,9.9,2024.0,,1
+67494,Mainland,29.39521,-95.04077,Galveston,storage,storage,9.9,9.9,9.9,2024.0,,1
+67495,Russek,31.183494,-101.460355,Reagan,storage,storage,9.9,9.9,9.9,2025.0,,1
+67496,Sandlake,31.508786,-103.617546,Reeves,storage,storage,9.9,9.9,9.9,2024.0,,1
+67580,Markum Solar Farm,31.694792,-97.374883,Bosque,solar,solar,161.0,161.0,161.0,2024.0,,1
+67598,Desert Willow Energy Storage,32.452281,-97.072628,Ellis,storage,storage,150.0,150.0,150.0,2025.0,,1
+67700,Peyton Creek Wind Farm II,28.896781,-95.865183,Matagorda,wind,wind,243.0,243.0,243.0,2025.0,,1
+67721,Al Pastor Battery Storage Plant,32.7171,-101.9378,Dawson,storage,storage,100.3,100.3,100.3,2024.0,,1
+67737,SMT Ironman Battery Storage Plant,29.45566,-95.31001,Brazoria,storage,storage,304.0,304.0,304.0,2025.0,,1
+67738,Citadel Battery Storage Plant,29.87404,-95.018244,Harris,storage,storage,204.0,204.0,204.0,2024.0,,1
+67739,Wigeon Whistle Battery Storage Plant,33.030354,-96.357203,Collin,storage,storage,120.0,120.0,120.0,2024.0,,1
+67740,Anole Energy Storage,32.552083,-96.539931,Dallas,storage,storage,240.0,240.0,240.0,2025.0,,1
+67752,Fort Duncan BESS,28.69954,-100.40353,Maverick,storage,storage,102.6,102.6,102.6,2025.0,,1
+67762,Stampede Solar Hybrid,33.201315,-95.319229,Hopkins,solar,solar,328.1,328.1,328.1,2024.0,,2
+67763,Hart Wind,34.378546,-102.053717,Castro,wind,wind,166.4,166.4,166.4,2025.0,,1
+67843,Farmersville West,33.158,-96.402,Collin,storage,storage,9.9,9.9,9.9,2025.0,,1
+67845,Junction BESS,30.516525,-99.767635,Kimble,storage,storage,9.9,9.9,9.9,2025.0,,1
+67849,BT Signal Ranch,32.986,-96.085998,Hunt,solar,solar,50.0,50.0,50.0,2024.0,,1
+67860,GFTX BESS,30.228276,-97.618833,Travis,storage,storage,125.0,125.0,125.0,2024.0,,1
+67861,Connolly BESS,33.210732,-97.418986,Wise,storage,storage,125.0,125.0,125.0,2024.0,,1
+67867,Liberty Hybrid Solar and Storage Project,30.009659,-95.040827,Harris,solar,solar,67.2,67.2,67.2,2025.0,,1
+67875,Monte Cristo 1,26.461461,-98.285881,Hidalgo,wind,wind,238.5,238.5,238.5,2025.0,,1
+67963,Tynan,28.184044,-97.772903,Bee,storage,storage,9.9,9.9,9.9,2025.0,,1
+67968,Burksol Energy Storage,33.781511,-100.877503,Dickens,storage,storage,100.0,100.0,100.0,2025.0,,1
+68145,Angelo Solar,31.51,-100.58,Tom Green,solar,solar,195.0,195.0,195.0,2025.0,,1
+68146,Angelo Storage,31.513643,-100.583567,Tom Green,storage,storage,100.0,100.0,100.0,2025.0,,1
+68180,Big Elm Solar,31.141051,-97.216976,Bell,solar,solar,200.0,200.0,200.0,2025.0,,1
+68189,Great Kiskadee Storage,26.104286,-98.171881,Hidalgo,storage,storage,100.0,100.0,100.0,2025.0,,1
+68200,Sequoia 1,32.438238,-99.15766,Eastland,solar,solar,401.4,401.4,401.4,2025.0,,1
+68244,"Gransolar Texas One, LLC",30.599817,-97.154753,Milam,solar,solar,50.0,50.0,50.0,2025.0,,1
+68246,BT Jungmann,30.903764,-97.05778,Milam,solar,solar,40.0,40.0,40.0,2025.0,,1
+68423,St Gall Energy Storage II,30.924418,-102.953122,Pecos,storage,storage,100.0,100.0,100.0,2025.0,,1
+68458,"Roaring Springs, LLC",33.877514,-100.890246,Motley,solar,solar,250.0,250.0,250.0,2025.0,,1
+68460,Roadrunner Crossing Energy Storage,32.414193,-99.107744,Eastland,storage,storage,150.0,150.0,150.0,2025.0,,1
+68470,Azalea Springs Solar Park,31.403914,-94.871897,Angelina,solar,solar,180.0,180.0,180.0,2025.0,,1
+68474,Peacock Energy Project,28.000395,-97.387902,San Patricio,solar,solar,150.0,150.0,150.0,2024.0,,1
+68483,"Diver Solar, LLC",31.25,-96.39,Limestone,solar,solar,225.0,225.0,225.0,2025.0,,1
+68496,Lower Rio Energy Storage,26.206944,-98.058889,Hidalgo,storage,storage,60.0,60.0,60.0,2025.0,,1
+68513,"Cartwheel 1 - Storage, LLC",33.091192,-95.615097,Hopkins,storage,storage,300.0,300.0,300.0,2025.0,,1
+68537,Swift Air Solar I,31.7688,-102.696,Ector,solar,solar,145.0,145.0,145.0,2025.0,,1
+68587,Swift Air Solar II,31.723088,-102.519648,Ector,solar,solar,173.6,150.0,173.6,2025.0,,1
+68588,Swift Air Solar III,31.723088,-102.519648,Ector,solar,solar,100.0,100.0,100.0,2025.0,,1
+68613,Guajillo Energy Storage,27.628889,-99.266389,Webb,storage,storage,228.7,200.0,228.7,2025.0,,1
+68683,Crockett BESS,29.77682,-95.37989,Harris,storage,storage,10.0,9.5,10.0,2024.0,,1
+68684,Century BESS,32.68657,-97.083253,Tarrant,storage,storage,10.0,9.5,10.0,2024.0,,1
+68685,Liggett Switch,32.81479,-97.025,Tarrant,storage,storage,10.0,9.7,10.0,2024.0,,1
+68686,Citrus City BESS,26.32162,-98.35149,Hidalgo,storage,storage,9.9,9.9,9.9,2025.0,,1
+68687,Rio Grande City BESS 2,26.39279,-98.81941,Starr,storage,storage,9.9,9.9,9.9,2025.0,,1
+68730,HEB00750,32.56722,-97.114802,Tarrant,gas,gas_ice,1.2,1.2,1.2,2024.0,,3
+68731,HEB00779,29.682168,-95.354467,Harris,gas,gas_ice,1.2,1.2,1.2,2024.0,,3
+68732,HEB00797,29.817229,-95.80365,Harris,gas,gas_ice,1.2,1.2,1.2,2024.0,,3
+68733,HEB00798,29.957375,-95.207348,Harris,gas,gas_ice,1.2,1.2,1.2,2024.0,,3
+68734,HEB00801,32.914505,-97.308935,Tarrant,gas,gas_ice,1.2,1.2,1.2,2024.0,,3
+68736,HEBTEMDistCenter2A,31.152387,-97.361183,Bell,gas,gas_ice,6.4,6.4,6.4,2024.0,,16
+68737,OTHERTraditionBuffalo,29.684609,-95.427081,Harris,gas,gas_ice,1.2,1.2,1.2,2024.0,,3
+68809,Hidden Lakes Reliability Project,29.488956,-95.036514,Galveston,storage,storage,220.0,220.0,220.0,2025.0,,1
+68838,Hecate Energy Outpost Solar LLC,27.85923,-99.16174,Webb,solar,solar,515.0,515.0,515.0,2025.0,,1
+68842,Chillingham Storage,31.005302,-97.263189,Bell,storage,storage,150.0,150.0,150.0,2025.0,,1
+68856,Tyson Nick,33.644897,-95.627041,Lamar,solar,solar,90.5,90.0,90.5,2025.0,,1
+68874,Inertia Energy Storage,33.177277,-99.567743,Haskell,storage,storage,13.0,13.0,13.0,2025.0,,1
+68878,Longhorn Storage,32.428686,-99.159114,Eastland,storage,storage,165.0,142.1,165.0,2024.0,,1
+68879,Bocanova Energy Storage,29.435422,-95.251104,Brazoria,storage,storage,150.0,150.0,150.0,2025.0,,1
+68895,Libra Storage,29.466592,-98.002839,Guadalupe,storage,storage,236.3,201.0,236.3,2023.0,,1
+68896,Sun Valley Storage,31.857837,-97.017128,Hill,storage,storage,123.3,123.3,123.3,2024.0,,1
+68912,Padua 1,29.325064,-98.325615,Bexar,storage,storage,50.0,50.0,50.0,2025.0,,1
+68998,Long Point Solar,29.244,-95.676,Brazoria,solar,solar,120.0,120.0,120.0,2025.0,,1
+69026,Tanzanite Storage,32.230844,-95.8376,Henderson,storage,storage,283.2,257.8,283.2,2025.0,,1
+69027,"Stoneridge Solar, LLC",30.569447,-97.110428,Milam,solar,solar,200.0,200.0,200.0,2025.0,,1
+69045,Sealy BESS,29.847993,-96.198675,Austin,storage,storage,200.0,200.0,200.0,2025.0,,1
+69173,Air Products Texas City,29.3822,-94.9,Galveston,other,other,65.2,65.2,65.2,2025.0,,1
+69192,AETS Old Michigan Solar LLC,31.826508,-104.210286,Culberson,solar,solar,10.0,10.0,10.0,2025.0,,1
+69244,Cross Trails Energy Storage Project,32.745,-100.757,Scurry,storage,storage,58.3,57.0,58.3,2025.0,,1
+69261,Malakoff Solar Project,32.183314,-96.017538,Henderson,solar,solar,10.0,10.0,10.0,2025.0,,2
+69263,Fairfield Solar Project,31.714249,-96.186675,Freestone,solar,solar,10.0,10.0,10.0,2025.0,,1
+69265,Talco Solar Project,33.3516,-95.1732,Franklin,solar,solar,7.5,7.5,7.5,2025.0,,1
+69279,NEWPP,29.933747,-95.199855,Harris,gas,gas_ice,30.0,30.0,30.0,2024.0,,1
+69289,EDFR Bluebonnet,31.411854,-97.423672,McLennan,solar,solar,9.9,9.9,9.9,2023.0,,1
+69298,PP Jaguar BESS LLC,31.59992,-96.970541,McLennan,storage,storage,300.0,300.0,300.0,2025.0,,2
+69300,Regis Continental,26.514848,-98.609398,Starr,storage,storage,9.9,9.9,9.9,2024.0,,1
+69301,Regis Gregory,27.921403,-97.309414,San Patricio,storage,storage,9.9,9.9,9.9,2024.0,,1
+69302,Regis Palacios,28.757031,-96.211775,Matagorda,storage,storage,9.9,9.9,9.9,2024.0,,1
+69320,Parliament Solar,29.979,-95.943,Waller,solar,solar,480.0,480.0,480.0,2025.0,,2
+69331,Regis Carrizo Springs,28.517736,-99.833779,Dimmit,storage,storage,9.9,9.9,9.9,2025.0,,1
+69333,Regis Goodwin LLC,26.247029,-98.451671,Starr,storage,storage,9.9,9.9,9.9,2025.0,,1
+69334,Johnson City BESS,30.300444,-98.398333,Blanco,storage,storage,2.3,2.3,2.3,2020.0,,1
+69344,Regis Hearn,27.849367,-97.61106,Nueces,storage,storage,9.9,9.9,9.9,2024.0,,1
+69345,Regis Mason,30.738452,-99.232484,Mason,storage,storage,9.9,9.9,9.9,2024.0,,1
+69346,Regis Monte Cristo LLC,26.36037,-98.31517,Hidalgo,storage,storage,9.9,9.9,9.9,2024.0,,1
+69347,Regis Muenster,33.641097,-97.332594,Cooke,storage,storage,9.9,9.9,9.9,2024.0,,1
+69348,Regis Pirate,28.028576,-97.520494,San Patricio,storage,storage,9.9,9.9,9.9,2024.0,,1
+69349,Regis Falfurrias,27.241365,-98.140478,Brooks,storage,storage,9.9,9.9,9.9,2024.0,,1
+69350,Matta Power Station,31.040031,-103.652607,Reeves,storage,storage,10.0,10.0,10.0,2023.0,,1
+69352,"Citrus Flatts Energy Center, LLC",26.190675,-97.696129,Cameron,storage,storage,100.0,100.0,100.0,2023.0,,1
+69353,"Sunset Ridge Energy Center, LLC",28.92633,-99.09626,Frio,storage,storage,9.9,9.9,9.9,2023.0,,1
+69365,SMT Dallas BESS,32.777246,-96.665008,Dallas,storage,storage,10.0,10.0,10.0,2025.0,,1
+69366,SME Mission II BESS,26.168115,-98.324481,Hidalgo,storage,storage,10.0,10.0,10.0,2025.0,,1
+69378,RP SCG Texas Solar,30.427708,-97.747353,Travis,solar,solar,1.5,1.5,1.5,2025.0,,1
+69407,Dogfish BESS,30.918661,-102.85002,Pecos,storage,storage,75.0,75.0,75.0,2025.0,,1
+69411,Snyder BESS,32.705086,-100.905954,Scurry,storage,storage,10.0,10.0,10.0,2021.0,,1
+69413,Sweetwater BESS,32.457511,-100.443747,Nolan,storage,storage,10.0,10.0,10.0,2021.0,,1
+69414,Blevins Solar & Storage,31.211152,-97.185078,Falls,storage,storage,180.0,180.0,180.0,2025.0,,1
+69415,Westover BESS,31.83553,-102.443498,Ector,storage,storage,10.0,10.0,10.0,2021.0,,1
+69454,Crosby Clean Energy Center (BESS),29.872984,-95.016033,Harris,storage,storage,12.0,12.0,12.0,2025.0,,1
+69456,Maverick Clean Energy Center (BESS),29.364519,-95.202205,Brazoria,storage,storage,12.0,12.0,12.0,2025.0,,1
+69459,Spencer Clean Energy Center (BESS),29.660045,-95.191541,Harris,storage,storage,12.0,12.0,12.0,2025.0,,1
+69460,Winmil Clean Energy Center (BESS),29.225635,-95.42969,Brazoria,storage,storage,12.0,12.0,12.0,2025.0,,1
+69574,BESS TX Top Gear - BSHOU002,29.963075,-95.436929,Harris,storage,storage,10.0,10.0,10.0,2025.0,,1
+69575,BESS TX Panda - BSHOU004,29.838018,-95.352721,Harris,storage,storage,10.0,10.0,10.0,2025.0,,1
+69576,Non-PLD US-El Paso - BSSAT004,31.840393,-102.726358,Ector,storage,storage,9.9,9.9,9.9,2025.0,,1
+69751,HEB_CPS00793,29.734419,-98.680294,Bexar,gas,gas_ice,1.2,1.2,1.2,2025.0,,3
+69752,OTHERChildrensPlano,33.079222,-96.801395,Collin,gas,gas_ice,6.4,6.4,6.4,2025.0,,16
+69975,Telview ESS,29.57954,-95.487488,Harris,storage,storage,10.0,10.0,10.0,2025.0,,1
+69976,I-Eye ESS,29.3133,-96.10837,Wharton,storage,storage,10.0,10.0,10.0,2025.0,,1
+70224,GVEC,29.54438,-97.755529,Guadalupe,solar,solar,2.0,2.0,2.0,2017.0,,1

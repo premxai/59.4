@@ -1,0 +1,62 @@
+{
+ "planned_outage": {
+  "gas": 0.16,
+  "coal": 0.16,
+  "nuclear": 0.0,
+  "other": 0.16
+ },
+ "forced_base": {
+  "gas": 0.04,
+  "coal": 0.05,
+  "nuclear": 0.01,
+  "other": 0.05
+ },
+ "trip_pmax": {
+  "gas": 0.01,
+  "coal": 0.0075,
+  "nuclear": 0.002,
+  "other": 0.01
+ },
+ "trip_t50": -7.0,
+ "trip_scale": 4.0,
+ "recover_rate_warm": 0.05,
+ "recover_rate_cold": 0.004,
+ "winterize_eff": 0.8,
+ "gas_freeze_t": -4.0,
+ "gas_loss_max": 0.3,
+ "gas_loss_k": 3000.0,
+ "feedback_per_shed": 0.06,
+ "wind_cf_coef": [
+  -0.17320008946342774,
+  0.14613218295307098,
+  -0.00513364739466074
+ ],
+ "wind_cut_out": 25.0,
+ "ice_gain": 0.02,
+ "ice_melt": 0.05,
+ "reserves_mw": 2300.0,
+ "hz_per_gw": 0.14,
+ "ufls_stages": [
+  [
+   59.3,
+   0.05
+  ],
+  [
+   58.9,
+   0.1
+  ],
+  [
+   58.5,
+   0.1
+  ]
+ ],
+ "collapse_hz": 59.4,
+ "collapse_minutes": 9,
+ "instant_collapse_hz": 58.4,
+ "operator_lag_min": 5,
+ "operator_shed_mw_per_min": 500.0,
+ "imports_max_mw": 1200.0,
+ "customers_per_mw": 225.0,
+ "blackstart_days": 30.0,
+ "total_customers": 11000000
+}

@@ -1,0 +1,74 @@
+demand fit {'rmse_mw': 2615, 'event_2011_peak_mw': 59000, 'checks': {'2011-02-10': {'pred_peak': 55971, 'obs_served_peak': 57284}, '2018-01-17': {'pred_peak': 64771, 'obs_served_peak': 65750}, '2014-01-06': {'pred_peak': 56952, 'obs_served_peak': 55995}}}
+wind fit {'rmse_cf': 0.1223, 'mean_cf_obs': 0.3843}
+2011 observed wind mean 3,398 MW; coal drop 5,166 MW
+stage 1: 1500 samples in 286s; best loss 17.465
+stage 2: best loss 15.934 (406s)
+{
+ "loss_events": 16.579,
+ "loss_with_quiet": 16.579,
+ "free_params": {
+  "vuln_base": 0.19800483584095732,
+  "coal_mult": 2.370612917138598,
+  "thr_mu": -8.085765742562284,
+  "thr_sigma": 3.080940541725088,
+  "expo_tau_h": 7.450952754270231,
+  "windchill_k": 0.6,
+  "cold_repair_rate": 0.011237159613622854,
+  "recover_hi": 23.82772000692209,
+  "fts_slope": 0.026328147749685088,
+  "prod_loss_k": 904.5684386737116,
+  "deliv_buffer": 0.1992906604738064,
+  "s_def": 0.14378996057356158,
+  "b_trip": 0.2202506569951943,
+  "ice_gain": 0.07917058260458278
+ },
+ "quiet_winters": {
+  "quiet_2012_2013": {
+   "shed_hours": 0,
+   "peak_shed_mw": 0,
+   "collapsed": false
+  },
+  "quiet_2015_2016": {
+   "shed_hours": 0,
+   "peak_shed_mw": 0,
+   "collapsed": false
+  },
+  "quiet_2017_2018": {
+   "shed_hours": 0,
+   "peak_shed_mw": 0,
+   "collapsed": false
+  },
+  "quiet_2018_2019": {
+   "shed_hours": 0,
+   "peak_shed_mw": 0,
+   "collapsed": false
+  },
+  "quiet_2019_2020": {
+   "shed_hours": 0,
+   "peak_shed_mw": 0,
+   "collapsed": false
+  }
+ }
+}
+  2011_peak_shed_mw          target     4948.0  sim 1424.165
+  2011_shed_hours            target        7.4  sim 8.0
+  2011_planned_mw            target    12413.0  sim 12430.186
+  2011_forced_peak_mw        target    14702.0  sim 10781.437
+  2011_coal_out_mw           target     5200.0  sim 5707.833
+  2011_gas_fuel_mw           target     1282.0  sim 369.846
+  2011_prod_loss             target       0.21  sim 0.092
+  2011_min_freq              target     59.576  sim 59.571
+  2011_wind_mean_mw          target 3397.7356735312496  sim 2542.291
+  2011_weather_gross_mw      target    24087.0  sim 10511.372
+  1989_forced_peak_mw        target    11809.0  sim 14962.913
+  1989_weather_gross_mw      target    15559.0  sim 16967.885
+  1989_peak_shed_mw          target     1710.0  sim 721.277
+  1989_shed_hours            target        5.8  sim 1.0
+  1989_min_freq              target      59.65  sim 59.559
+  1989_gas_fuel_mw           target     1500.0  sim 0.0
+  2014_forced_peak_mw        target     9355.0  sim 7325.725
+  2014_shed_mw               target        0.0  sim 0.0
+  2014_eea_max               target        2.0  sim 0.0
+  2011feb10_shed_mw          target        0.0  sim 0.0
+  2018jan17_shed_mw          target        0.0  sim 0.0
+wrote D:\dev\MongoDB\sim\params_v1.json (411s)

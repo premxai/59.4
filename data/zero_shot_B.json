@@ -1,0 +1,56 @@
+{
+ "diagnosis": "No storms run yet. The baseline manual is purely reactive. It has no forecast in the briefing, no trend gauges and no winterization. It wakes the AI only once reserves are already thin, gas facilities are unprotected while shedding, and there is no restore discipline. The usual winter-storm failure follows: plants and gas wells freeze as the cold arrives, supply falls faster than the AI reacts, frequency collapses, and shedding gas facilities deepens the supply loss. This manual is built to address that chain.",
+ "proposals": [
+  {
+   "title": "Forecast-led, winterized, gas-protecting storm manual",
+   "organ": "build",
+   "lesson_title": "Prepare early, shed smart, restore promptly",
+   "lesson_text": "Winterize before winter. When deep cold is forecast, commit units, import, and ask for conservation early. If supply is falling, shed ahead but protect gas facilities. Restore homes once reserves recover.",
+   "predicted_effect": "Winterization and firm fuel shrink the supply loss. Forecast-driven precommit and imports add margin before the cold. Anticipatory shedding with protect_gas and an rt_shed frequency backstop should prevent collapse. The restore habit limits needless dark hours, so homes x hours dark on hard storms should fall substantially.",
+   "predicted_extra_storms_passed": 1,
+   "predicted_change_pct": -40,
+   "ops": [
+    {
+     "op": "set_build",
+     "args": "{\"winterize_plants\": {\"gas\": 0.6, \"coal\": 0.4, \"wind\": 0.3}, \"winterize_wells\": 0.6, \"firm_fuel\": 0.4, \"critical_load_map\": true, \"battery_mw\": 300, \"battery_mwh\": 1200}"
+    },
+    {
+     "op": "add_sensor",
+     "args": "{\"name\": \"supply_drop\", \"expr\": \"slope(supply, 3)\", \"description\": \"how fast supply is changing per hour over the last 3 hours (negative = falling)\"}"
+    },
+    {
+     "op": "add_rule",
+     "args": "{\"if\": \"fc_min_48 < -6\", \"then\": [\"precommit(0.15)\", \"imports(1000)\", \"conservation(0.03)\"], \"priority\": 2, \"description\": \"Deep cold forecast within 48h: commit extra units, line up imports, ask for conservation before the cold arrives\"}"
+    },
+    {
+     "op": "add_rule",
+     "args": "{\"if\": \"reserve_margin < 0.06\", \"then\": [\"dr(max)\", \"battery(discharge)\", \"conservation(0.05)\"], \"priority\": 3, \"description\": \"Thin reserves: use demand response, batteries and conservation before cutting homes\"}"
+    },
+    {
+     "op": "add_rule",
+     "args": "{\"if\": \"reserve_margin < 0.05 and supply_drop < -100\", \"then\": [\"shed_to_reserve(600, 2)\", \"protect_gas()\"], \"priority\": 4, \"description\": \"Supply falling with thin reserves: shed ahead of the drop while keeping gas facilities powered\"}"
+    },
+    {
+     "op": "add_rule",
+     "args": "{\"if\": \"shed > 0 and reserve_margin > 0.1 and supply_drop >= 0\", \"then\": [\"restore(400)\"], \"priority\": 1, \"description\": \"Reserves recovered and supply steady: bring homes back gradually but promptly\"}"
+    },
+    {
+     "op": "add_guardrail",
+     "args": "{\"when\": \"freq < 59.6 or below_59_4_min > 0\", \"enforce\": [\"rt_shed()\", \"protect_gas()\"], \"description\": \"Frequency sagging: control room cuts load immediately, never gas facilities\"}"
+    },
+    {
+     "op": "add_guardrail",
+     "args": "{\"when\": \"shed > 0\", \"enforce\": [\"protect_gas()\"], \"description\": \"Whenever shedding, keep gas facilities powered to avoid the gas-supply feedback loop\"}"
+    },
+    {
+     "op": "set_alert",
+     "args": "{\"when\": \"fc_min_48 < -6 or supply_drop < -200 or reserve_margin < 0.08\", \"description\": \"Wake the AI when deep cold is forecast, supply is falling fast, or reserves are thinning\"}"
+    },
+    {
+     "op": "set_context",
+     "args": "{\"show\": [\"demand\", \"supply\", \"reserve\", \"reserve_margin\", \"supply_trend\", \"supply_drop\", \"freq\", \"shed\", \"temp\", \"fc_min_24\", \"fc_min_48\", \"battery_soc\", \"dr_left\"], \"show_forecast\": true, \"memory_top_k\": 3, \"recent_hours\": 6}"
+    }
+   ]
+  }
+ ]
+}

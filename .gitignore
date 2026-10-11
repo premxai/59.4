@@ -1,0 +1,28 @@
+# secrets
+.env
+# python
+.venv/
+__pycache__/
+*.pyc
+# data (raw downloads are large and reproducible)
+data/raw/
+# node
+node_modules/
+viewer/dist/
+
+# blender (large binaries; renders get converted to web assets)
+blender/*.blend
+blender/*.blend1
+blender/renders/
+
+# harness caches (data/local_store is kept: the same records as Atlas, for anyone without access)
+data/llm_cache/
+data/run_cache/
+data/*.log
+
+# live demo caches and scratch
+data/live_cache/
+data/compare_test.sse
+data/loop_state_*.bak.json
+data/loop_state_smoke.json
+.claude/

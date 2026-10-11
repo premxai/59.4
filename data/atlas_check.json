@@ -1,0 +1,60 @@
+{
+ "checked_at": "2026-10-11T14:13:20",
+ "results": [
+  {
+   "status": "PASS",
+   "check": "admin: ping",
+   "detail": "allowed"
+  },
+  {
+   "status": "INFO",
+   "check": "server version",
+   "detail": "8.0.34"
+  },
+  {
+   "status": "PASS",
+   "check": "admin: create simdb.healthcheck + vault.test_runs",
+   "detail": "allowed"
+  },
+  {
+   "status": "PASS",
+   "check": "harness_rw: write simdb",
+   "detail": "allowed"
+  },
+  {
+   "status": "PASS",
+   "check": "harness_rw: read simdb",
+   "detail": "allowed"
+  },
+  {
+   "status": "PASS",
+   "check": "harness_rw: read vault (MUST be denied)",
+   "detail": "denied (code 13)"
+  },
+  {
+   "status": "PASS",
+   "check": "harness_rw: write vault (MUST be denied)",
+   "detail": "denied (code 13)"
+  },
+  {
+   "status": "PASS",
+   "check": "evaluator: write vault",
+   "detail": "allowed"
+  },
+  {
+   "status": "PASS",
+   "check": "evaluator: read simdb",
+   "detail": "allowed"
+  },
+  {
+   "status": "PASS",
+   "check": "evaluator: write simdb (MUST be denied)",
+   "detail": "denied (code 13)"
+  },
+  {
+   "status": "PASS",
+   "check": "harness_rw: change stream delivers an insert",
+   "detail": "allowed"
+  }
+ ]
+}

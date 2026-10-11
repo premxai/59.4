@@ -1,0 +1,8006 @@
+{
+ "a1": {
+  "builds": {
+   "none": {},
+   "map": {
+    "critical_load_map": true
+   },
+   "map_wells": {
+    "critical_load_map": true,
+    "winterize_wells": 0.4
+   },
+   "full": {
+    "winterize_plants": {
+     "gas": 0.7,
+     "coal": 0.7,
+     "nuclear": 0.5,
+     "other": 0.5,
+     "wind": 0.2
+    },
+    "winterize_wells": 0.4,
+    "firm_fuel": 0.1,
+    "critical_load_map": true,
+    "dr_mw": 1000.0
+   }
+  },
+  "results": {
+   "none": {
+    "good_ops": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1761268057.0228837,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1106335201.1384156,
+      "collapses": 0
+     }
+    },
+    "good_ops-no_protect_gas": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1761268057.0228837,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1106335201.1384156,
+      "collapses": 0
+     }
+    },
+    "good_ops-no_forecast": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1561983298.6882026,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 902499558.173071,
+      "collapses": 0
+     }
+    },
+    "good_ops-no_margin": {
+     "train": {
+      "majority_passed": 1,
+      "seed_passes": [
+       3,
+       1,
+       1
+      ],
+      "homes_dark_hours_total": 749217923.2224879,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 4,
+      "seed_passes": [
+       5,
+       4,
+       1
+      ],
+      "homes_dark_hours_total": 459688344.603127,
+      "collapses": 0
+     }
+    },
+    "good_ops-no_slow_restore": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1435273269.1020672,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 817521744.493268,
+      "collapses": 0
+     }
+    },
+    "good_ops-no_rt_shed": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1761268057.0228837,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1106335201.1384156,
+      "collapses": 0
+     }
+    },
+    "status_quo": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 952503115.8922292,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 533822080.5166135,
+      "collapses": 0
+     }
+    },
+    "status_quo+protect_gas": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 952503115.8922292,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 533822080.5166135,
+      "collapses": 0
+     }
+    }
+   },
+   "map": {
+    "good_ops": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1172687799.621296,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 780907321.4501648,
+      "collapses": 0
+     }
+    },
+    "good_ops-no_protect_gas": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1761268057.0228837,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1106335201.1384156,
+      "collapses": 0
+     }
+    },
+    "good_ops-no_forecast": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1061493704.1806122,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 649305666.7519466,
+      "collapses": 0
+     }
+    },
+    "good_ops-no_margin": {
+     "train": {
+      "majority_passed": 5,
+      "seed_passes": [
+       8,
+       5,
+       1
+      ],
+      "homes_dark_hours_total": 572986980.824429,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 7,
+      "seed_passes": [
+       7,
+       7,
+       2
+      ],
+      "homes_dark_hours_total": 367742433.20273966,
+      "collapses": 0
+     }
+    },
+    "good_ops-no_slow_restore": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 966238729.2633758,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 585990365.1488214,
+      "collapses": 0
+     }
+    },
+    "good_ops-no_rt_shed": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1172687799.621296,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 780907321.4501648,
+      "collapses": 0
+     }
+    },
+    "status_quo": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 951753935.1729932,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 532074986.5724249,
+      "collapses": 0
+     }
+    },
+    "status_quo+protect_gas": {
+     "train": {
+      "majority_passed": 1,
+      "seed_passes": [
+       2,
+       1,
+       0
+      ],
+      "homes_dark_hours_total": 700245802.8423928,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 1,
+      "seed_passes": [
+       5,
+       1,
+       0
+      ],
+      "homes_dark_hours_total": 419046043.89671373,
+      "collapses": 0
+     }
+    }
+   },
+   "map_wells": {
+    "good_ops": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1083173574.189868,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       1,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 739220333.3601928,
+      "collapses": 0
+     }
+    },
+    "good_ops-no_protect_gas": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1603600472.3474624,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1036124136.2530746,
+      "collapses": 0
+     }
+    },
+    "good_ops-no_forecast": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 989001665.1900616,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       1,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 620159781.0762851,
+      "collapses": 0
+     }
+    },
+    "good_ops-no_margin": {
+     "train": {
+      "majority_passed": 5,
+      "seed_passes": [
+       8,
+       5,
+       1
+      ],
+      "homes_dark_hours_total": 517564572.0365598,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 7,
+      "seed_passes": [
+       7,
+       7,
+       2
+      ],
+      "homes_dark_hours_total": 348070517.43256515,
+      "collapses": 0
+     }
+    },
+    "good_ops-no_slow_restore": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 896240167.8955507,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       1,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 557812453.8341144,
+      "collapses": 0
+     }
+    },
+    "good_ops-no_rt_shed": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1083173574.189868,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       1,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 739220333.3601928,
+      "collapses": 0
+     }
+    },
+    "status_quo": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 859882850.8220247,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       1,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 500191742.71808654,
+      "collapses": 0
+     }
+    },
+    "status_quo+protect_gas": {
+     "train": {
+      "majority_passed": 1,
+      "seed_passes": [
+       2,
+       1,
+       0
+      ],
+      "homes_dark_hours_total": 646608454.4212955,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 1,
+      "seed_passes": [
+       6,
+       1,
+       0
+      ],
+      "homes_dark_hours_total": 401204166.76398486,
+      "collapses": 0
+     }
+    }
+   },
+   "full": {
+    "good_ops": {
+     "train": {
+      "majority_passed": 9,
+      "seed_passes": [
+       9,
+       9,
+       7
+      ],
+      "homes_dark_hours_total": 341651092.0697858,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 8,
+      "seed_passes": [
+       8,
+       8,
+       6
+      ],
+      "homes_dark_hours_total": 285820441.7315548,
+      "collapses": 0
+     }
+    },
+    "good_ops-no_protect_gas": {
+     "train": {
+      "majority_passed": 9,
+      "seed_passes": [
+       9,
+       9,
+       5
+      ],
+      "homes_dark_hours_total": 416205455.6047117,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 7,
+      "seed_passes": [
+       8,
+       7,
+       5
+      ],
+      "homes_dark_hours_total": 332333232.3902434,
+      "collapses": 0
+     }
+    },
+    "good_ops-no_forecast": {
+     "train": {
+      "majority_passed": 9,
+      "seed_passes": [
+       9,
+       9,
+       9
+      ],
+      "homes_dark_hours_total": 358813564.8817037,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 7,
+      "seed_passes": [
+       8,
+       7,
+       3
+      ],
+      "homes_dark_hours_total": 274082427.6010199,
+      "collapses": 0
+     }
+    },
+    "good_ops-no_margin": {
+     "train": {
+      "majority_passed": 9,
+      "seed_passes": [
+       9,
+       9,
+       9
+      ],
+      "homes_dark_hours_total": 54049028.63045224,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 8,
+      "seed_passes": [
+       8,
+       8,
+       8
+      ],
+      "homes_dark_hours_total": 79247328.5695662,
+      "collapses": 0
+     }
+    },
+    "good_ops-no_slow_restore": {
+     "train": {
+      "majority_passed": 9,
+      "seed_passes": [
+       9,
+       9,
+       9
+      ],
+      "homes_dark_hours_total": 279237823.81176424,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 8,
+      "seed_passes": [
+       8,
+       8,
+       6
+      ],
+      "homes_dark_hours_total": 217320983.22991464,
+      "collapses": 0
+     }
+    },
+    "good_ops-no_rt_shed": {
+     "train": {
+      "majority_passed": 9,
+      "seed_passes": [
+       9,
+       9,
+       7
+      ],
+      "homes_dark_hours_total": 341651092.0697858,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 8,
+      "seed_passes": [
+       8,
+       8,
+       6
+      ],
+      "homes_dark_hours_total": 285820441.7315548,
+      "collapses": 0
+     }
+    },
+    "status_quo": {
+     "train": {
+      "majority_passed": 9,
+      "seed_passes": [
+       9,
+       9,
+       9
+      ],
+      "homes_dark_hours_total": 173527303.91821256,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 8,
+      "seed_passes": [
+       8,
+       8,
+       8
+      ],
+      "homes_dark_hours_total": 155622024.70290527,
+      "collapses": 0
+     }
+    },
+    "status_quo+protect_gas": {
+     "train": {
+      "majority_passed": 9,
+      "seed_passes": [
+       9,
+       9,
+       9
+      ],
+      "homes_dark_hours_total": 160412518.6954249,
+      "collapses": 0
+     },
+     "heldout": {
+      "majority_passed": 8,
+      "seed_passes": [
+       8,
+       8,
+       8
+      ],
+      "homes_dark_hours_total": 147420923.15463635,
+      "collapses": 0
+     }
+    }
+   }
+  },
+  "track_a_build": "map",
+  "track_a_build_value": {
+   "critical_load_map": true
+  },
+  "per_storm": {
+   "none": {
+    "good_ops": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1761268057.0228837,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         360380945.82415634,
+         216886943.33768383,
+         315035211.85548466
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         198982639.33553573,
+         143291200.93525624,
+         226036623.7722447
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         223671596.34498388,
+         183774016.09447843,
+         238068629.13607883
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         263650072.26651523,
+         207969449.1613346,
+         244051693.20853603
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         116983322.67543048,
+         121017299.30793773,
+         130246190.49224357
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         123910471.84689845,
+         76814181.55518934,
+         115308692.43637906
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         104184603.1129508,
+         126137256.18444261,
+         122251449.83171582
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         218018454.11798194,
+         182256259.29961687,
+         258960912.14247593
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         310731439.3589462,
+         176792687.58143348,
+         278391929.8527202
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1106335201.1384156,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         139946864.84741038,
+         140477532.0287581,
+         173335036.34834567
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         122852655.62678958,
+         124272082.02169275,
+         99184701.86824517
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         118866000.34218192,
+         125452987.90743521,
+         117283229.9939653
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         82341133.64792177,
+         96177188.84995121,
+         65847958.80828884
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         125131827.50461218,
+         96531287.02635072,
+         118772233.7129789
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         214498752.86013338,
+         205216854.96689156,
+         247866282.8145153
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         196447643.03941455,
+         159980705.39515233,
+         194879957.9253706
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         117538956.67642188,
+         113296749.88943113,
+         122806979.31298831
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "good_ops-no_protect_gas": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1761268057.0228837,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         360380945.82415634,
+         216886943.33768383,
+         315035211.85548466
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         198982639.33553573,
+         143291200.93525624,
+         226036623.7722447
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         223671596.34498388,
+         183774016.09447843,
+         238068629.13607883
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         263650072.26651523,
+         207969449.1613346,
+         244051693.20853603
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         116983322.67543048,
+         121017299.30793773,
+         130246190.49224357
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         123910471.84689845,
+         76814181.55518934,
+         115308692.43637906
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         104184603.1129508,
+         126137256.18444261,
+         122251449.83171582
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         218018454.11798194,
+         182256259.29961687,
+         258960912.14247593
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         310731439.3589462,
+         176792687.58143348,
+         278391929.8527202
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1106335201.1384156,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         139946864.84741038,
+         140477532.0287581,
+         173335036.34834567
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         122852655.62678958,
+         124272082.02169275,
+         99184701.86824517
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         118866000.34218192,
+         125452987.90743521,
+         117283229.9939653
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         82341133.64792177,
+         96177188.84995121,
+         65847958.80828884
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         125131827.50461218,
+         96531287.02635072,
+         118772233.7129789
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         214498752.86013338,
+         205216854.96689156,
+         247866282.8145153
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         196447643.03941455,
+         159980705.39515233,
+         194879957.9253706
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         117538956.67642188,
+         113296749.88943113,
+         122806979.31298831
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "good_ops-no_forecast": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1561983298.6882026,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         309229441.4277294,
+         206263087.98395884,
+         290070229.8785697
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         186808997.76963884,
+         135339850.33029294,
+         211111584.31699914
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         173583446.58460426,
+         148203308.64289546,
+         191928207.43772012
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         204136008.27317613,
+         176840390.42486596,
+         217690531.70952868
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         98037757.01566862,
+         97958109.28852777,
+         108456313.62641294
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         89163434.26961815,
+         60928134.008352496,
+         87799358.73923913
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         100662072.69852474,
+         123282972.86572179,
+         128335784.2575741
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         212715353.41073322,
+         176457195.88842702,
+         258623071.49283648
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         271517573.6566404,
+         171697556.93486682,
+         249110123.13148496
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 902499558.173071,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         130787743.51054412,
+         117439887.89918686,
+         141531137.94073275
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         93696753.03738405,
+         94646727.21170726,
+         81318006.69055104
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         95514674.01977447,
+         104310917.14865127,
+         93286900.66213828
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         81574758.2375142,
+         82324595.51582101,
+         62557499.08821851
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         98884367.35384959,
+         81683391.53059438,
+         94330188.42595387
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         162069813.92809087,
+         147444015.37829065,
+         203572139.27634484
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         168169635.63068366,
+         130936683.20670776,
+         158339918.4793588
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         92163574.8307346,
+         86506697.15246552,
+         104408648.36391507
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "good_ops-no_margin": {
+     "train": {
+      "majority_passed": 1,
+      "seed_passes": [
+       3,
+       1,
+       1
+      ],
+      "homes_dark_hours_total": 749217923.2224879,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         71721116.46034992,
+         65263371.01180522,
+         96010679.00562713
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         94041378.81090578,
+         77384619.35771741,
+         128671235.01184453
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         101706768.98520741,
+         83691893.24512634,
+         112806770.17784311
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         109759488.857631,
+         100704855.6217131,
+         99576996.51848926
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         51319444.22680172,
+         69632793.28887877,
+         76749905.99380654
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         53033763.41406339,
+         33291909.619363345,
+         54222512.07621576
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         38097988.00968551,
+         78099430.34311548,
+         55227088.6252503
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         107867511.86396982,
+         95843108.80218549,
+         149928197.2965301
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         84571533.12347108,
+         56095161.68243307,
+         102334248.23743334
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 4,
+      "seed_passes": [
+       5,
+       4,
+       1
+      ],
+      "homes_dark_hours_total": 459688344.603127,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         83698046.3080072,
+         76668320.89238115,
+         100035185.8272224
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         34317693.19317112,
+         45266587.98254256,
+         38616487.336375795
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         34739886.10504578,
+         48472489.34578696,
+         40928972.785384
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         19652896.296985615,
+         40521455.71070552,
+         22208683.31075767
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         38100907.49159194,
+         43568353.819468945,
+         52899733.697607465
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         70225902.11477683,
+         85744695.58437295,
+         88672787.1330201
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         93295492.64860192,
+         63462695.66857367,
+         92984984.3083947
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         48273704.2042896,
+         53357994.07969029,
+         63351077.964626685
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "good_ops-no_slow_restore": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1435273269.1020672,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         295047498.8608761,
+         194640162.2225413,
+         272182259.46876055
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         173836565.03733292,
+         126338650.37328196,
+         203346725.46959436
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         158164216.52737832,
+         130124604.65146501,
+         173238860.3335147
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         179711675.36334872,
+         156755676.90435743,
+         175473632.22122055
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         87678031.22674376,
+         91810123.17809626,
+         103165490.33481246
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         77204798.96842837,
+         52017644.99131183,
+         77464160.63976929
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         82465857.88778849,
+         113671321.46193148,
+         112152839.41789651
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         205498870.9192613,
+         165882927.05141369,
+         247273943.6088224
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         256382841.9103069,
+         160247444.24050426,
+         234042984.03544366
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 817521744.493268,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         123709448.88617112,
+         107733217.39021511,
+         138168908.81206325
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         88937787.08648595,
+         84462753.62464792,
+         73219170.84400976
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         80236605.52917634,
+         83362230.34182934,
+         81824697.07572316
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         75402440.58480129,
+         76094357.29645655,
+         57609329.95324988
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         88230555.83573857,
+         73758569.82636777,
+         85294496.99343362
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         136820201.58010083,
+         136266640.12507433,
+         179375761.3102568
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         158680204.92762867,
+         120735144.93266007,
+         148107863.70344365
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         79216264.2037049,
+         76509533.04207945,
+         98809049.5744861
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "good_ops-no_rt_shed": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1761268057.0228837,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         360380945.82415634,
+         216886943.33768383,
+         315035211.85548466
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         198982639.33553573,
+         143291200.93525624,
+         226036623.7722447
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         223671596.34498388,
+         183774016.09447843,
+         238068629.13607883
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         263650072.26651523,
+         207969449.1613346,
+         244051693.20853603
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         116983322.67543048,
+         121017299.30793773,
+         130246190.49224357
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         123910471.84689845,
+         76814181.55518934,
+         115308692.43637906
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         104184603.1129508,
+         126137256.18444261,
+         122251449.83171582
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         218018454.11798194,
+         182256259.29961687,
+         258960912.14247593
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         310731439.3589462,
+         176792687.58143348,
+         278391929.8527202
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1106335201.1384156,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         139946864.84741038,
+         140477532.0287581,
+         173335036.34834567
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         122852655.62678958,
+         124272082.02169275,
+         99184701.86824517
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         118866000.34218192,
+         125452987.90743521,
+         117283229.9939653
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         82341133.64792177,
+         96177188.84995121,
+         65847958.80828884
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         125131827.50461218,
+         96531287.02635072,
+         118772233.7129789
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         214498752.86013338,
+         205216854.96689156,
+         247866282.8145153
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         196447643.03941455,
+         159980705.39515233,
+         194879957.9253706
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         117538956.67642188,
+         113296749.88943113,
+         122806979.31298831
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "status_quo": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 952503115.8922292,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         160211705.92308807,
+         114033634.65719059,
+         146997720.420241
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         121974307.91138089,
+         91101337.8994642,
+         153749240.8878875
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         103381251.42043811,
+         94709658.93759105,
+         120165318.53644994
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         119891726.01874894,
+         119791534.62687373,
+         122410554.8902134
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         61574359.5950114,
+         67961350.94241628,
+         72154325.24820831
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         48679878.856409796,
+         36839580.28529397,
+         51585411.76989406
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         58486866.893915676,
+         93296433.55474037,
+         75567417.72946501
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         136379111.91138074,
+         122667781.12523699,
+         191420967.22247177
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         143965932.53290862,
+         90838404.416147,
+         137673533.46362025
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 533822080.5166135,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         95509437.0892056,
+         80095535.04946037,
+         103674695.3991089
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         44206583.15487097,
+         51907586.68890162,
+         47540097.00056831
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         46451151.02162646,
+         57578741.11830138,
+         51913310.91522374
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         32612994.671510845,
+         50287359.19949725,
+         34517270.936846115
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         50377391.218881205,
+         52177731.449866936,
+         59227979.8530202
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         82184424.22208126,
+         85821654.01204404,
+         102283027.52175312
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         116024691.95581695,
+         79109501.18668953,
+         104394902.8965559
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         53825419.95988414,
+         54839859.10210089,
+         64904895.92602502
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "status_quo+protect_gas": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 952503115.8922292,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         160211705.92308807,
+         114033634.65719059,
+         146997720.420241
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         121974307.91138089,
+         91101337.8994642,
+         153749240.8878875
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         103381251.42043811,
+         94709658.93759105,
+         120165318.53644994
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         119891726.01874894,
+         119791534.62687373,
+         122410554.8902134
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         61574359.5950114,
+         67961350.94241628,
+         72154325.24820831
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         48679878.856409796,
+         36839580.28529397,
+         51585411.76989406
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         58486866.893915676,
+         93296433.55474037,
+         75567417.72946501
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         136379111.91138074,
+         122667781.12523699,
+         191420967.22247177
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         143965932.53290862,
+         90838404.416147,
+         137673533.46362025
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 533822080.5166135,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         95509437.0892056,
+         80095535.04946037,
+         103674695.3991089
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         44206583.15487097,
+         51907586.68890162,
+         47540097.00056831
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         46451151.02162646,
+         57578741.11830138,
+         51913310.91522374
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         32612994.671510845,
+         50287359.19949725,
+         34517270.936846115
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         50377391.218881205,
+         52177731.449866936,
+         59227979.8530202
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         82184424.22208126,
+         85821654.01204404,
+         102283027.52175312
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         116024691.95581695,
+         79109501.18668953,
+         104394902.8965559
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         53825419.95988414,
+         54839859.10210089,
+         64904895.92602502
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    }
+   },
+   "map": {
+    "good_ops": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1172687799.621296,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         154547755.0112869,
+         162119871.80758438,
+         198750148.50473058
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         141337268.5660329,
+         124791557.86776984,
+         128347273.05220816
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         140626308.69794187,
+         153761655.0476926,
+         169485349.10951692
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         169576930.760989,
+         177536263.02714074,
+         155861542.15537202
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         67869126.9381243,
+         106098720.97702742,
+         105686211.90736695
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         64256023.499849826,
+         60175042.405341,
+         84047462.87125964
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         71668071.61756115,
+         105304220.70509104,
+         81855848.03503361
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         149924800.5626788,
+         156012282.4259669,
+         148604237.80418116
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         102101981.56955749,
+         149031449.5137216,
+         188685994.42286056
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 780907321.4501648,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         98589463.3394575,
+         115766190.78896949,
+         136452473.22403818
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         61248390.25313419,
+         92999711.94651534,
+         73785009.3572005
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         66837218.076034255,
+         103272825.62803651,
+         84515469.67906056
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         36844077.300701685,
+         74071357.17514928,
+         51487950.356615834
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         71942536.52469733,
+         86642259.39712808,
+         102119876.90252681
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         122425066.02664824,
+         166308240.87345016,
+         156678317.9329753
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         106952551.52006203,
+         127825988.87423477,
+         151345627.30614242
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         62344363.45875755,
+         94299037.65120792,
+         97967960.7577508
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "good_ops-no_protect_gas": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1761268057.0228837,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         360380945.82415634,
+         216886943.33768383,
+         315035211.85548466
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         198982639.33553573,
+         143291200.93525624,
+         226036623.7722447
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         223671596.34498388,
+         183774016.09447843,
+         238068629.13607883
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         263650072.26651523,
+         207969449.1613346,
+         244051693.20853603
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         116983322.67543048,
+         121017299.30793773,
+         130246190.49224357
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         123910471.84689845,
+         76814181.55518934,
+         115308692.43637906
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         104184603.1129508,
+         126137256.18444261,
+         122251449.83171582
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         218018454.11798194,
+         182256259.29961687,
+         258960912.14247593
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         310731439.3589462,
+         176792687.58143348,
+         278391929.8527202
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1106335201.1384156,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         139946864.84741038,
+         140477532.0287581,
+         173335036.34834567
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         122852655.62678958,
+         124272082.02169275,
+         99184701.86824517
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         118866000.34218192,
+         125452987.90743521,
+         117283229.9939653
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         82341133.64792177,
+         96177188.84995121,
+         65847958.80828884
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         125131827.50461218,
+         96531287.02635072,
+         118772233.7129789
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         214498752.86013338,
+         205216854.96689156,
+         247866282.8145153
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         196447643.03941455,
+         159980705.39515233,
+         194879957.9253706
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         117538956.67642188,
+         113296749.88943113,
+         122806979.31298831
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "good_ops-no_forecast": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1061493704.1806122,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         142889130.25578493,
+         153614389.00917625,
+         185852397.48106632
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         134730128.34701633,
+         115788432.27288218,
+         121738306.17195782
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         118546511.82164642,
+         123889663.36767113,
+         144457431.12056798
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         136917112.62412494,
+         152026837.13978195,
+         143139913.67304152
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         57340556.695831545,
+         80487376.94570178,
+         83378237.3496532
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         52361402.7594787,
+         51351507.50489819,
+         64886554.97588746
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         69017639.39820613,
+         103234717.5480977,
+         83453246.38724273
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         147184962.35041517,
+         150054452.34102812,
+         149068382.343397
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         101040641.50278226,
+         142172670.6484424,
+         175858510.50605646
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 649305666.7519466,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         82892240.73151954,
+         92822010.93064724,
+         105387756.0604695
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         46834430.43592587,
+         77694237.87727436,
+         64030511.00918245
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         56220166.51477903,
+         89356373.17235464,
+         73131486.83969268
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         34859320.604605705,
+         65045230.113051444,
+         49101453.875318214
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         57427456.732119754,
+         75226971.33031514,
+         83585847.31992188
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         101364963.66370869,
+         121517510.6563276,
+         126501872.34345779
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         94813172.74080321,
+         108972147.52438052,
+         130831040.10800536
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         57504805.68358809,
+         71114869.22495896,
+         81681124.76343206
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "good_ops-no_margin": {
+     "train": {
+      "majority_passed": 5,
+      "seed_passes": [
+       8,
+       5,
+       1
+      ],
+      "homes_dark_hours_total": 572986980.824429,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         42357700.88936267,
+         57014407.711949974,
+         72988593.19307804
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         73040922.40433674,
+         67834487.14262922,
+         75841932.27211006
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         76146043.8660634,
+         74761032.453378,
+         93222105.2630712
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         88631861.7269888,
+         90595628.32389033,
+         77329049.78337233
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         36881295.563797876,
+         62984353.29533455,
+         64976170.79422465
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         36318771.65873246,
+         30631374.865485907,
+         44797376.188072644
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         30056093.833033618,
+         67161574.46718043,
+         43820319.46009832
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         81119999.32487175,
+         82850890.0929251,
+         81707231.63672873
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         31761196.369281705,
+         51060630.97047822,
+         83069898.9228104
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 7,
+      "seed_passes": [
+       7,
+       7,
+       2
+      ],
+      "homes_dark_hours_total": 367742433.20273966,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         53803975.25826719,
+         66329769.06648113,
+         81143337.64320455
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         24024800.276338328,
+         43197648.97696895,
+         34088075.92543959
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         25329543.855822243,
+         45879531.76435755,
+         34072071.683202766
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         15710448.844304636,
+         36383020.93200506,
+         19085549.775712974
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         29186068.02265074,
+         42580278.156480335,
+         48668205.48793696
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         45835179.91053847,
+         70963838.98050423,
+         61952208.09468021
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         49397352.90929952,
+         57688699.05987239,
+         82045244.23747446
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         31013293.677133225,
+         48870405.37103046,
+         55978751.698513
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "good_ops-no_slow_restore": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 966238729.2633758,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         131247006.09668332,
+         143267243.1224529,
+         173052070.67257708
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         123190219.64675957,
+         108871372.11154002,
+         114090787.22612606
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         105318939.4034623,
+         108163642.04711422,
+         129374525.8069801
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         122345292.70762497,
+         134388585.27349317,
+         119176837.39693499
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         51011401.74338034,
+         74527157.38254908,
+         77883509.89070332
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         46215870.14717645,
+         44620722.49374444,
+         58845201.75412609
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         58524361.15095468,
+         94860272.33398253,
+         73443541.23319788
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         140404963.246083,
+         140765701.76076394,
+         138359820.54766825
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         89352480.53089693,
+         132226567.34099895,
+         165188094.72215265
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 585990365.1488214,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         76115021.15388054,
+         86330439.26949991,
+         101565611.68896556
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         42570465.74916122,
+         68229659.89166906,
+         56685848.924472965
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         47893590.7642649,
+         75753441.58670217,
+         63201534.748274595
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         32353469.50216753,
+         59987573.45680521,
+         44656403.4778304
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         50763118.23103443,
+         68077464.412152,
+         76561526.18944968
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         87404496.26788062,
+         110987885.62525605,
+         110784133.55356531
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         88242831.5932538,
+         101371844.39318667,
+         123411831.97224316
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         47367448.487325236,
+         62356972.69665674,
+         75298481.810766
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "good_ops-no_rt_shed": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1172687799.621296,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         154547755.0112869,
+         162119871.80758438,
+         198750148.50473058
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         141337268.5660329,
+         124791557.86776984,
+         128347273.05220816
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         140626308.69794187,
+         153761655.0476926,
+         169485349.10951692
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         169576930.760989,
+         177536263.02714074,
+         155861542.15537202
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         67869126.9381243,
+         106098720.97702742,
+         105686211.90736695
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         64256023.499849826,
+         60175042.405341,
+         84047462.87125964
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         71668071.61756115,
+         105304220.70509104,
+         81855848.03503361
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         149924800.5626788,
+         156012282.4259669,
+         148604237.80418116
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         102101981.56955749,
+         149031449.5137216,
+         188685994.42286056
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 780907321.4501648,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         98589463.3394575,
+         115766190.78896949,
+         136452473.22403818
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         61248390.25313419,
+         92999711.94651534,
+         73785009.3572005
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         66837218.076034255,
+         103272825.62803651,
+         84515469.67906056
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         36844077.300701685,
+         74071357.17514928,
+         51487950.356615834
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         71942536.52469733,
+         86642259.39712808,
+         102119876.90252681
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         122425066.02664824,
+         166308240.87345016,
+         156678317.9329753
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         106952551.52006203,
+         127825988.87423477,
+         151345627.30614242
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         62344363.45875755,
+         94299037.65120792,
+         97967960.7577508
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "status_quo": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 951753935.1729932,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         160211705.92308807,
+         114033634.65719059,
+         146997720.420241
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         121974307.91138089,
+         91101337.8994642,
+         153749240.8878875
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         103381251.42043811,
+         94465913.72741881,
+         120165318.53644994
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         119571477.22746739,
+         119791534.62687373,
+         122410554.8902134
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         61201033.871402934,
+         67961350.94241628,
+         72154325.24820831
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         48679878.856409796,
+         36839580.28529397,
+         51573067.88639529
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         58372571.39667955,
+         93200540.33343019,
+         75567417.72946501
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         136379111.91138074,
+         122667781.12523699,
+         190926126.9579679
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         143965932.53290862,
+         90838404.416147,
+         137080683.89752328
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 532074986.5724249,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         95509437.0892056,
+         79672415.03217533,
+         102440929.18332902
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         44206583.15487097,
+         51907586.68890162,
+         47540097.00056831
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         46451151.02162646,
+         57578741.11830138,
+         51913310.91522374
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         32612661.20631492,
+         50287359.19949725,
+         34517270.936846115
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         50377391.218881205,
+         52177731.449866936,
+         59227979.8530202
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         80246404.98241816,
+         85821654.01204404,
+         102121521.76502298
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         115137243.85202408,
+         78970077.13502698,
+         104394902.8965559
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         53825419.95988414,
+         54382194.11964428,
+         64904895.92602502
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "status_quo+protect_gas": {
+     "train": {
+      "majority_passed": 1,
+      "seed_passes": [
+       2,
+       1,
+       0
+      ],
+      "homes_dark_hours_total": 700245802.8423928,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         76441464.9459423,
+         88832766.09847611,
+         110695837.14447948
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         92318029.39535597,
+         80627787.67576782,
+         87151745.1362079
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         80220525.42557049,
+         84886709.22501871,
+         98995936.38845724
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         95023729.606305,
+         105327122.54685584,
+         95901179.77623175
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         40536869.25935068,
+         58234439.323669866,
+         58142579.95627257
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         34303999.34298529,
+         33713760.34687302,
+         42145103.31021987
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         44211145.15401078,
+         78786608.93404984,
+         56555218.09836963
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         103067407.65462372,
+         104980961.3934719,
+         105270249.53434032
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         54427878.32108151,
+         78911345.71500814,
+         111027008.8181827
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 1,
+      "seed_passes": [
+       5,
+       1,
+       0
+      ],
+      "homes_dark_hours_total": 419046043.89671373,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         58152425.21919484,
+         68786568.42777857,
+         81634887.70671423
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         27336511.38611357,
+         47956670.68010016,
+         41164090.6588539
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         32349771.50885188,
+         54677761.27520497,
+         43763514.13561929
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         20367816.433273084,
+         41742733.73989511,
+         26817055.257525362
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         36708177.50933182,
+         50067268.20276195,
+         54775559.04452908
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         56382339.35782098,
+         72882869.5367023,
+         73090743.9032444
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         63118367.64460358,
+         71042873.8342509,
+         91417254.05186711
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         37225341.588867545,
+         49310776.57038666,
+         56366754.016649716
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    }
+   },
+   "map_wells": {
+    "good_ops": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1083173574.189868,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         102842484.94126207,
+         152664980.55006388,
+         180300902.2008946
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         140693959.2694135,
+         124615165.86954279,
+         128347273.05220816
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         98703171.72369723,
+         134531198.85823905,
+         143120033.12374997
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         127367946.91363975,
+         164883810.88741714,
+         110128319.92385443
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         67869126.9381243,
+         106098720.97702742,
+         105686211.90736695
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         64256023.499849826,
+         60175042.405341,
+         84047462.87125964
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         71668071.61756115,
+         105304220.70509104,
+         81855848.03503361
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         149924800.5626788,
+         156012282.4259669,
+         148604237.80418116
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         102101981.56955749,
+         149031449.5137216,
+         188685994.42286056
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       1,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 739220333.3601928,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         98589463.3394575,
+         115766190.78896949,
+         136452473.22403818
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         61248390.25313419,
+         92999711.94651534,
+         73785009.3572005
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         66837218.076034255,
+         103272825.62803651,
+         84515469.67906056
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         36844077.300701685,
+         74071357.17514928,
+         51487950.356615834
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         71942536.52469733,
+         86642259.39712808,
+         102119876.90252681
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         76550397.77112126,
+         145030737.2642175,
+         98769525.52781868
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         106952551.52006203,
+         127825988.87423477,
+         151345627.30614242
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         62344363.45875755,
+         94299037.65120792,
+         97967960.7577508
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "good_ops-no_protect_gas": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1603600472.3474624,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         308568926.37519807,
+         180137183.0467935,
+         249257494.6932732
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         198739149.12782165,
+         143291200.93525624,
+         225805734.62180546
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         172166034.8131249,
+         158267995.1314592,
+         184861496.55587295
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         183421984.03036478,
+         183148166.9951973,
+         161130900.91985792
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         116983322.67543048,
+         121017299.30793773,
+         130246190.49224357
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         123910471.84689845,
+         76814181.55518934,
+         115308692.43637906
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         104184603.1129508,
+         126137256.18444261,
+         122251449.83171582
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         218018454.11798194,
+         182256259.29961687,
+         258960912.14247593
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         310731439.3589462,
+         176792687.58143348,
+         278391929.8527202
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1036124136.2530746,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         139946864.84741038,
+         140477532.0287581,
+         173335036.34834567
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         122852655.62678958,
+         124272082.02169275,
+         99184701.86824517
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         118866000.34218192,
+         125452987.90743521,
+         117283229.9939653
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         82341133.64792177,
+         96177188.84995121,
+         65847958.80828884
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         125131827.50461218,
+         96531287.02635072,
+         118772233.7129789
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         113946985.61417289,
+         176901228.62531352,
+         166100481.74603045
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         196447643.03941455,
+         159980705.39515233,
+         194879957.9253706
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         117538956.67642188,
+         113296749.88943113,
+         122806979.31298831
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "good_ops-no_forecast": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 989001665.1900616,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         92423443.40021491,
+         144454693.3347715,
+         166628039.50588572
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         133619311.54426078,
+         115609340.4035587,
+         121738306.17195782
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         90497079.7436431,
+         111081356.63281786,
+         122826324.88487124
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         106030173.94126913,
+         141466871.17823642,
+         109739195.57157865
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         57340556.695831545,
+         80487376.94570178,
+         83378237.3496532
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         52361402.7594787,
+         51351507.50489819,
+         64886554.97588746
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         69017639.39820613,
+         103234717.5480977,
+         83453246.38724273
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         147184962.35041517,
+         150054452.34102812,
+         149068382.343397
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         101040641.50278226,
+         142172670.6484424,
+         175858510.50605646
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       1,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 620159781.0762851,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         82892240.73151954,
+         92822010.93064724,
+         105387756.0604695
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         46834430.43592587,
+         77694237.87727436,
+         64030511.00918245
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         56220166.51477903,
+         89356373.17235464,
+         73131486.83969268
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         34859320.604605705,
+         65045230.113051444,
+         49101453.875318214
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         57427456.732119754,
+         75226971.33031514,
+         83585847.31992188
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         70305862.16174491,
+         108638803.74081005,
+         83002023.7339548
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         94813172.74080321,
+         108972147.52438052,
+         130831040.10800536
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         57504805.68358809,
+         71114869.22495896,
+         81681124.76343206
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "good_ops-no_margin": {
+     "train": {
+      "majority_passed": 5,
+      "seed_passes": [
+       8,
+       5,
+       1
+      ],
+      "homes_dark_hours_total": 517564572.0365598,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         23662909.208074864,
+         53142464.25638431,
+         64809198.85124646
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         73040922.40433674,
+         67834487.14262922,
+         75841932.27211006
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         45436987.8913282,
+         59924757.43076275,
+         71894628.14601527
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         56645037.32394618,
+         83605345.62471429,
+         47657868.115074754
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         36881295.563797876,
+         62984353.29533455,
+         64976170.79422465
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         36318771.65873246,
+         30631374.865485907,
+         44797376.188072644
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         30056093.833033618,
+         67161574.46718043,
+         43820319.46009832
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         81119999.32487175,
+         82850890.0929251,
+         81707231.63672873
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         31761196.369281705,
+         51060630.97047822,
+         83069898.9228104
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 7,
+      "seed_passes": [
+       7,
+       7,
+       2
+      ],
+      "homes_dark_hours_total": 348070517.43256515,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         53803975.25826719,
+         66329769.06648113,
+         81143337.64320455
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         24024800.276338328,
+         43197648.97696895,
+         34088075.92543959
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         25329543.855822243,
+         45879531.76435755,
+         34072071.683202766
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         15710448.844304636,
+         36383020.93200506,
+         19085549.775712974
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         29186068.02265074,
+         42580278.156480335,
+         48668205.48793696
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         24382588.60645107,
+         61004648.86898452,
+         34348242.199763834
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         49397352.90929952,
+         57688699.05987239,
+         82045244.23747446
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         31013293.677133225,
+         48870405.37103046,
+         55978751.698513
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "good_ops-no_slow_restore": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 896240167.8955507,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         82132948.01095791,
+         134168942.31940083,
+         154455706.15593636
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         122104179.10196137,
+         108695117.43951517,
+         114090787.22612606
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         77592993.19011007,
+         96309748.92814144,
+         109347577.20112592
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         92539224.76392859,
+         124859380.7726985,
+         86194232.29837164
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         51011401.74338034,
+         74527157.38254908,
+         77883509.89070332
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         46215870.14717645,
+         44620722.49374444,
+         58845201.75412609
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         58524361.15095468,
+         94860272.33398253,
+         73443541.23319788
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         140404963.246083,
+         140765701.76076394,
+         138359820.54766825
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         89352480.53089693,
+         132226567.34099895,
+         165188094.72215265
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       1,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 557812453.8341144,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         76115021.15388054,
+         86330439.26949991,
+         101565611.68896556
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         42570465.74916122,
+         68229659.89166906,
+         56685848.924472965
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         47893590.7642649,
+         75753441.58670217,
+         63201534.748274595
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         32353469.50216753,
+         59987573.45680521,
+         44656403.4778304
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         50763118.23103443,
+         68077464.412152,
+         76561526.18944968
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         56575423.66852303,
+         98964924.08675522,
+         69102433.74730325
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         88242831.5932538,
+         101371844.39318667,
+         123411831.97224316
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         47367448.487325236,
+         62356972.69665674,
+         75298481.810766
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "good_ops-no_rt_shed": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 1083173574.189868,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         102842484.94126207,
+         152664980.55006388,
+         180300902.2008946
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         140693959.2694135,
+         124615165.86954279,
+         128347273.05220816
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         98703171.72369723,
+         134531198.85823905,
+         143120033.12374997
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         127367946.91363975,
+         164883810.88741714,
+         110128319.92385443
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         67869126.9381243,
+         106098720.97702742,
+         105686211.90736695
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         64256023.499849826,
+         60175042.405341,
+         84047462.87125964
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         71668071.61756115,
+         105304220.70509104,
+         81855848.03503361
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         149924800.5626788,
+         156012282.4259669,
+         148604237.80418116
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         102101981.56955749,
+         149031449.5137216,
+         188685994.42286056
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       1,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 739220333.3601928,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         98589463.3394575,
+         115766190.78896949,
+         136452473.22403818
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         61248390.25313419,
+         92999711.94651534,
+         73785009.3572005
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         66837218.076034255,
+         103272825.62803651,
+         84515469.67906056
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         36844077.300701685,
+         74071357.17514928,
+         51487950.356615834
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         71942536.52469733,
+         86642259.39712808,
+         102119876.90252681
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         76550397.77112126,
+         145030737.2642175,
+         98769525.52781868
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         106952551.52006203,
+         127825988.87423477,
+         151345627.30614242
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         62344363.45875755,
+         94299037.65120792,
+         97967960.7577508
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "status_quo": {
+     "train": {
+      "majority_passed": 0,
+      "seed_passes": [
+       0,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 859882850.8220247,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         87699739.49401668,
+         89795224.6477016,
+         117028988.21034986
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         122028698.16960369,
+         91101337.8994642,
+         153342807.66945022
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         81058459.16944006,
+         79791394.6511342,
+         92390854.53027007
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         86453757.93393096,
+         108898147.71994777,
+         82651334.9798986
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         61201033.871402934,
+         67961350.94241628,
+         72154325.24820831
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         48679878.856409796,
+         36839580.28529397,
+         51573067.88639529
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         58372571.39667955,
+         93200540.33343019,
+         75567417.72946501
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         136379111.91138074,
+         122667781.12523699,
+         190926126.9579679
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         143965932.53290862,
+         90838404.416147,
+         137080683.89752328
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 0,
+      "seed_passes": [
+       1,
+       0,
+       0
+      ],
+      "homes_dark_hours_total": 500191742.71808654,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         95509437.0892056,
+         79672415.03217533,
+         102440929.18332902
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         44206583.15487097,
+         51907586.68890162,
+         47540097.00056831
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         46451151.02162646,
+         57578741.11830138,
+         51913310.91522374
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         32612661.20631492,
+         50287359.19949725,
+         34517270.936846115
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         50377391.218881205,
+         52177731.449866936,
+         59227979.8530202
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         40368354.30316253,
+         70383458.17014302,
+         61788036.72316468
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         115137243.85202408,
+         78970077.13502698,
+         104394902.8965559
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         53825419.95988414,
+         54382194.11964428,
+         64904895.92602502
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "status_quo+protect_gas": {
+     "train": {
+      "majority_passed": 1,
+      "seed_passes": [
+       2,
+       1,
+       0
+      ],
+      "homes_dark_hours_total": 646608454.4212955,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         44547517.47185444,
+         82099621.34731217,
+         98398482.26583302
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         92053467.6183417,
+         80627787.67576782,
+         87151745.1362079
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         58671941.15515391,
+         74768522.9679941,
+         82155922.21184961
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         69179830.52843906,
+         98089375.22523522,
+         67766574.49738795
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         40536869.25935068,
+         58234439.323669866,
+         58142579.95627257
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         34303999.34298529,
+         33713760.34687302,
+         42145103.31021987
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         44211145.15401078,
+         78786608.93404984,
+         56555218.09836963
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         103067407.65462372,
+         104980961.3934719,
+         105270249.53434032
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         54427878.32108151,
+         78911345.71500814,
+         111027008.8181827
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 1,
+      "seed_passes": [
+       6,
+       1,
+       0
+      ],
+      "homes_dark_hours_total": 401204166.76398486,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         58152425.21919484,
+         68786568.42777857,
+         81634887.70671423
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         27336511.38611357,
+         47956670.68010016,
+         41164090.6588539
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         32349771.50885188,
+         54677761.27520497,
+         43763514.13561929
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         20367816.433273084,
+         41742733.73989511,
+         26817055.257525362
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         36708177.50933182,
+         50067268.20276195,
+         54775559.04452908
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         37183245.72421412,
+         65556571.22879228,
+         46090504.44657465
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 0,
+        "homes_dark_hours": [
+         63118367.64460358,
+         71042873.8342509,
+         91417254.05186711
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         37225341.588867545,
+         49310776.57038666,
+         56366754.016649716
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    }
+   },
+   "full": {
+    "good_ops": {
+     "train": {
+      "majority_passed": 9,
+      "seed_passes": [
+       9,
+       9,
+       7
+      ],
+      "homes_dark_hours_total": 341651092.0697858,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         24029458.192052875,
+         75149533.82123485,
+         89948286.31545198
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         30642086.908020556,
+         22064165.86860631,
+         22457751.72348875
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         37539462.64737144,
+         72229988.99423517,
+         69777749.73366752
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         65716910.82619089,
+         62573753.87613094,
+         53678925.386609465
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         2150836.002664439,
+         6108700.324374434,
+         5396179.713765843
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         11700078.66620088,
+         10508153.63152299,
+         7275038.152841713
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         14890532.294660304,
+         32307506.773576815,
+         23841021.61407997
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         44608301.57567945,
+         45462853.1963425,
+         43199986.247693464
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         14850686.1461115,
+         61489432.65156342,
+         75355894.92521864
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 8,
+      "seed_passes": [
+       8,
+       8,
+       6
+      ],
+      "homes_dark_hours_total": 285820441.7315548,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         9806874.548756834,
+         22597176.96698253,
+         31971443.015933216
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         12671813.466292758,
+         33524338.592916343,
+         29320076.645829614
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         23057109.857361477,
+         60857068.9202571,
+         52058575.461023055
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         5074629.1037804745,
+         21551865.060790762,
+         10809847.549607515
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         36615908.97626054,
+         69053896.84772933,
+         63697806.523169234
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         46786960.87253517,
+         54650382.927045226,
+         43245162.02214156
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         36746975.168450214,
+         54107041.12200199,
+         67987736.29443823
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         12205856.2605004,
+         31813467.536284268,
+         27249311.454576574
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "good_ops-no_protect_gas": {
+     "train": {
+      "majority_passed": 9,
+      "seed_passes": [
+       9,
+       9,
+       5
+      ],
+      "homes_dark_hours_total": 416205455.6047117,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         26657577.367488116,
+         79346529.8640318,
+         101391787.31296055
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         39567186.513721526,
+         23551054.53515997,
+         38294346.37260078
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         48194477.86852831,
+         76363953.60829431,
+         85757752.20003523
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         88858303.99096364,
+         63649833.15500583,
+         75269942.53844687
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         2150836.002664439,
+         6108700.324374434,
+         5396179.713765843
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         11788941.953674145,
+         10583593.526950123,
+         7275038.152841713
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         18181768.072755713,
+         33691646.40679064,
+         30245177.63768512
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         55668436.536028005,
+         51238486.611715645,
+         102114343.24434498
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         15082227.819495851,
+         64203885.49686615,
+         87984359.98694527
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 7,
+      "seed_passes": [
+       8,
+       7,
+       5
+      ],
+      "homes_dark_hours_total": 332333232.3902434,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         9603747.024204526,
+         23889410.127600238,
+         39264286.76010295
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         12815093.729352761,
+         34889943.7018594,
+         37474009.6750716
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         27220864.240887906,
+         64828946.52657598,
+         65038223.2740946
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         5074629.1037804745,
+         22179803.47236128,
+         11735173.850575522
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         43298171.50430642,
+         77354271.34934393,
+         73569115.79380704
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         63815179.853745796,
+         56478690.88165443,
+         64319281.36810988
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         50408806.63137624,
+         59094167.63793257,
+         78315974.23975584
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         12317407.631472318,
+         32624326.87331793,
+         31390171.919440534
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "good_ops-no_forecast": {
+     "train": {
+      "majority_passed": 9,
+      "seed_passes": [
+       9,
+       9,
+       9
+      ],
+      "homes_dark_hours_total": 358813564.8817037,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         34380129.11705969,
+         79261957.67501265,
+         86532980.20758101
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         32333308.017931275,
+         25178882.901971973,
+         25375270.061494295
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         39824118.43590735,
+         65314946.76013969,
+         63745660.46695202
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         65175825.73032429,
+         64356439.89634501,
+         57904514.68056871
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         10742513.860394845,
+         8550054.43832067,
+         10889813.113825012
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         11888964.041349005,
+         9754763.17737834,
+         7355166.732221931
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         18336734.49333288,
+         34025284.02307288,
+         25756075.765122943
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         43895859.6787128,
+         46966304.21502625,
+         46665645.30429394
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         23220491.75660813,
+         64267697.23317833,
+         74741292.86098528
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 7,
+      "seed_passes": [
+       8,
+       7,
+       3
+      ],
+      "homes_dark_hours_total": 274082427.6010199,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         16288679.599874478,
+         22768549.692466132,
+         32256402.46835711
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         12137320.801274136,
+         33796216.3490762,
+         28228689.327265304
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         28898888.430003725,
+         59652513.889818974,
+         49234281.757712394
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         5746487.418394546,
+         24040075.27608925,
+         10358212.371046506
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 1,
+        "homes_dark_hours": [
+         34398923.672778666,
+         62192925.27369261,
+         53673601.55305815
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         43668765.83776051,
+         51415966.13805881,
+         38067319.545078546
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         36287337.58650638,
+         48512561.88476647,
+         62386495.61669849
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         16056563.057262102,
+         26272670.246960804,
+         25907835.009059433
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "good_ops-no_margin": {
+     "train": {
+      "majority_passed": 9,
+      "seed_passes": [
+       9,
+       9,
+       9
+      ],
+      "homes_dark_hours_total": 54049028.63045224,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         400125.0,
+         4735062.443918026,
+         6304422.464927522
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         1841834.7823168938,
+         1064503.8574367315,
+         2066802.4206179923
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         8745126.481134119,
+         25252417.163050838,
+         25681266.153118048
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         13822147.681350093,
+         13276893.804455725,
+         10180856.008186169
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         40500.0,
+         372301.9604667622,
+         206537.53777105338
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         1510045.8408722992,
+         1072249.572395191,
+         418970.0189188631
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         5020443.967895631,
+         10139172.762430854,
+         6913666.625198405
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         4153070.0462128557,
+         5013214.608984558,
+         5239352.932383464
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         143743.2206814822,
+         3455626.0608075997,
+         5076732.4758255165
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 8,
+      "seed_passes": [
+       8,
+       8,
+       8
+      ],
+      "homes_dark_hours_total": 79247328.5695662,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         812885.8692939127,
+         3783188.3360359953,
+         8622913.026874058
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         1817874.4740316477,
+         12006670.712511482,
+         9159764.801819462
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         4613478.1608679835,
+         19584588.30748276,
+         14515859.205017418
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         470919.9219030071,
+         6637763.770051853,
+         1471607.520991997
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         8053470.452645304,
+         28722733.412078857,
+         23124310.856924936
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         8407668.772590585,
+         12561754.464571651,
+         7033191.50984782
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         7455720.538487229,
+         15539550.050078493,
+         23474415.30056209
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         1578335.0346121246,
+         9644915.792762779,
+         8648405.4166552
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "good_ops-no_slow_restore": {
+     "train": {
+      "majority_passed": 9,
+      "seed_passes": [
+       9,
+       9,
+       9
+      ],
+      "homes_dark_hours_total": 279237823.81176424,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         21475721.30529455,
+         65910016.43807491,
+         74013618.36470118
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         22801596.31288427,
+         17382427.23961177,
+         19102811.032997094
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         29512605.48408792,
+         53274198.51282701,
+         52850986.456577025
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         51653866.207984254,
+         48969922.60860813,
+         42440786.647977695
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         1952946.9247460992,
+         4454791.3003567085,
+         4369327.561775304
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         9086629.122011747,
+         7618609.439525781,
+         5438237.623380996
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         12508796.447680054,
+         27070734.439933468,
+         19687099.113874733
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         37144583.67499132,
+         38293623.817231886,
+         38429760.84772334
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         13882252.853586912,
+         53570062.390830636,
+         64817459.266018
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 8,
+      "seed_passes": [
+       8,
+       8,
+       6
+      ],
+      "homes_dark_hours_total": 217320983.22991464,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         7024286.133740919,
+         14945980.000976738,
+         22971189.126415014
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         9951005.96033582,
+         24527460.004424486,
+         23527504.0838231
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         18385797.084304065,
+         45812953.16262587,
+         40491068.88758339
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         4137284.9896217217,
+         16875099.16950583,
+         8913359.911136424
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         28408256.21355731,
+         53833104.181160495,
+         48734004.40736997
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         33665431.45208605,
+         39579708.09525544,
+         30015581.251203068
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         30584575.48962547,
+         42023937.54491015,
+         55000716.77961154
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         9749715.951685226,
+         21752271.334285863,
+         21052658.474500034
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "good_ops-no_rt_shed": {
+     "train": {
+      "majority_passed": 9,
+      "seed_passes": [
+       9,
+       9,
+       7
+      ],
+      "homes_dark_hours_total": 341651092.0697858,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         24029458.192052875,
+         75149533.82123485,
+         89948286.31545198
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         30642086.908020556,
+         22064165.86860631,
+         22457751.72348875
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         37539462.64737144,
+         72229988.99423517,
+         69777749.73366752
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         65716910.82619089,
+         62573753.87613094,
+         53678925.386609465
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         2150836.002664439,
+         6108700.324374434,
+         5396179.713765843
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         11700078.66620088,
+         10508153.63152299,
+         7275038.152841713
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         14890532.294660304,
+         32307506.773576815,
+         23841021.61407997
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         44608301.57567945,
+         45462853.1963425,
+         43199986.247693464
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         14850686.1461115,
+         61489432.65156342,
+         75355894.92521864
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 8,
+      "seed_passes": [
+       8,
+       8,
+       6
+      ],
+      "homes_dark_hours_total": 285820441.7315548,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         9806874.548756834,
+         22597176.96698253,
+         31971443.015933216
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         12671813.466292758,
+         33524338.592916343,
+         29320076.645829614
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         23057109.857361477,
+         60857068.9202571,
+         52058575.461023055
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         5074629.1037804745,
+         21551865.060790762,
+         10809847.549607515
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         36615908.97626054,
+         69053896.84772933,
+         63697806.523169234
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         46786960.87253517,
+         54650382.927045226,
+         43245162.02214156
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 2,
+        "homes_dark_hours": [
+         36746975.168450214,
+         54107041.12200199,
+         67987736.29443823
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         12205856.2605004,
+         31813467.536284268,
+         27249311.454576574
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "status_quo": {
+     "train": {
+      "majority_passed": 9,
+      "seed_passes": [
+       9,
+       9,
+       9
+      ],
+      "homes_dark_hours_total": 173527303.91821256,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         10487352.424361486,
+         31795503.983084552,
+         37926224.262061015
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         15084957.503915377,
+         8972429.830488674,
+         11035273.858203951
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         21475352.61228211,
+         41968688.60771415,
+         45067290.80361386
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         43636904.55931465,
+         34925645.659235746,
+         32071123.95542553
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         2253557.4474877235,
+         2531667.6204402437,
+         2813138.178882205
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         4663299.568365695,
+         3451182.0873106318,
+         2046176.6590828572
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         7590973.3739565285,
+         17113883.709328983,
+         11227654.677231971
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         23066938.94322982,
+         22985200.718711987,
+         27007498.131328054
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         5233174.825351415,
+         22868582.453869555,
+         31282235.300358858
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 8,
+      "seed_passes": [
+       8,
+       8,
+       8
+      ],
+      "homes_dark_hours_total": 155622024.70290527,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         6340969.326094164,
+         9744631.430165108,
+         20303826.69614302
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         5437740.924231496,
+         17889877.410108365,
+         15937054.131717885
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         12356590.777474348,
+         33909510.295765564,
+         29660172.882256538
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         2411711.385141182,
+         11206457.247739173,
+         4128744.834539907
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         17393644.648672294,
+         41027050.31048162,
+         36312785.53386746
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         22683400.058344148,
+         27318631.967975277,
+         18724270.27413465
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         23141010.17226518,
+         31421784.177672967,
+         42566502.714950256
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         6918344.73421554,
+         14368116.82949253,
+         15663245.34526711
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    },
+    "status_quo+protect_gas": {
+     "train": {
+      "majority_passed": 9,
+      "seed_passes": [
+       9,
+       9,
+       9
+      ],
+      "homes_dark_hours_total": 160412518.6954249,
+      "collapses": 0,
+      "per_storm": {
+       "train_permian_gas": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         10247797.853977153,
+         31048552.695736874,
+         36054819.53271401
+        ],
+        "collapsed": 0
+       },
+       "train_sensing_lines": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         11368706.45659934,
+         8382299.6016641855,
+         10095940.28717032
+        ],
+        "collapsed": 0
+       },
+       "train_compressor_spiral": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         20520120.685762383,
+         40718278.974711746,
+         40286223.41398657
+        ],
+        "collapsed": 0
+       },
+       "train_long_freeze": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         37906530.8748732,
+         34872510.73079863,
+         30517608.72332859
+        ],
+        "collapsed": 0
+       },
+       "train_flash_2010": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         2253557.4474877235,
+         2531667.6204402437,
+         2813138.178882205
+        ],
+        "collapsed": 0
+       },
+       "train_ice_2017": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         4638572.531234505,
+         3451182.0873106318,
+         2046176.6590828572
+        ],
+        "collapsed": 0
+       },
+       "train_surge_dec2016": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         6683294.878488028,
+         17050370.4744847,
+         10491652.306903526
+        ],
+        "collapsed": 0
+       },
+       "train_coast_2011": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         18185778.42439114,
+         21325488.353130076,
+         19740196.357076544
+        ],
+        "collapsed": 0
+       },
+       "train_grand_2011": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         5233174.825351415,
+         22609566.168210085,
+         30164349.94247798
+        ],
+        "collapsed": 0
+       }
+      }
+     },
+     "heldout": {
+      "majority_passed": 8,
+      "seed_passes": [
+       8,
+       8,
+       8
+      ],
+      "homes_dark_hours_total": 147420923.15463635,
+      "collapses": 0,
+      "per_storm": {
+       "heldout_flash_2014": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         6331563.950007454,
+         9705102.699812582,
+         15961817.114312824
+        ],
+        "collapsed": 0
+       },
+       "heldout_ice_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         5437740.924231496,
+         17621029.932624396,
+         15162466.35970339
+        ],
+        "collapsed": 0
+       },
+       "heldout_surge_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         12269969.895768495,
+         33199717.313733146,
+         26719730.09425849
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_march_2014": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         2411711.385141182,
+         10992218.018419608,
+         4128744.834539907
+        ],
+        "collapsed": 0
+       },
+       "heldout_late_feb_1989": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         16303090.033260075,
+         39873766.22346886,
+         33938016.443589136
+        ],
+        "collapsed": 0
+       },
+       "heldout_west_gas_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         20939775.64497287,
+         27266292.33931186,
+         18139405.083763666
+        ],
+        "collapsed": 0
+       },
+       "heldout_feb_2007": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         19829121.193153538,
+         30736651.0319911,
+         39732080.65957846
+        ],
+        "collapsed": 0
+       },
+       "heldout_south_flash_2018": {
+        "passed_seeds": 3,
+        "homes_dark_hours": [
+         6857175.752514562,
+         14185779.523244666,
+         14519803.012507375
+        ],
+        "collapsed": 0
+       }
+      }
+     }
+    }
+   }
+  },
+  "track_a_rule": "best operations good_ops-no_margin 7/8 vs status quo 0/8, status quo+protect gas 1/8"
+ },
+ "a6": {
+  "ok": true,
+  "reply": {
+   "ok": true,
+   "_usage": {
+    "in": 21,
+    "out": 6
+   }
+  }
+ },
+ "llm_all": {
+  "a2:h_008 (full)": {
+   "majority_passed": 6,
+   "ticks": "\u2717\u2713\u2713\u2713\u2713\u2713\u2717\u2713",
+   "by_seed": {
+    "0": {
+     "passed": 6,
+     "homes_dark_hours": 410951146.56672025
+    }
+   },
+   "inconclusive": 0,
+   "per_storm": {
+    "heldout_south_flash_2018": [
+     {
+      "seed": 0,
+      "passed": true,
+      "homes_dark_hours": 33548250.0,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_south_flash_2018_0_1_qwen"
+     }
+    ],
+    "heldout_flash_2014": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 71132908.68169722,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_flash_2014_0_1_qwen"
+     }
+    ],
+    "heldout_late_march_2014": [
+     {
+      "seed": 0,
+      "passed": true,
+      "homes_dark_hours": 34079625.0,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_late_march_2014_0_1_qwen"
+     }
+    ],
+    "heldout_late_feb_1989": [
+     {
+      "seed": 0,
+      "passed": true,
+      "homes_dark_hours": 45644279.700047046,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_late_feb_1989_0_1_qwen"
+     }
+    ],
+    "heldout_ice_2018": [
+     {
+      "seed": 0,
+      "passed": true,
+      "homes_dark_hours": 28718835.971785318,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_ice_2018_0_1_qwen"
+     }
+    ],
+    "heldout_surge_2018": [
+     {
+      "seed": 0,
+      "passed": true,
+      "homes_dark_hours": 47703845.96319068,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_surge_2018_0_1_qwen"
+     }
+    ],
+    "heldout_feb_2007": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 90848250.0,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_feb_2007_0_1_qwen"
+     }
+    ],
+    "heldout_west_gas_2018": [
+     {
+      "seed": 0,
+      "passed": true,
+      "homes_dark_hours": 59275151.25,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_west_gas_2018_0_1_qwen"
+     }
+    ]
+   }
+  },
+  "a2:minus hard limit g1_3 (protect gas)": {
+   "majority_passed": 6,
+   "ticks": "\u2717\u2713\u2713\u2713\u2713\u2713\u2717\u2713",
+   "by_seed": {
+    "0": {
+     "passed": 6,
+     "homes_dark_hours": 471053859.06672025
+    }
+   },
+   "inconclusive": 0,
+   "per_storm": {
+    "heldout_south_flash_2018": [
+     {
+      "seed": 0,
+      "passed": true,
+      "homes_dark_hours": 38160750.0,
+      "cache_key": "75728799786e376f_97d170e1_heldout_south_flash_2018_0_1_qwen"
+     }
+    ],
+    "heldout_flash_2014": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 82891078.68169722,
+      "cache_key": "75728799786e376f_97d170e1_heldout_flash_2014_0_1_qwen"
+     }
+    ],
+    "heldout_late_march_2014": [
+     {
+      "seed": 0,
+      "passed": true,
+      "homes_dark_hours": 50752125.0,
+      "cache_key": "75728799786e376f_97d170e1_heldout_late_march_2014_0_1_qwen"
+     }
+    ],
+    "heldout_ice_2018": [
+     {
+      "seed": 0,
+      "passed": true,
+      "homes_dark_hours": 30325710.971785318,
+      "cache_key": "75728799786e376f_97d170e1_heldout_ice_2018_0_1_qwen"
+     }
+    ],
+    "heldout_surge_2018": [
+     {
+      "seed": 0,
+      "passed": true,
+      "homes_dark_hours": 48846058.46319068,
+      "cache_key": "75728799786e376f_97d170e1_heldout_surge_2018_0_1_qwen"
+     }
+    ],
+    "heldout_late_feb_1989": [
+     {
+      "seed": 0,
+      "passed": true,
+      "homes_dark_hours": 52232984.700047046,
+      "cache_key": "75728799786e376f_97d170e1_heldout_late_feb_1989_0_1_qwen"
+     }
+    ],
+    "heldout_feb_2007": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 107629500.0,
+      "cache_key": "75728799786e376f_97d170e1_heldout_feb_2007_0_1_qwen"
+     }
+    ],
+    "heldout_west_gas_2018": [
+     {
+      "seed": 0,
+      "passed": true,
+      "homes_dark_hours": 60215651.25,
+      "cache_key": "75728799786e376f_97d170e1_heldout_west_gas_2018_0_1_qwen"
+     }
+    ]
+   }
+  },
+  "a2:minus habit r1_2 (restore)": {
+   "majority_passed": 0,
+   "ticks": "\u2717\u2717\u2717\u2717\u2717\u2717\u2717\u2717",
+   "by_seed": {
+    "0": {
+     "passed": 0,
+     "homes_dark_hours": 2880410825.315879
+    }
+   },
+   "inconclusive": 0,
+   "per_storm": {
+    "heldout_late_march_2014": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 226443375.0,
+      "cache_key": "a0d5f989adda006b_97d170e1_heldout_late_march_2014_0_1_qwen"
+     }
+    ],
+    "heldout_flash_2014": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 371909533.6816972,
+      "cache_key": "a0d5f989adda006b_97d170e1_heldout_flash_2014_0_1_qwen"
+     }
+    ],
+    "heldout_surge_2018": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 411628160.9631907,
+      "cache_key": "a0d5f989adda006b_97d170e1_heldout_surge_2018_0_1_qwen"
+     }
+    ],
+    "heldout_late_feb_1989": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 430936904.700047,
+      "cache_key": "a0d5f989adda006b_97d170e1_heldout_late_feb_1989_0_1_qwen"
+     }
+    ],
+    "heldout_south_flash_2018": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 245962500.0,
+      "cache_key": "a0d5f989adda006b_97d170e1_heldout_south_flash_2018_0_1_qwen"
+     }
+    ],
+    "heldout_ice_2018": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 255288949.72094417,
+      "cache_key": "a0d5f989adda006b_97d170e1_heldout_ice_2018_0_1_qwen"
+     }
+    ],
+    "heldout_west_gas_2018": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 571654151.25,
+      "cache_key": "a0d5f989adda006b_97d170e1_heldout_west_gas_2018_0_1_qwen"
+     }
+    ],
+    "heldout_feb_2007": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 366587250.0,
+      "cache_key": "a0d5f989adda006b_97d170e1_heldout_feb_2007_0_1_qwen"
+     }
+    ]
+   }
+  },
+  "a2:minus build": {
+   "majority_passed": 0,
+   "ticks": "\u2717\u2717\u2717\u2717\u2717\u2717\u2717\u2717",
+   "by_seed": {
+    "0": {
+     "passed": 0,
+     "homes_dark_hours": 1071881004.7109623
+    }
+   },
+   "inconclusive": 0,
+   "per_storm": {
+    "heldout_flash_2014": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 163438324.39102292,
+      "cache_key": "07a1cb3f57fd5e98_97d170e1_heldout_flash_2014_0_1_qwen"
+     }
+    ],
+    "heldout_south_flash_2018": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 109922250.0,
+      "cache_key": "07a1cb3f57fd5e98_97d170e1_heldout_south_flash_2018_0_1_qwen"
+     }
+    ],
+    "heldout_feb_2007": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 176930962.5,
+      "cache_key": "07a1cb3f57fd5e98_97d170e1_heldout_feb_2007_0_1_qwen"
+     }
+    ],
+    "heldout_late_feb_1989": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 104819129.70004705,
+      "cache_key": "07a1cb3f57fd5e98_97d170e1_heldout_late_feb_1989_0_1_qwen"
+     }
+    ],
+    "heldout_late_march_2014": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 87195000.0,
+      "cache_key": "07a1cb3f57fd5e98_97d170e1_heldout_late_march_2014_0_1_qwen"
+     }
+    ],
+    "heldout_surge_2018": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 105100068.9289846,
+      "cache_key": "07a1cb3f57fd5e98_97d170e1_heldout_surge_2018_0_1_qwen"
+     }
+    ],
+    "heldout_ice_2018": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 124369680.93586855,
+      "cache_key": "07a1cb3f57fd5e98_97d170e1_heldout_ice_2018_0_1_qwen"
+     }
+    ],
+    "heldout_west_gas_2018": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 200105588.25503922,
+      "cache_key": "07a1cb3f57fd5e98_97d170e1_heldout_west_gas_2018_0_1_qwen"
+     }
+    ]
+   }
+  },
+  "a2:build only": {
+   "majority_passed": 0,
+   "ticks": "\u2717\u2717\u2717\u2717\u2717\u2717\u2717\u2717",
+   "by_seed": {
+    "0": {
+     "passed": 0,
+     "homes_dark_hours": 3113026404.8820114
+    }
+   },
+   "inconclusive": 0,
+   "per_storm": {
+    "heldout_late_march_2014": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 226443375.0,
+      "cache_key": "fa9a3a1935bd634f_97d170e1_heldout_late_march_2014_0_1_qwen"
+     }
+    ],
+    "heldout_flash_2014": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 371909533.6816972,
+      "cache_key": "fa9a3a1935bd634f_97d170e1_heldout_flash_2014_0_1_qwen"
+     }
+    ],
+    "heldout_late_feb_1989": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 524440904.700047,
+      "cache_key": "fa9a3a1935bd634f_97d170e1_heldout_late_feb_1989_0_1_qwen"
+     }
+    ],
+    "heldout_surge_2018": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 411628160.9631907,
+      "cache_key": "fa9a3a1935bd634f_97d170e1_heldout_surge_2018_0_1_qwen"
+     }
+    ],
+    "heldout_south_flash_2018": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 245911875.0,
+      "cache_key": "fa9a3a1935bd634f_97d170e1_heldout_south_flash_2018_0_1_qwen"
+     }
+    ],
+    "heldout_ice_2018": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 259400529.28707615,
+      "cache_key": "fa9a3a1935bd634f_97d170e1_heldout_ice_2018_0_1_qwen"
+     }
+    ],
+    "heldout_west_gas_2018": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 630614651.25,
+      "cache_key": "fa9a3a1935bd634f_97d170e1_heldout_west_gas_2018_0_1_qwen"
+     }
+    ],
+    "heldout_feb_2007": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 442677375.0,
+      "cache_key": "fa9a3a1935bd634f_97d170e1_heldout_feb_2007_0_1_qwen"
+     }
+    ]
+   }
+  },
+  "a3:A day 1 (v1 + fixed build)": {
+   "majority_passed": 0,
+   "ticks": "\u2717\u2717\u2717\u2717\u2717\u2717\u2717\u2717",
+   "by_seed": {
+    "0": {
+     "passed": 0,
+     "homes_dark_hours": 4060583544.8650284
+    },
+    "1": {
+     "passed": 0,
+     "homes_dark_hours": 5317247210.085977
+    },
+    "2": {
+     "passed": 0,
+     "homes_dark_hours": 4919968891.248893
+    }
+   },
+   "inconclusive": 0,
+   "per_storm": {
+    "heldout_south_flash_2018": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 466023750.0,
+      "cache_key": "356fef55c724e4b9_97d170e1_heldout_south_flash_2018_0_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 454254750.0,
+      "cache_key": "356fef55c724e4b9_97d170e1_heldout_south_flash_2018_2_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 424913250.0,
+      "cache_key": "356fef55c724e4b9_97d170e1_heldout_south_flash_2018_1_1_qwen"
+     }
+    ],
+    "heldout_flash_2014": [
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 1190376221.900012,
+      "cache_key": "356fef55c724e4b9_97d170e1_heldout_flash_2014_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 1184230770.2389376,
+      "cache_key": "356fef55c724e4b9_97d170e1_heldout_flash_2014_2_1_qwen"
+     },
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 525900375.0,
+      "cache_key": "356fef55c724e4b9_97d170e1_heldout_flash_2014_0_1_qwen"
+     }
+    ],
+    "heldout_late_march_2014": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 211390875.0,
+      "cache_key": "356fef55c724e4b9_97d170e1_heldout_late_march_2014_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 346585947.842743,
+      "cache_key": "356fef55c724e4b9_97d170e1_heldout_late_march_2014_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 231740625.0,
+      "cache_key": "356fef55c724e4b9_97d170e1_heldout_late_march_2014_2_1_qwen"
+     }
+    ],
+    "heldout_late_feb_1989": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 613857375.0,
+      "cache_key": "356fef55c724e4b9_97d170e1_heldout_late_feb_1989_0_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 753709785.6686525,
+      "cache_key": "356fef55c724e4b9_97d170e1_heldout_late_feb_1989_2_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 623426625.0,
+      "cache_key": "356fef55c724e4b9_97d170e1_heldout_late_feb_1989_1_1_qwen"
+     }
+    ],
+    "heldout_feb_2007": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 525350962.5,
+      "cache_key": "356fef55c724e4b9_97d170e1_heldout_feb_2007_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 575220669.9448913,
+      "cache_key": "356fef55c724e4b9_97d170e1_heldout_feb_2007_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 496641375.0,
+      "cache_key": "356fef55c724e4b9_97d170e1_heldout_feb_2007_2_1_qwen"
+     }
+    ],
+    "heldout_ice_2018": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 304662000.0,
+      "cache_key": "356fef55c724e4b9_97d170e1_heldout_ice_2018_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 465579000.0,
+      "cache_key": "356fef55c724e4b9_97d170e1_heldout_ice_2018_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 361365000.0,
+      "cache_key": "356fef55c724e4b9_97d170e1_heldout_ice_2018_2_1_qwen"
+     }
+    ],
+    "heldout_surge_2018": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 507583760.9631907,
+      "cache_key": "356fef55c724e4b9_97d170e1_heldout_surge_2018_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 597638625.0,
+      "cache_key": "356fef55c724e4b9_97d170e1_heldout_surge_2018_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 485373750.0,
+      "cache_key": "356fef55c724e4b9_97d170e1_heldout_surge_2018_2_1_qwen"
+     }
+    ],
+    "heldout_west_gas_2018": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 905814446.4018376,
+      "cache_key": "356fef55c724e4b9_97d170e1_heldout_west_gas_2018_0_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 952652835.3413029,
+      "cache_key": "356fef55c724e4b9_97d170e1_heldout_west_gas_2018_2_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 1093506870.3983305,
+      "cache_key": "356fef55c724e4b9_97d170e1_heldout_west_gas_2018_1_1_qwen"
+     }
+    ]
+   }
+  },
+  "a3:zero-shot A": {
+   "majority_passed": 0,
+   "ticks": "\u2717\u2717\u2717\u2717\u2717\u2717\u2717\u2717",
+   "by_seed": {
+    "0": {
+     "passed": 0,
+     "homes_dark_hours": 2815839841.685074
+    },
+    "1": {
+     "passed": 0,
+     "homes_dark_hours": 3664677881.4402456
+    },
+    "2": {
+     "passed": 0,
+     "homes_dark_hours": 3747074488.722761
+    }
+   },
+   "inconclusive": 0,
+   "per_storm": {
+    "heldout_flash_2014": [
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 760966313.1913593,
+      "cache_key": "6c1a3be8b42fc5eb_97d170e1_heldout_flash_2014_2_1_qwen"
+     },
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 469858114.8085296,
+      "cache_key": "6c1a3be8b42fc5eb_97d170e1_heldout_flash_2014_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 548106080.572115,
+      "cache_key": "6c1a3be8b42fc5eb_97d170e1_heldout_flash_2014_1_1_qwen"
+     }
+    ],
+    "heldout_late_march_2014": [
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 381346309.977743,
+      "cache_key": "6c1a3be8b42fc5eb_97d170e1_heldout_late_march_2014_1_1_qwen"
+     },
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 222750555.583196,
+      "cache_key": "6c1a3be8b42fc5eb_97d170e1_heldout_late_march_2014_0_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 215524057.82301593,
+      "cache_key": "6c1a3be8b42fc5eb_97d170e1_heldout_late_march_2014_2_1_qwen"
+     }
+    ],
+    "heldout_ice_2018": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 361278082.7522122,
+      "cache_key": "6c1a3be8b42fc5eb_97d170e1_heldout_ice_2018_0_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 331162331.97970057,
+      "cache_key": "6c1a3be8b42fc5eb_97d170e1_heldout_ice_2018_2_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 435283447.76861644,
+      "cache_key": "6c1a3be8b42fc5eb_97d170e1_heldout_ice_2018_1_1_qwen"
+     }
+    ],
+    "heldout_late_feb_1989": [
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 568622028.285238,
+      "cache_key": "6c1a3be8b42fc5eb_97d170e1_heldout_late_feb_1989_2_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 507132177.2620635,
+      "cache_key": "6c1a3be8b42fc5eb_97d170e1_heldout_late_feb_1989_1_1_qwen"
+     },
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 292887037.2464098,
+      "cache_key": "6c1a3be8b42fc5eb_97d170e1_heldout_late_feb_1989_0_1_qwen"
+     }
+    ],
+    "heldout_south_flash_2018": [
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 441741104.40880764,
+      "cache_key": "6c1a3be8b42fc5eb_97d170e1_heldout_south_flash_2018_2_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 399146143.1904569,
+      "cache_key": "6c1a3be8b42fc5eb_97d170e1_heldout_south_flash_2018_1_1_qwen"
+     },
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 366000900.4367519,
+      "cache_key": "6c1a3be8b42fc5eb_97d170e1_heldout_south_flash_2018_0_1_qwen"
+     }
+    ],
+    "heldout_surge_2018": [
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 360002645.0079228,
+      "cache_key": "6c1a3be8b42fc5eb_97d170e1_heldout_surge_2018_2_1_qwen"
+     },
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 293502831.29722506,
+      "cache_key": "6c1a3be8b42fc5eb_97d170e1_heldout_surge_2018_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 438157022.2657877,
+      "cache_key": "6c1a3be8b42fc5eb_97d170e1_heldout_surge_2018_1_1_qwen"
+     }
+    ],
+    "heldout_west_gas_2018": [
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 575636232.2407967,
+      "cache_key": "6c1a3be8b42fc5eb_97d170e1_heldout_west_gas_2018_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 554071701.7870262,
+      "cache_key": "6c1a3be8b42fc5eb_97d170e1_heldout_west_gas_2018_2_1_qwen"
+     },
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 427698965.7460834,
+      "cache_key": "6c1a3be8b42fc5eb_97d170e1_heldout_west_gas_2018_0_1_qwen"
+     }
+    ],
+    "heldout_feb_2007": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 381863353.8146659,
+      "cache_key": "6c1a3be8b42fc5eb_97d170e1_heldout_feb_2007_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 379870468.1626664,
+      "cache_key": "6c1a3be8b42fc5eb_97d170e1_heldout_feb_2007_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 514984306.2396908,
+      "cache_key": "6c1a3be8b42fc5eb_97d170e1_heldout_feb_2007_2_1_qwen"
+     }
+    ]
+   },
+   "title": "Forecast-led preparation, anticipatory shedding, protected gas, prompt restore",
+   "n_ops": 10,
+   "predicted_pct": -30,
+   "counts": {
+    "gauges": 2,
+    "habits": 4,
+    "hard_limits": 2,
+    "alarms": 2,
+    "build_items": 1,
+    "briefing_items": 12,
+    "forecast": 1,
+    "memory_pages_shown": 3,
+    "ai_decides": 10,
+    "ask_ai_every_h": 1
+   }
+  },
+  "a3:zero-shot B": {
+   "majority_passed": 0,
+   "ticks": "\u2717\u2717\u2717\u2717\u2717\u2717\u2717\u2717",
+   "by_seed": {
+    "0": {
+     "passed": 1,
+     "homes_dark_hours": 551041867.1940508
+    },
+    "1": {
+     "passed": 0,
+     "homes_dark_hours": 809396890.4162084
+    },
+    "2": {
+     "passed": 1,
+     "homes_dark_hours": 635158917.7376052
+    }
+   },
+   "inconclusive": 0,
+   "per_storm": {
+    "heldout_late_march_2014": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 69278097.49765041,
+      "cache_key": "8279f86ff533079f_97d170e1_heldout_late_march_2014_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 147973327.90370446,
+      "cache_key": "8279f86ff533079f_97d170e1_heldout_late_march_2014_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 28775611.888913423,
+      "cache_key": "8279f86ff533079f_97d170e1_heldout_late_march_2014_2_1_qwen"
+     }
+    ],
+    "heldout_flash_2014": [
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 78315537.05221318,
+      "cache_key": "8279f86ff533079f_97d170e1_heldout_flash_2014_1_1_qwen"
+     },
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 72766446.93123989,
+      "cache_key": "8279f86ff533079f_97d170e1_heldout_flash_2014_0_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 94067860.51328501,
+      "cache_key": "8279f86ff533079f_97d170e1_heldout_flash_2014_2_1_qwen"
+     }
+    ],
+    "heldout_south_flash_2018": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 69878074.12553152,
+      "cache_key": "8279f86ff533079f_97d170e1_heldout_south_flash_2018_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 141879472.14046818,
+      "cache_key": "8279f86ff533079f_97d170e1_heldout_south_flash_2018_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 103178943.91884208,
+      "cache_key": "8279f86ff533079f_97d170e1_heldout_south_flash_2018_2_1_qwen"
+     }
+    ],
+    "heldout_ice_2018": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 38985318.87030352,
+      "cache_key": "8279f86ff533079f_97d170e1_heldout_ice_2018_0_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 62794996.847569555,
+      "cache_key": "8279f86ff533079f_97d170e1_heldout_ice_2018_2_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 58745021.4136834,
+      "cache_key": "8279f86ff533079f_97d170e1_heldout_ice_2018_1_1_qwen"
+     }
+    ],
+    "heldout_feb_2007": [
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 87610736.08735952,
+      "cache_key": "8279f86ff533079f_97d170e1_heldout_feb_2007_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 118867132.72752751,
+      "cache_key": "8279f86ff533079f_97d170e1_heldout_feb_2007_2_1_qwen"
+     },
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 108953879.19867578,
+      "cache_key": "8279f86ff533079f_97d170e1_heldout_feb_2007_0_1_qwen"
+     }
+    ],
+    "heldout_surge_2018": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 54932271.162589505,
+      "cache_key": "8279f86ff533079f_97d170e1_heldout_surge_2018_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 106274707.66409542,
+      "cache_key": "8279f86ff533079f_97d170e1_heldout_surge_2018_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": true,
+      "homes_dark_hours": 67003281.02387129,
+      "cache_key": "8279f86ff533079f_97d170e1_heldout_surge_2018_2_1_qwen"
+     }
+    ],
+    "heldout_late_feb_1989": [
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 95913609.6155591,
+      "cache_key": "8279f86ff533079f_97d170e1_heldout_late_feb_1989_1_1_qwen"
+     },
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 77682088.89131072,
+      "cache_key": "8279f86ff533079f_97d170e1_heldout_late_feb_1989_0_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 91746633.1833719,
+      "cache_key": "8279f86ff533079f_97d170e1_heldout_late_feb_1989_2_1_qwen"
+     }
+    ],
+    "heldout_west_gas_2018": [
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 68724457.63422443,
+      "cache_key": "8279f86ff533079f_97d170e1_heldout_west_gas_2018_2_1_qwen"
+     },
+     {
+      "seed": 0,
+      "passed": true,
+      "homes_dark_hours": 58565690.51674952,
+      "cache_key": "8279f86ff533079f_97d170e1_heldout_west_gas_2018_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 92684478.53912511,
+      "cache_key": "8279f86ff533079f_97d170e1_heldout_west_gas_2018_1_1_qwen"
+     }
+    ]
+   },
+   "title": "Forecast-led, winterized, gas-protecting storm manual",
+   "n_ops": 10,
+   "predicted_pct": -40,
+   "counts": {
+    "gauges": 1,
+    "habits": 4,
+    "hard_limits": 2,
+    "alarms": 2,
+    "build_items": 6,
+    "briefing_items": 13,
+    "forecast": 1,
+    "memory_pages_shown": 3,
+    "ai_decides": 10,
+    "ask_ai_every_h": 1
+   }
+  },
+  "a4:v1": {
+   "majority_passed": 0,
+   "ticks": "\u2717\u2717\u2717\u2717\u2717\u2717\u2717\u2717",
+   "by_seed": {
+    "0": {
+     "passed": 0,
+     "homes_dark_hours": 4750274357.97843
+    },
+    "1": {
+     "passed": 0,
+     "homes_dark_hours": 4863125727.771558
+    },
+    "2": {
+     "passed": 0,
+     "homes_dark_hours": 5578298535.487889
+    }
+   },
+   "inconclusive": 0,
+   "per_storm": {
+    "heldout_flash_2014": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 571701818.1410229,
+      "cache_key": "8ceadd52abf76bb6_97d170e1_heldout_flash_2014_0_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 1184230770.2389376,
+      "cache_key": "8ceadd52abf76bb6_97d170e1_heldout_flash_2014_2_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 599005293.589074,
+      "cache_key": "8ceadd52abf76bb6_97d170e1_heldout_flash_2014_1_1_qwen"
+     }
+    ],
+    "heldout_ice_2018": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 395617106.34675765,
+      "cache_key": "8ceadd52abf76bb6_97d170e1_heldout_ice_2018_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 464857875.0,
+      "cache_key": "8ceadd52abf76bb6_97d170e1_heldout_ice_2018_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 423133125.0,
+      "cache_key": "8ceadd52abf76bb6_97d170e1_heldout_ice_2018_2_1_qwen"
+     }
+    ],
+    "heldout_surge_2018": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 591567693.9289846,
+      "cache_key": "8ceadd52abf76bb6_97d170e1_heldout_surge_2018_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 671149875.0,
+      "cache_key": "8ceadd52abf76bb6_97d170e1_heldout_surge_2018_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 654834750.0,
+      "cache_key": "8ceadd52abf76bb6_97d170e1_heldout_surge_2018_2_1_qwen"
+     }
+    ],
+    "heldout_late_march_2014": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 248193750.0,
+      "cache_key": "8ceadd52abf76bb6_97d170e1_heldout_late_march_2014_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 346299966.79959786,
+      "cache_key": "8ceadd52abf76bb6_97d170e1_heldout_late_march_2014_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 286218268.7919542,
+      "cache_key": "8ceadd52abf76bb6_97d170e1_heldout_late_march_2014_2_1_qwen"
+     }
+    ],
+    "heldout_late_feb_1989": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 813321629.700047,
+      "cache_key": "8ceadd52abf76bb6_97d170e1_heldout_late_feb_1989_0_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 755117250.0,
+      "cache_key": "8ceadd52abf76bb6_97d170e1_heldout_late_feb_1989_2_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 658184625.0,
+      "cache_key": "8ceadd52abf76bb6_97d170e1_heldout_late_feb_1989_1_1_qwen"
+     }
+    ],
+    "heldout_west_gas_2018": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 953541647.361617,
+      "cache_key": "8ceadd52abf76bb6_97d170e1_heldout_west_gas_2018_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 1130930755.168247,
+      "cache_key": "8ceadd52abf76bb6_97d170e1_heldout_west_gas_2018_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 1181385871.4569974,
+      "cache_key": "8ceadd52abf76bb6_97d170e1_heldout_west_gas_2018_2_1_qwen"
+     }
+    ],
+    "heldout_feb_2007": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 657245962.5,
+      "cache_key": "8ceadd52abf76bb6_97d170e1_heldout_feb_2007_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 470467575.0,
+      "cache_key": "8ceadd52abf76bb6_97d170e1_heldout_feb_2007_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 571051500.0,
+      "cache_key": "8ceadd52abf76bb6_97d170e1_heldout_feb_2007_2_1_qwen"
+     }
+    ],
+    "heldout_south_flash_2018": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 519084750.0,
+      "cache_key": "8ceadd52abf76bb6_97d170e1_heldout_south_flash_2018_0_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 522327000.0,
+      "cache_key": "8ceadd52abf76bb6_97d170e1_heldout_south_flash_2018_2_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 522229762.21463925,
+      "cache_key": "8ceadd52abf76bb6_97d170e1_heldout_south_flash_2018_1_1_qwen"
+     }
+    ]
+   }
+  },
+  "a4:h_005": {
+   "majority_passed": 4,
+   "ticks": "\u2717\u2713\u2713\u2713\u2713\u2717\u2717\u2717",
+   "by_seed": {
+    "0": {
+     "passed": 5,
+     "homes_dark_hours": 608798098.5467516
+    },
+    "1": {
+     "passed": 1,
+     "homes_dark_hours": 1875907516.567295
+    },
+    "2": {
+     "passed": 3,
+     "homes_dark_hours": 1799185729.1102374
+    }
+   },
+   "inconclusive": 0,
+   "per_storm": {
+    "heldout_flash_2014": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 113621625.0,
+      "cache_key": "805df05e4b530818_97d170e1_heldout_flash_2014_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 1190376221.900012,
+      "cache_key": "805df05e4b530818_97d170e1_heldout_flash_2014_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 1184230770.2389376,
+      "cache_key": "805df05e4b530818_97d170e1_heldout_flash_2014_2_1_qwen"
+     }
+    ],
+    "heldout_ice_2018": [
+     {
+      "seed": 0,
+      "passed": true,
+      "homes_dark_hours": 56308829.61213982,
+      "cache_key": "805df05e4b530818_97d170e1_heldout_ice_2018_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 104814000.0,
+      "cache_key": "805df05e4b530818_97d170e1_heldout_ice_2018_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": true,
+      "homes_dark_hours": 71576250.0,
+      "cache_key": "805df05e4b530818_97d170e1_heldout_ice_2018_2_1_qwen"
+     }
+    ],
+    "heldout_surge_2018": [
+     {
+      "seed": 0,
+      "passed": true,
+      "homes_dark_hours": 59154448.46336154,
+      "cache_key": "805df05e4b530818_97d170e1_heldout_surge_2018_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 91407787.5,
+      "cache_key": "805df05e4b530818_97d170e1_heldout_surge_2018_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": true,
+      "homes_dark_hours": 72291375.0,
+      "cache_key": "805df05e4b530818_97d170e1_heldout_surge_2018_2_1_qwen"
+     }
+    ],
+    "heldout_late_march_2014": [
+     {
+      "seed": 0,
+      "passed": true,
+      "homes_dark_hours": 34552125.0,
+      "cache_key": "805df05e4b530818_97d170e1_heldout_late_march_2014_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 72873447.84274298,
+      "cache_key": "805df05e4b530818_97d170e1_heldout_late_march_2014_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": true,
+      "homes_dark_hours": 51791250.0,
+      "cache_key": "805df05e4b530818_97d170e1_heldout_late_march_2014_2_1_qwen"
+     }
+    ],
+    "heldout_late_feb_1989": [
+     {
+      "seed": 0,
+      "passed": true,
+      "homes_dark_hours": 69020730.0,
+      "cache_key": "805df05e4b530818_97d170e1_heldout_late_feb_1989_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": true,
+      "homes_dark_hours": 88108500.0,
+      "cache_key": "805df05e4b530818_97d170e1_heldout_late_feb_1989_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 105563677.62129965,
+      "cache_key": "805df05e4b530818_97d170e1_heldout_late_feb_1989_2_1_qwen"
+     }
+    ],
+    "heldout_west_gas_2018": [
+     {
+      "seed": 0,
+      "passed": true,
+      "homes_dark_hours": 81254377.9712503,
+      "cache_key": "805df05e4b530818_97d170e1_heldout_west_gas_2018_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 112029514.37964867,
+      "cache_key": "805df05e4b530818_97d170e1_heldout_west_gas_2018_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 94175156.25,
+      "cache_key": "805df05e4b530818_97d170e1_heldout_west_gas_2018_2_1_qwen"
+     }
+    ],
+    "heldout_feb_2007": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 104758462.5,
+      "cache_key": "805df05e4b530818_97d170e1_heldout_feb_2007_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 136564419.94489133,
+      "cache_key": "805df05e4b530818_97d170e1_heldout_feb_2007_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 127927875.0,
+      "cache_key": "805df05e4b530818_97d170e1_heldout_feb_2007_2_1_qwen"
+     }
+    ],
+    "heldout_south_flash_2018": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 90127500.0,
+      "cache_key": "805df05e4b530818_97d170e1_heldout_south_flash_2018_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 79733625.0,
+      "cache_key": "805df05e4b530818_97d170e1_heldout_south_flash_2018_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 91629375.0,
+      "cache_key": "805df05e4b530818_97d170e1_heldout_south_flash_2018_2_1_qwen"
+     }
+    ]
+   }
+  },
+  "a4:h_008": {
+   "majority_passed": 7,
+   "ticks": "\u2717\u2713\u2713\u2713\u2713\u2713\u2713\u2713",
+   "by_seed": {
+    "0": {
+     "passed": 6,
+     "homes_dark_hours": 410951146.56672025
+    },
+    "1": {
+     "passed": 7,
+     "homes_dark_hours": 552263643.5745457
+    },
+    "2": {
+     "passed": 6,
+     "homes_dark_hours": 560856224.5763624
+    }
+   },
+   "inconclusive": 0,
+   "per_storm": {
+    "heldout_flash_2014": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 71132908.68169722,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_flash_2014_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": false,
+      "homes_dark_hours": 79832250.0,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_flash_2014_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 106662888.45570786,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_flash_2014_2_1_qwen"
+     }
+    ],
+    "heldout_ice_2018": [
+     {
+      "seed": 0,
+      "passed": true,
+      "homes_dark_hours": 28718835.971785318,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_ice_2018_0_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": true,
+      "homes_dark_hours": 57324750.0,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_ice_2018_2_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": true,
+      "homes_dark_hours": 63034369.40075268,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_ice_2018_1_1_qwen"
+     }
+    ],
+    "heldout_surge_2018": [
+     {
+      "seed": 0,
+      "passed": true,
+      "homes_dark_hours": 47703845.96319068,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_surge_2018_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": true,
+      "homes_dark_hours": 76674570.79238829,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_surge_2018_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": true,
+      "homes_dark_hours": 57477375.0,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_surge_2018_2_1_qwen"
+     }
+    ],
+    "heldout_late_march_2014": [
+     {
+      "seed": 0,
+      "passed": true,
+      "homes_dark_hours": 34079625.0,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_late_march_2014_0_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": true,
+      "homes_dark_hours": 32709300.0,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_late_march_2014_2_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": true,
+      "homes_dark_hours": 47633046.755901664,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_late_march_2014_1_1_qwen"
+     }
+    ],
+    "heldout_late_feb_1989": [
+     {
+      "seed": 0,
+      "passed": true,
+      "homes_dark_hours": 45644279.700047046,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_late_feb_1989_0_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": true,
+      "homes_dark_hours": 75287662.37065446,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_late_feb_1989_2_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": true,
+      "homes_dark_hours": 73590000.0,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_late_feb_1989_1_1_qwen"
+     }
+    ],
+    "heldout_west_gas_2018": [
+     {
+      "seed": 0,
+      "passed": true,
+      "homes_dark_hours": 59275151.25,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_west_gas_2018_0_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": true,
+      "homes_dark_hours": 62683998.75,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_west_gas_2018_2_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": true,
+      "homes_dark_hours": 86761500.0,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_west_gas_2018_1_1_qwen"
+     }
+    ],
+    "heldout_feb_2007": [
+     {
+      "seed": 0,
+      "passed": false,
+      "homes_dark_hours": 90848250.0,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_feb_2007_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": true,
+      "homes_dark_hours": 81764250.0,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_feb_2007_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": true,
+      "homes_dark_hours": 92276625.0,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_feb_2007_2_1_qwen"
+     }
+    ],
+    "heldout_south_flash_2018": [
+     {
+      "seed": 0,
+      "passed": true,
+      "homes_dark_hours": 33548250.0,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_south_flash_2018_0_1_qwen"
+     },
+     {
+      "seed": 1,
+      "passed": true,
+      "homes_dark_hours": 42973656.625503115,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_south_flash_2018_1_1_qwen"
+     },
+     {
+      "seed": 2,
+      "passed": false,
+      "homes_dark_hours": 76433625.0,
+      "cache_key": "c1665737b5349227_97d170e1_heldout_south_flash_2018_2_1_qwen"
+     }
+    ]
+   }
+  }
+ },
+ "a5": {
+  "seconds": 993,
+  "storm_runs": 184,
+  "operator_calls": 6279,
+  "calls_per_s": 6.32,
+  "retries": 0,
+  "errors": 0,
+  "workers": 64
+ }
+}

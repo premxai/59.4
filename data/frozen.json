@@ -1,0 +1,520 @@
+{
+ "frozen_at": "2026-10-11T09:57:47",
+ "sim_lock": "sha256:e203397678fcc71aafeadba362e4b230ddd1ca49b2af4af99b1657ee17a3ff5d",
+ "day1": {
+  "harness": {
+   "id": "h_001",
+   "parent_id": null,
+   "generation": 1,
+   "sensors": [],
+   "rules": [],
+   "guardrails": [],
+   "alerts": [
+    {
+     "when": "reserve_margin < 0.06",
+     "description": "Reserves getting thin: ask the AI"
+    }
+   ],
+   "context": {
+    "show": [
+     "demand",
+     "supply",
+     "reserve",
+     "reserve_margin",
+     "supply_trend",
+     "freq",
+     "shed",
+     "temp"
+    ],
+    "show_forecast": false,
+    "memory_top_k": 0,
+    "recent_hours": 6
+   },
+   "authority": {
+    "llm_decides": [
+     "shed_mw",
+     "restore_mw",
+     "rotation_min",
+     "protect_gas",
+     "conservation",
+     "imports_mw",
+     "dr_mw",
+     "battery_mw",
+     "precommit",
+     "rt_shed"
+    ],
+    "call_every_h": 1
+   },
+   "build": {},
+   "memory_policy": {
+    "max_active_pages": 8
+   }
+  }
+ },
+ "tracks": {
+  "A": {
+   "tag": "evoA",
+   "harness": {
+    "id": "evoA-h020",
+    "parent_id": "evoA-h003",
+    "generation": 4,
+    "sensors": [
+     {
+      "name": "cold_ahead",
+      "expr": "min2(fc_min_24, fc_min_48)",
+      "description": "coldest statewide temperature forecast in the next two days",
+      "born_from": "night0_zero_shot"
+     },
+     {
+      "name": "supply_drop",
+      "expr": "slope(supply, 3)",
+      "description": "how fast supply is changing over the last 3 hours (negative = falling)",
+      "born_from": "night0_zero_shot"
+     }
+    ],
+    "rules": [
+     {
+      "id": "r1_2",
+      "if": "cold_ahead < -10",
+      "then": [
+       "precommit(0.9)",
+       "imports(500)",
+       "conservation(0.03)"
+      ],
+      "priority": 1,
+      "description": "Deep cold forecast: commit extra units, schedule imports, ask for conservation before it arrives",
+      "born_from": "night0_zero_shot",
+      "helpful": 0,
+      "harmful": 0
+     },
+     {
+      "id": "r2_2",
+      "if": "reserve_margin < 0.06 or (supply_drop < 0 and reserve_margin < 0.1)",
+      "then": [
+       "dr(max)",
+       "battery(discharge)"
+      ],
+      "priority": 2,
+      "description": "Use demand response and batteries before cutting homes",
+      "born_from": "night0_zero_shot",
+      "helpful": 0,
+      "harmful": 0
+     },
+     {
+      "id": "r3_2",
+      "if": "reserve_margin < 0.03 or (supply_drop < -800 and reserve_margin < 0.05)",
+      "then": [
+       "protect_gas()",
+       "shed_to_reserve(300, 2)",
+       "rotation(30)"
+      ],
+      "priority": 3,
+      "description": "Shed only when reserves are truly thin or supply is falling steeply, keeping gas facilities powered",
+      "born_from": "night0_zero_shot",
+      "helpful": 0,
+      "harmful": 0
+     },
+     {
+      "id": "r4_2",
+      "if": "shed > 0 and reserve_margin > 0.05 and supply_drop > -500",
+      "then": [
+       "protect_gas()",
+       "restore(2000)"
+      ],
+      "priority": 4,
+      "description": "Reserves above 5% and supply not falling fast: restore 2 GW of homes each hour",
+      "born_from": "night0_zero_shot",
+      "helpful": 0,
+      "harmful": 0
+     },
+     {
+      "id": "r5_3",
+      "if": "shed > 0 and reserve_margin > 0.2",
+      "then": [
+       "protect_gas()",
+       "restore(4000)"
+      ],
+      "priority": 5,
+      "description": "Large spare reserve while homes are dark: restore quickly in big steps",
+      "born_from": "r_311435a7e2",
+      "helpful": 0,
+      "harmful": 0
+     }
+    ],
+    "guardrails": [
+     {
+      "id": "g1_2",
+      "when": "freq < 59.5 or below_59_4_min > 0",
+      "enforce": [
+       "protect_gas()",
+       "rt_shed()"
+      ],
+      "description": "Frequency emergency: control room cuts load immediately, keeping gas facilities powered",
+      "born_from": "night0_zero_shot"
+     },
+     {
+      "id": "g2_2",
+      "when": "shed > 0",
+      "enforce": [
+       "protect_gas()"
+      ],
+      "description": "Whenever load is shed, gas facilities stay powered",
+      "born_from": "night0_zero_shot"
+     }
+    ],
+    "alerts": [
+     {
+      "when": "reserve_margin < 0.06",
+      "description": "Reserves getting thin: ask the AI"
+     },
+     {
+      "when": "reserve_margin < 0.08 or supply_drop < 0 and reserve_margin < 0.12 or cold_ahead < -10 and hour == 18",
+      "description": "Wake the AI when reserves thin, supply is falling, or deep cold is forecast"
+     }
+    ],
+    "context": {
+     "show": [
+      "demand",
+      "supply",
+      "reserve",
+      "reserve_margin",
+      "supply_trend",
+      "supply_drop",
+      "cold_ahead",
+      "freq",
+      "shed",
+      "temp",
+      "battery_soc",
+      "dr_left"
+     ],
+     "show_forecast": true,
+     "memory_top_k": 3,
+     "recent_hours": 12
+    },
+    "authority": {
+     "llm_decides": [
+      "shed_mw",
+      "restore_mw",
+      "rotation_min",
+      "protect_gas",
+      "conservation",
+      "imports_mw",
+      "dr_mw",
+      "battery_mw",
+      "precommit",
+      "rt_shed"
+     ],
+     "call_every_h": 1
+    },
+    "build": {
+     "critical_load_map": true
+    },
+    "memory_policy": {
+     "max_active_pages": 8
+    }
+   },
+   "hash": "sha256:779300b2d56c0df1",
+   "pages": [
+    {
+     "id": "page_evoA-h002",
+     "title": "Prepare early, shed ahead, restore promptly",
+     "text": "When deep cold is forecast, line up extra plants, imports and conservation early. If supply is falling, shed a little ahead while keeping gas sites powered. Bring homes back as soon as reserves recover.",
+     "born_from_run": "night0_zero_shot",
+     "scenario_id": null,
+     "generation": 1,
+     "harness_id": "evoA-h002",
+     "tag": "evoA",
+     "track": "A",
+     "organ": "habit"
+    },
+    {
+     "id": "page_evoA-h003",
+     "title": "Bring homes back in bigger steps",
+     "text": "Once reserves are comfortably above need, return homes in large steps. Do not wait for supply to stop wiggling. The bigger the spare power, the more homes come back each hour.",
+     "born_from_run": "r_311435a7e2",
+     "scenario_id": "train_long_freeze",
+     "generation": 2,
+     "harness_id": "evoA-h003",
+     "tag": "evoA",
+     "track": "A",
+     "organ": "habit"
+    },
+    {
+     "id": "page_evoA-h020",
+     "title": "Restore whenever the cushion holds",
+     "text": "Bring homes back in steady steps once reserves stay above a modest cushion and supply is not falling fast. Only cut ahead when reserves are truly thin.",
+     "born_from_run": "r_574cde9a86",
+     "scenario_id": "train_coast_2011",
+     "generation": 8,
+     "harness_id": "evoA-h020",
+     "tag": "evoA",
+     "track": "A",
+     "organ": "habit"
+    }
+   ],
+   "counts": {
+    "gauges": 2,
+    "habits": 5,
+    "hard_limits": 2,
+    "alarms": 2,
+    "build_items": 1,
+    "briefing_items": 12,
+    "forecast": 1,
+    "memory_pages_shown": 3,
+    "ai_decides": 10,
+    "ask_ai_every_h": 1
+   },
+   "generations_run": 16
+  },
+  "B": {
+   "tag": "evoB",
+   "harness": {
+    "id": "evoB-h017",
+    "parent_id": "evoB-h015",
+    "generation": 7,
+    "sensors": [
+     {
+      "name": "supply_drop",
+      "expr": "slope(supply, 3)",
+      "description": "how fast supply is changing per hour over the last 3 hours (negative = falling)",
+      "born_from": "night0_zero_shot"
+     }
+    ],
+    "rules": [
+     {
+      "id": "r1_2",
+      "if": "fc_min_48 < -6",
+      "then": [
+       "precommit(0.15)",
+       "imports(1000)",
+       "conservation(0.03)"
+      ],
+      "priority": 2,
+      "description": "Deep cold forecast within 48h: commit extra units, line up imports, ask for conservation before the cold arrives",
+      "born_from": "night0_zero_shot",
+      "helpful": 0,
+      "harmful": 0
+     },
+     {
+      "id": "r2_2",
+      "if": "reserve_margin < 0.06",
+      "then": [
+       "dr(max)",
+       "battery(discharge)",
+       "conservation(0.05)"
+      ],
+      "priority": 3,
+      "description": "Thin reserves: use demand response, batteries and conservation before cutting homes",
+      "born_from": "night0_zero_shot",
+      "helpful": 0,
+      "harmful": 0
+     },
+     {
+      "id": "r3_2",
+      "if": "reserve_margin < 0.05 and supply_drop < -100",
+      "then": [
+       "shed_to_reserve(600, 2)",
+       "protect_gas()"
+      ],
+      "priority": 4,
+      "description": "Supply falling with thin reserves: shed ahead of the drop while keeping gas facilities powered",
+      "born_from": "night0_zero_shot",
+      "helpful": 0,
+      "harmful": 0
+     },
+     {
+      "id": "r4_2",
+      "if": "shed > 0 and reserve_margin > 0.1 and supply_drop >= 0",
+      "then": [
+       "restore(400)"
+      ],
+      "priority": 1,
+      "description": "Reserves recovered and supply steady: bring homes back gradually but promptly",
+      "born_from": "night0_zero_shot",
+      "helpful": 0,
+      "harmful": 0
+     }
+    ],
+    "guardrails": [
+     {
+      "id": "g1_2",
+      "when": "freq < 59.6 or below_59_4_min > 0",
+      "enforce": [
+       "rt_shed()",
+       "protect_gas()"
+      ],
+      "description": "Frequency sagging: control room cuts load immediately, never gas facilities",
+      "born_from": "night0_zero_shot"
+     },
+     {
+      "id": "g2_2",
+      "when": "shed > 0",
+      "enforce": [
+       "protect_gas()"
+      ],
+      "description": "Whenever shedding, keep gas facilities powered to avoid the gas-supply feedback loop",
+      "born_from": "night0_zero_shot"
+     },
+     {
+      "id": "g3_4",
+      "when": "shed > 2000 and reserve_margin > 0.12 and supply_drop > -300",
+      "enforce": [
+       "restore(1500)",
+       "protect_gas()"
+      ],
+      "description": "Large outages while reserves are ample and supply is not collapsing: restore 1500 MW per hour",
+      "born_from": "r_4a0bc67698"
+     }
+    ],
+    "alerts": [
+     {
+      "when": "reserve_margin < 0.06",
+      "description": "Reserves getting thin: ask the AI"
+     },
+     {
+      "when": "fc_min_48 < -6 or supply_drop < -200 or reserve_margin < 0.08",
+      "description": "Wake the AI when deep cold is forecast, supply is falling fast, or reserves are thinning"
+     }
+    ],
+    "context": {
+     "show": [
+      "demand",
+      "supply",
+      "reserve",
+      "reserve_margin",
+      "supply_trend",
+      "supply_drop",
+      "freq",
+      "shed",
+      "temp",
+      "fc_min_24",
+      "fc_min_48",
+      "battery_soc",
+      "dr_left"
+     ],
+     "show_forecast": true,
+     "memory_top_k": 3,
+     "recent_hours": 6
+    },
+    "authority": {
+     "llm_decides": [
+      "shed_mw",
+      "restore_mw",
+      "rotation_min",
+      "protect_gas",
+      "conservation",
+      "imports_mw",
+      "dr_mw",
+      "battery_mw",
+      "precommit",
+      "rt_shed"
+     ],
+     "call_every_h": 1
+    },
+    "build": {
+     "winterize_plants": {
+      "gas": 0.95,
+      "coal": 0.7,
+      "wind": 0.35
+     },
+     "winterize_wells": 0.85,
+     "firm_fuel": 0.0,
+     "critical_load_map": true,
+     "battery_mw": 0,
+     "battery_mwh": 0
+    },
+    "memory_policy": {
+     "max_active_pages": 8
+    }
+   },
+   "hash": "sha256:2e51315369b1b1d4",
+   "pages": [
+    {
+     "id": "page_evoB-h002",
+     "title": "Prepare early, shed smart, restore promptly",
+     "text": "Winterize before winter. When deep cold is forecast, commit units, import, and ask for conservation early. If supply is falling, shed ahead but protect gas facilities. Restore homes once reserves recover.",
+     "born_from_run": "night0_zero_shot",
+     "scenario_id": null,
+     "generation": 1,
+     "harness_id": "evoB-h002",
+     "tag": "evoB",
+     "track": "B",
+     "organ": "build"
+    },
+    {
+     "id": "page_evoB-h003",
+     "title": "Spend winter money where freezing hurts",
+     "text": "Most lost power came from frozen gas plants and wells. Put the winter budget there first instead of spreading it thinly over wind, coal and batteries.",
+     "born_from_run": "r_eb4d868d41",
+     "scenario_id": "train_coast_2011",
+     "generation": 2,
+     "harness_id": "evoB-h003",
+     "tag": "evoB",
+     "track": "B",
+     "organ": "build"
+    },
+    {
+     "id": "page_evoB-h008",
+     "title": "Big outages with big reserves unwind",
+     "text": "If many homes are dark while spare power is plentiful, bring them back steadily each hour. Darkness without a power shortage is a failure, not safety.",
+     "born_from_run": "r_4a0bc67698",
+     "scenario_id": "train_grand_2011",
+     "generation": 3,
+     "harness_id": "evoB-h008",
+     "tag": "evoB",
+     "track": "B",
+     "organ": "hard_limit"
+    },
+    {
+     "id": "page_evoB-h009",
+     "title": "Freeze-proof the plants that froze",
+     "text": "Gas and coal plants froze and dragged supply down for days. Spend the winter budget finishing their weatherproofing rather than on backup fuel few plants used.",
+     "born_from_run": "r_4b4bfa10e1",
+     "scenario_id": "train_grand_2011",
+     "generation": 4,
+     "harness_id": "evoB-h009",
+     "tag": "evoB",
+     "track": "B",
+     "organ": "build"
+    },
+    {
+     "id": "page_evoB-h015",
+     "title": "Fund freeze-proofing before backup fuel",
+     "text": "Frozen wells and coal plants caused the shortfall, while backup fuel was rarely used. Move that money into weatherproofing wells and coal plants so less supply freezes when the cold peaks.",
+     "born_from_run": "r_cc7fbfcb0c",
+     "scenario_id": "train_compressor_spiral",
+     "generation": 6,
+     "harness_id": "evoB-h015",
+     "tag": "evoB",
+     "track": "B",
+     "organ": "build"
+    },
+    {
+     "id": "page_evoB-h017",
+     "title": "Protect wind turbines from icing",
+     "text": "In deep cold most wind turbines iced up and stopped, the only fleet left unprotected. Weatherproofing part of it keeps more power flowing when demand peaks.",
+     "born_from_run": "r_d6cc24f19f",
+     "scenario_id": "train_grand_2011",
+     "generation": 7,
+     "harness_id": "evoB-h017",
+     "tag": "evoB",
+     "track": "B",
+     "organ": "build"
+    }
+   ],
+   "counts": {
+    "gauges": 1,
+    "habits": 4,
+    "hard_limits": 3,
+    "alarms": 2,
+    "build_items": 3,
+    "briefing_items": 13,
+    "forecast": 1,
+    "memory_pages_shown": 3,
+    "ai_decides": 10,
+    "ask_ai_every_h": 1
+   },
+   "generations_run": 7
+  }
+ }
+}

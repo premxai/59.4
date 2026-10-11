@@ -1,0 +1,962 @@
+{
+ "score": {
+  "A": [
+   {
+    "id": "evoA-h001",
+    "night": 0,
+    "counts": {
+     "gauges": 0,
+     "habits": 0,
+     "hard_limits": 0,
+     "alarms": 1,
+     "build_items": 1,
+     "briefing_items": 8,
+     "forecast": 0,
+     "memory_pages_shown": 0,
+     "ai_decides": 10,
+     "ask_ai_every_h": 1
+    },
+    "majority_passed": 0,
+    "ticks": "\u2717\u2717\u2717\u2717\u2717\u2717\u2717\u2717",
+    "by_seed": {
+     "0": {
+      "passed": 0,
+      "homes_dark_hours": 4060583544.8650284
+     },
+     "1": {
+      "passed": 0,
+      "homes_dark_hours": 5317247210.085977
+     },
+     "2": {
+      "passed": 0,
+      "homes_dark_hours": 4919968891.248893
+     }
+    },
+    "hh_median": 4919968891.248893,
+    "hh_min": 4060583544.8650284,
+    "hh_max": 5317247210.085977,
+    "inconclusive": 0
+   },
+   {
+    "id": "evoA-h002",
+    "night": 1,
+    "counts": {
+     "gauges": 2,
+     "habits": 4,
+     "hard_limits": 2,
+     "alarms": 2,
+     "build_items": 1,
+     "briefing_items": 12,
+     "forecast": 1,
+     "memory_pages_shown": 3,
+     "ai_decides": 10,
+     "ask_ai_every_h": 1
+    },
+    "majority_passed": 0,
+    "ticks": "\u2717\u2717\u2717\u2717\u2717\u2717\u2717\u2717",
+    "by_seed": {
+     "0": {
+      "passed": 0,
+      "homes_dark_hours": 2749835037.083088
+     },
+     "1": {
+      "passed": 0,
+      "homes_dark_hours": 3927306096.2920394
+     },
+     "2": {
+      "passed": 0,
+      "homes_dark_hours": 3442775418.2785716
+     }
+    },
+    "hh_median": 3442775418.2785716,
+    "hh_min": 2749835037.083088,
+    "hh_max": 3927306096.2920394,
+    "inconclusive": 0
+   },
+   {
+    "id": "evoA-h003",
+    "night": 2,
+    "counts": {
+     "gauges": 2,
+     "habits": 5,
+     "hard_limits": 2,
+     "alarms": 2,
+     "build_items": 1,
+     "briefing_items": 12,
+     "forecast": 1,
+     "memory_pages_shown": 3,
+     "ai_decides": 10,
+     "ask_ai_every_h": 1
+    },
+    "majority_passed": 0,
+    "ticks": "\u2717\u2717\u2717\u2717\u2717\u2717\u2717\u2717",
+    "by_seed": {
+     "0": {
+      "passed": 0,
+      "homes_dark_hours": 696284246.2183045
+     },
+     "1": {
+      "passed": 0,
+      "homes_dark_hours": 879105782.4467181
+     },
+     "2": {
+      "passed": 0,
+      "homes_dark_hours": 908175939.1121736
+     }
+    },
+    "hh_median": 879105782.4467181,
+    "hh_min": 696284246.2183045,
+    "hh_max": 908175939.1121736,
+    "inconclusive": 0
+   },
+   {
+    "id": "evoA-h020",
+    "night": 8,
+    "counts": {
+     "gauges": 2,
+     "habits": 5,
+     "hard_limits": 2,
+     "alarms": 2,
+     "build_items": 1,
+     "briefing_items": 12,
+     "forecast": 1,
+     "memory_pages_shown": 3,
+     "ai_decides": 10,
+     "ask_ai_every_h": 1
+    },
+    "majority_passed": 0,
+    "ticks": "\u2717\u2717\u2717\u2717\u2717\u2717\u2717\u2717",
+    "by_seed": {
+     "0": {
+      "passed": 0,
+      "homes_dark_hours": 599597089.2570376
+     },
+     "1": {
+      "passed": 0,
+      "homes_dark_hours": 790522609.6978292
+     },
+     "2": {
+      "passed": 0,
+      "homes_dark_hours": 810912213.171845
+     }
+    },
+    "hh_median": 790522609.6978292,
+    "hh_min": 599597089.2570376,
+    "hh_max": 810912213.171845,
+    "inconclusive": 0
+   },
+   {
+    "id": "evoA-h031",
+    "night": 13,
+    "counts": {
+     "gauges": 2,
+     "habits": 6,
+     "hard_limits": 2,
+     "alarms": 2,
+     "build_items": 1,
+     "briefing_items": 12,
+     "forecast": 1,
+     "memory_pages_shown": 3,
+     "ai_decides": 10,
+     "ask_ai_every_h": 1
+    },
+    "majority_passed": 0,
+    "ticks": "\u2717\u2717\u2717\u2717\u2717\u2717\u2717\u2717",
+    "by_seed": {
+     "0": {
+      "passed": 0,
+      "homes_dark_hours": 512580528.386654
+     },
+     "1": {
+      "passed": 0,
+      "homes_dark_hours": 705650962.1339386
+     },
+     "2": {
+      "passed": 0,
+      "homes_dark_hours": 684652283.4295638
+     }
+    },
+    "hh_median": 684652283.4295638,
+    "hh_min": 512580528.386654,
+    "hh_max": 705650962.1339386,
+    "inconclusive": 0
+   }
+  ],
+  "B": [
+   {
+    "id": "evoB-h001",
+    "night": 0,
+    "counts": {
+     "gauges": 0,
+     "habits": 0,
+     "hard_limits": 0,
+     "alarms": 1,
+     "build_items": 0,
+     "briefing_items": 8,
+     "forecast": 0,
+     "memory_pages_shown": 0,
+     "ai_decides": 10,
+     "ask_ai_every_h": 1
+    },
+    "majority_passed": 0,
+    "ticks": "\u2717\u2717\u2717\u2717\u2717\u2717\u2717\u2717",
+    "by_seed": {
+     "0": {
+      "passed": 0,
+      "homes_dark_hours": 4750274357.97843
+     },
+     "1": {
+      "passed": 0,
+      "homes_dark_hours": 4863125727.771559
+     },
+     "2": {
+      "passed": 0,
+      "homes_dark_hours": 5578298535.487888
+     }
+    },
+    "hh_median": 4863125727.771559,
+    "hh_min": 4750274357.97843,
+    "hh_max": 5578298535.487888,
+    "inconclusive": 0
+   },
+   {
+    "id": "evoB-h002",
+    "night": 1,
+    "counts": {
+     "gauges": 1,
+     "habits": 4,
+     "hard_limits": 2,
+     "alarms": 2,
+     "build_items": 6,
+     "briefing_items": 13,
+     "forecast": 1,
+     "memory_pages_shown": 3,
+     "ai_decides": 10,
+     "ask_ai_every_h": 1
+    },
+    "majority_passed": 0,
+    "ticks": "\u2717\u2717\u2717\u2717\u2717\u2717\u2717\u2717",
+    "by_seed": {
+     "0": {
+      "passed": 2,
+      "homes_dark_hours": 432870769.2358519
+     },
+     "1": {
+      "passed": 0,
+      "homes_dark_hours": 677225598.2007375
+     },
+     "2": {
+      "passed": 1,
+      "homes_dark_hours": 564029607.2836971
+     }
+    },
+    "hh_median": 564029607.2836971,
+    "hh_min": 432870769.2358519,
+    "hh_max": 677225598.2007375,
+    "inconclusive": 0
+   },
+   {
+    "id": "evoB-h003",
+    "night": 2,
+    "counts": {
+     "gauges": 1,
+     "habits": 4,
+     "hard_limits": 2,
+     "alarms": 2,
+     "build_items": 4,
+     "briefing_items": 13,
+     "forecast": 1,
+     "memory_pages_shown": 3,
+     "ai_decides": 10,
+     "ask_ai_every_h": 1
+    },
+    "majority_passed": 4,
+    "ticks": "\u2717\u2717\u2713\u2713\u2717\u2713\u2717\u2713",
+    "by_seed": {
+     "0": {
+      "passed": 6,
+      "homes_dark_hours": 287381822.3738031
+     },
+     "1": {
+      "passed": 0,
+      "homes_dark_hours": 597050806.3432661
+     },
+     "2": {
+      "passed": 5,
+      "homes_dark_hours": 401448227.4456294
+     }
+    },
+    "hh_median": 401448227.4456294,
+    "hh_min": 287381822.3738031,
+    "hh_max": 597050806.3432661,
+    "inconclusive": 0
+   },
+   {
+    "id": "evoB-h008",
+    "night": 3,
+    "counts": {
+     "gauges": 1,
+     "habits": 4,
+     "hard_limits": 3,
+     "alarms": 2,
+     "build_items": 4,
+     "briefing_items": 13,
+     "forecast": 1,
+     "memory_pages_shown": 3,
+     "ai_decides": 10,
+     "ask_ai_every_h": 1
+    },
+    "majority_passed": 5,
+    "ticks": "\u2717\u2713\u2713\u2713\u2717\u2713\u2717\u2713",
+    "by_seed": {
+     "0": {
+      "passed": 8,
+      "homes_dark_hours": 258647645.35887665
+     },
+     "1": {
+      "passed": 0,
+      "homes_dark_hours": 445228213.36020535
+     },
+     "2": {
+      "passed": 5,
+      "homes_dark_hours": 382153171.3850724
+     }
+    },
+    "hh_median": 382153171.3850724,
+    "hh_min": 258647645.35887665,
+    "hh_max": 445228213.36020535,
+    "inconclusive": 0
+   },
+   {
+    "id": "evoB-h009",
+    "night": 4,
+    "counts": {
+     "gauges": 1,
+     "habits": 4,
+     "hard_limits": 3,
+     "alarms": 2,
+     "build_items": 4,
+     "briefing_items": 13,
+     "forecast": 1,
+     "memory_pages_shown": 3,
+     "ai_decides": 10,
+     "ask_ai_every_h": 1
+    },
+    "majority_passed": 7,
+    "ticks": "\u2713\u2713\u2713\u2713\u2717\u2713\u2713\u2713",
+    "by_seed": {
+     "0": {
+      "passed": 8,
+      "homes_dark_hours": 195481697.38390604
+     },
+     "1": {
+      "passed": 3,
+      "homes_dark_hours": 322471513.11418635
+     },
+     "2": {
+      "passed": 6,
+      "homes_dark_hours": 316021230.8220677
+     }
+    },
+    "hh_median": 316021230.8220677,
+    "hh_min": 195481697.38390604,
+    "hh_max": 322471513.11418635,
+    "inconclusive": 0
+   },
+   {
+    "id": "evoB-h015",
+    "night": 6,
+    "counts": {
+     "gauges": 1,
+     "habits": 4,
+     "hard_limits": 3,
+     "alarms": 2,
+     "build_items": 3,
+     "briefing_items": 13,
+     "forecast": 1,
+     "memory_pages_shown": 3,
+     "ai_decides": 10,
+     "ask_ai_every_h": 1
+    },
+    "majority_passed": 8,
+    "ticks": "\u2713\u2713\u2713\u2713\u2713\u2713\u2713\u2713",
+    "by_seed": {
+     "0": {
+      "passed": 8,
+      "homes_dark_hours": 159384312.81897143
+     },
+     "1": {
+      "passed": 6,
+      "homes_dark_hours": 286734280.9498328
+     },
+     "2": {
+      "passed": 6,
+      "homes_dark_hours": 302223050.5923072
+     }
+    },
+    "hh_median": 286734280.9498328,
+    "hh_min": 159384312.81897143,
+    "hh_max": 302223050.5923072,
+    "inconclusive": 0
+   },
+   {
+    "id": "evoB-h017",
+    "night": 7,
+    "counts": {
+     "gauges": 1,
+     "habits": 4,
+     "hard_limits": 3,
+     "alarms": 2,
+     "build_items": 3,
+     "briefing_items": 13,
+     "forecast": 1,
+     "memory_pages_shown": 3,
+     "ai_decides": 10,
+     "ask_ai_every_h": 1
+    },
+    "majority_passed": 6,
+    "ticks": "\u2713\u2713\u2713\u2713\u2717\u2713\u2717\u2713",
+    "by_seed": {
+     "0": {
+      "passed": 8,
+      "homes_dark_hours": 200212104.86637625
+     },
+     "1": {
+      "passed": 2,
+      "homes_dark_hours": 340069789.4061637
+     },
+     "2": {
+      "passed": 5,
+      "homes_dark_hours": 316730618.2396774
+     }
+    },
+    "hh_median": 316730618.2396774,
+    "hh_min": 200212104.86637625,
+    "hh_max": 340069789.4061637,
+    "inconclusive": 0
+   }
+  ]
+ },
+ "ablate": {
+  "A": {
+   "full_ai_unplugged": {
+    "majority_passed": 0,
+    "ticks": "\u2717\u2717\u2717\u2717\u2717\u2717\u2717\u2717",
+    "by_seed": {
+     "0": {
+      "passed": 0,
+      "homes_dark_hours": 646310617.1460775
+     },
+     "1": {
+      "passed": 0,
+      "homes_dark_hours": 848880327.0933785
+     },
+     "2": {
+      "passed": 0,
+      "homes_dark_hours": 856358210.6641921
+     }
+    },
+    "hh_median": 848880327.0933785,
+    "hh_min": 646310617.1460775,
+    "hh_max": 856358210.6641921,
+    "inconclusive": 0
+   },
+   "removed": [
+    {
+     "organ": "habit",
+     "id": "r3_2",
+     "desc": "Shed only when reserves are truly thin or supply is falling steeply, keeping gas facilities powered",
+     "majority_passed": 0,
+     "hh_median": 8954974677.40557,
+     "x_darker": 10.54916033696762
+    },
+    {
+     "organ": "habit",
+     "id": "r4_2",
+     "desc": "Reserves above 5% and supply not falling fast: restore 2 GW of homes each hour",
+     "majority_passed": 0,
+     "hh_median": 985025338.1079558,
+     "x_darker": 1.160381866170402
+    },
+    {
+     "organ": "habit",
+     "id": "r5_3",
+     "desc": "Large spare reserve while homes are dark: restore quickly in big steps",
+     "majority_passed": 0,
+     "hh_median": 930366039.246489,
+     "x_darker": 1.0959919903340474
+    },
+    {
+     "organ": "habit",
+     "id": "r1_2",
+     "desc": "Deep cold forecast: commit extra units, schedule imports, ask for conservation before it arrives",
+     "majority_passed": 0,
+     "hh_median": 876773646.6432464,
+     "x_darker": 1.0328589539180115
+    },
+    {
+     "organ": "hard_limit",
+     "id": "g2_2",
+     "desc": "Whenever load is shed, gas facilities stay powered",
+     "majority_passed": 0,
+     "hh_median": 862647270.0949991,
+     "x_darker": 1.016217766582905
+    },
+    {
+     "organ": "hard_limit",
+     "id": "g1_2",
+     "desc": "Frequency emergency: control room cuts load immediately, keeping gas facilities powered",
+     "majority_passed": 0,
+     "hh_median": 848880327.0933785,
+     "x_darker": 1.0
+    },
+    {
+     "organ": "habit",
+     "id": "r2_2",
+     "desc": "Use demand response and batteries before cutting homes",
+     "majority_passed": 0,
+     "hh_median": 848275403.5095923,
+     "x_darker": 0.9992873864966838
+    }
+   ]
+  },
+  "B": {
+   "full_ai_unplugged": {
+    "majority_passed": 7,
+    "ticks": "\u2713\u2713\u2713\u2713\u2717\u2713\u2713\u2713",
+    "by_seed": {
+     "0": {
+      "passed": 8,
+      "homes_dark_hours": 397171231.505734
+     },
+     "1": {
+      "passed": 3,
+      "homes_dark_hours": 578177776.8480368
+     },
+     "2": {
+      "passed": 5,
+      "homes_dark_hours": 558028569.8786745
+     }
+    },
+    "hh_median": 558028569.8786745,
+    "hh_min": 397171231.505734,
+    "hh_max": 578177776.8480368,
+    "inconclusive": 0
+   },
+   "removed": [
+    {
+     "organ": "build",
+     "id": "build",
+     "desc": "before-winter preparation",
+     "majority_passed": 0,
+     "hh_median": 1654379975.2463777,
+     "x_darker": 2.9646868718676354
+    },
+    {
+     "organ": "hard_limit",
+     "id": "g3_4",
+     "desc": "Large outages while reserves are ample and supply is not collapsing: restore 1500 MW per hour",
+     "majority_passed": 5,
+     "hh_median": 1105732523.000587,
+     "x_darker": 1.9814980498955335
+    },
+    {
+     "organ": "habit",
+     "id": "r4_2",
+     "desc": "Reserves recovered and supply steady: bring homes back gradually but promptly",
+     "majority_passed": 7,
+     "hh_median": 765965969.9062446,
+     "x_darker": 1.3726285915303216
+    },
+    {
+     "organ": "hard_limit",
+     "id": "g2_2",
+     "desc": "Whenever shedding, keep gas facilities powered to avoid the gas-supply feedback loop",
+     "majority_passed": 5,
+     "hh_median": 619524265.2513533,
+     "x_darker": 1.1102016969956376
+    },
+    {
+     "organ": "habit",
+     "id": "r1_2",
+     "desc": "Deep cold forecast within 48h: commit extra units, line up imports, ask for conservation before the cold arrives",
+     "majority_passed": 5,
+     "hh_median": 604323190.6958258,
+     "x_darker": 1.0829610226358422
+    },
+    {
+     "organ": "hard_limit",
+     "id": "g1_2",
+     "desc": "Frequency sagging: control room cuts load immediately, never gas facilities",
+     "majority_passed": 7,
+     "hh_median": 558028569.8786745,
+     "x_darker": 1.0
+    },
+    {
+     "organ": "habit",
+     "id": "r2_2",
+     "desc": "Thin reserves: use demand response, batteries and conservation before cutting homes",
+     "majority_passed": 7,
+     "hh_median": 555116456.5055263,
+     "x_darker": 0.9947814260230774
+    },
+    {
+     "organ": "habit",
+     "id": "r3_2",
+     "desc": "Supply falling with thin reserves: shed ahead of the drop while keeping gas facilities powered",
+     "majority_passed": 8,
+     "hh_median": 215611500.799991,
+     "x_darker": 0.3863807561804028
+    }
+   ]
+  }
+ },
+ "tearout": {
+  "A": {
+   "full": {
+    "majority_passed": 0,
+    "ticks": "\u2717\u2717\u2717\u2717\u2717\u2717\u2717\u2717",
+    "by_seed": {
+     "0": {
+      "passed": 0,
+      "homes_dark_hours": 599597089.2570376
+     },
+     "1": {
+      "passed": 0,
+      "homes_dark_hours": 790522609.6978292
+     },
+     "2": {
+      "passed": 0,
+      "homes_dark_hours": 810912213.171845
+     }
+    },
+    "hh_median": 790522609.6978292,
+    "hh_min": 599597089.2570376,
+    "hh_max": 810912213.171845,
+    "inconclusive": 0
+   },
+   "minus": [
+    {
+     "organ": "habit",
+     "id": "r3_2",
+     "desc": "Shed only when reserves are truly thin or supply is falling steeply, keeping gas facilities powered",
+     "majority_passed": 5,
+     "ticks": "\u2717\u2713\u2713\u2713\u2713\u2717\u2713\u2717",
+     "by_seed": {
+      "0": {
+       "passed": 7,
+       "homes_dark_hours": 311977364.30424964
+      },
+      "1": {
+       "passed": 2,
+       "homes_dark_hours": 1324429959.5313807
+      },
+      "2": {
+       "passed": 3,
+       "homes_dark_hours": 1561749772.1004152
+      }
+     },
+     "hh_median": 1324429959.5313807,
+     "hh_min": 311977364.30424964,
+     "hh_max": 1561749772.1004152,
+     "inconclusive": 0
+    },
+    {
+     "organ": "habit",
+     "id": "r4_2",
+     "desc": "Reserves above 5% and supply not falling fast: restore 2 GW of homes each hour",
+     "majority_passed": 0,
+     "ticks": "\u2717\u2717\u2717\u2717\u2717\u2717\u2717\u2717",
+     "by_seed": {
+      "0": {
+       "passed": 0,
+       "homes_dark_hours": 694862579.0256859
+      },
+      "1": {
+       "passed": 0,
+       "homes_dark_hours": 895254509.8150672
+      },
+      "2": {
+       "passed": 0,
+       "homes_dark_hours": 896242530.3229434
+      }
+     },
+     "hh_median": 895254509.8150672,
+     "hh_min": 694862579.0256859,
+     "hh_max": 896242530.3229434,
+     "inconclusive": 0
+    }
+   ]
+  },
+  "B": {
+   "full": {
+    "majority_passed": 6,
+    "ticks": "\u2713\u2713\u2713\u2713\u2717\u2713\u2717\u2713",
+    "by_seed": {
+     "0": {
+      "passed": 8,
+      "homes_dark_hours": 200212104.86637625
+     },
+     "1": {
+      "passed": 2,
+      "homes_dark_hours": 340069789.4061637
+     },
+     "2": {
+      "passed": 5,
+      "homes_dark_hours": 316730618.2396774
+     }
+    },
+    "hh_median": 316730618.2396774,
+    "hh_min": 200212104.86637625,
+    "hh_max": 340069789.4061637,
+    "inconclusive": 0
+   },
+   "minus": [
+    {
+     "organ": "build",
+     "id": "build",
+     "desc": "before-winter preparation",
+     "majority_passed": 0,
+     "ticks": "\u2717\u2717\u2717\u2717\u2717\u2717\u2717\u2717",
+     "by_seed": {
+      "0": {
+       "passed": 0,
+       "homes_dark_hours": 943422447.0607498
+      },
+      "1": {
+       "passed": 0,
+       "homes_dark_hours": 851277436.256017
+      },
+      "2": {
+       "passed": 0,
+       "homes_dark_hours": 985437877.9601352
+      }
+     },
+     "hh_median": 943422447.0607498,
+     "hh_min": 851277436.256017,
+     "hh_max": 985437877.9601352,
+     "inconclusive": 0
+    },
+    {
+     "organ": "hard_limit",
+     "id": "g3_4",
+     "desc": "Large outages while reserves are ample and supply is not collapsing: restore 1500 MW per hour",
+     "majority_passed": 6,
+     "ticks": "\u2713\u2713\u2713\u2713\u2717\u2713\u2717\u2713",
+     "by_seed": {
+      "0": {
+       "passed": 8,
+       "homes_dark_hours": 227003291.41113293
+      },
+      "1": {
+       "passed": 2,
+       "homes_dark_hours": 353952424.22326195
+      },
+      "2": {
+       "passed": 5,
+       "homes_dark_hours": 320807291.07655203
+      }
+     },
+     "hh_median": 320807291.07655203,
+     "hh_min": 227003291.41113293,
+     "hh_max": 353952424.22326195,
+     "inconclusive": 0
+    }
+   ]
+  }
+ },
+ "presets": [
+  {
+   "track": "A",
+   "colder_c": 3.0,
+   "longer_x": 1.25,
+   "storm_id": "judge_f3495fe4",
+   "day1": {
+    "passed": false,
+    "verdict": "Failed: 51% of homes dark at the worst hour (hour 159)",
+    "homes_dark_hours": 401121000.0
+   },
+   "frozen": {
+    "passed": false,
+    "verdict": "Failed: 23% of homes dark at the worst hour (hour 53)",
+    "homes_dark_hours": 103045298.190826
+   }
+  },
+  {
+   "track": "A",
+   "colder_c": 3.0,
+   "longer_x": 2.0,
+   "storm_id": "judge_810d71ed",
+   "day1": {
+    "passed": false,
+    "verdict": "Failed: 48% of homes dark at the worst hour (hour 207)",
+    "homes_dark_hours": 624091125.0
+   },
+   "frozen": {
+    "passed": false,
+    "verdict": "Failed: 23% of homes dark at the worst hour (hour 57)",
+    "homes_dark_hours": 148675625.2439159
+   }
+  },
+  {
+   "track": "A",
+   "colder_c": 5.0,
+   "longer_x": 1.25,
+   "storm_id": "judge_51fc38da",
+   "day1": {
+    "passed": false,
+    "verdict": "Failed: 76% of homes dark at the worst hour (hour 159)",
+    "homes_dark_hours": 701017731.9547065
+   },
+   "frozen": {
+    "passed": false,
+    "verdict": "Failed: 36% of homes dark at the worst hour (hour 48)",
+    "homes_dark_hours": 236256985.14519647
+   }
+  },
+  {
+   "track": "A",
+   "colder_c": 5.0,
+   "longer_x": 2.0,
+   "storm_id": "judge_02c0a0e4",
+   "day1": {
+    "passed": false,
+    "verdict": "Failed: 72% of homes dark at the worst hour (hour 207)",
+    "homes_dark_hours": 994692606.9547065
+   },
+   "frozen": {
+    "passed": false,
+    "verdict": "Failed: 37% of homes dark at the worst hour (hour 50)",
+    "homes_dark_hours": 422442872.6621964
+   }
+  },
+  {
+   "track": "A",
+   "colder_c": 7.0,
+   "longer_x": 1.25,
+   "storm_id": "judge_d2f056f3",
+   "day1": {
+    "passed": false,
+    "verdict": "Failed: 102% of homes dark at the worst hour (hour 159)",
+    "homes_dark_hours": 933758288.5369371
+   },
+   "frozen": {
+    "passed": false,
+    "verdict": "Failed: 49% of homes dark at the worst hour (hour 48)",
+    "homes_dark_hours": 450780582.0322571
+   }
+  },
+  {
+   "track": "A",
+   "colder_c": 7.0,
+   "longer_x": 2.0,
+   "storm_id": "judge_aeee27b8",
+   "day1": {
+    "passed": false,
+    "verdict": "Failed: 96% of homes dark at the worst hour (hour 207)",
+    "homes_dark_hours": 1328644828.0696292
+   },
+   "frozen": {
+    "passed": false,
+    "verdict": "Failed: 49% of homes dark at the worst hour (hour 48)",
+    "homes_dark_hours": 716259968.7201698
+   }
+  },
+  {
+   "track": "B",
+   "colder_c": 3.0,
+   "longer_x": 1.25,
+   "storm_id": "judge_f3495fe4",
+   "day1": {
+    "passed": false,
+    "verdict": "Failed: 62% of homes dark at the worst hour (hour 159)",
+    "homes_dark_hours": 523030490.0966189
+   },
+   "frozen": {
+    "passed": true,
+    "verdict": "Passed: worst moment 13% of homes dark, no blackout",
+    "homes_dark_hours": 32215828.01361075
+   }
+  },
+  {
+   "track": "B",
+   "colder_c": 3.0,
+   "longer_x": 2.0,
+   "storm_id": "judge_810d71ed",
+   "day1": {
+    "passed": false,
+    "verdict": "Failed: 58% of homes dark at the worst hour (hour 207)",
+    "homes_dark_hours": 773738990.0966189
+   },
+   "frozen": {
+    "passed": true,
+    "verdict": "Passed: worst moment 13% of homes dark, no blackout",
+    "homes_dark_hours": 48232362.82173067
+   }
+  },
+  {
+   "track": "B",
+   "colder_c": 5.0,
+   "longer_x": 1.25,
+   "storm_id": "judge_51fc38da",
+   "day1": {
+    "passed": false,
+    "verdict": "Failed: 84% of homes dark at the worst hour (hour 159)",
+    "homes_dark_hours": 786859045.6633475
+   },
+   "frozen": {
+    "passed": false,
+    "verdict": "Failed: 20% of homes dark at the worst hour (hour 46)",
+    "homes_dark_hours": 89853037.98270449
+   }
+  },
+  {
+   "track": "B",
+   "colder_c": 5.0,
+   "longer_x": 2.0,
+   "storm_id": "judge_02c0a0e4",
+   "day1": {
+    "passed": false,
+    "verdict": "Failed: total blackout at hour 45",
+    "homes_dark_hours": 1899800375.0
+   },
+   "frozen": {
+    "passed": false,
+    "verdict": "Failed: 20% of homes dark at the worst hour (hour 46)",
+    "homes_dark_hours": 125569482.97041748
+   }
+  },
+  {
+   "track": "B",
+   "colder_c": 7.0,
+   "longer_x": 1.25,
+   "storm_id": "judge_d2f056f3",
+   "day1": {
+    "passed": false,
+    "verdict": "Failed: 112% of homes dark at the worst hour (hour 159)",
+    "homes_dark_hours": 1086971250.0
+   },
+   "frozen": {
+    "passed": false,
+    "verdict": "Failed: 28% of homes dark at the worst hour (hour 46)",
+    "homes_dark_hours": 182320406.88043118
+   }
+  },
+  {
+   "track": "B",
+   "colder_c": 7.0,
+   "longer_x": 2.0,
+   "storm_id": "judge_aeee27b8",
+   "day1": {
+    "passed": false,
+    "verdict": "Failed: 119% of homes dark at the worst hour (hour 207)",
+    "homes_dark_hours": 1728148632.063403
+   },
+   "frozen": {
+    "passed": false,
+    "verdict": "Failed: 34% of homes dark at the worst hour (hour 96)",
+    "homes_dark_hours": 280495964.2279259
+   }
+  }
+ ]
+}

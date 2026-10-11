@@ -1,0 +1,115 @@
+{
+ "demand_model": {
+  "rmse_mw": 2615,
+  "peak_checks": {
+   "2011-02-10 peak (57,284 obs)": {
+    "pred_peak": 55971,
+    "obs_peak": 57284
+   },
+   "2018-01-17 peak (65.8k obs)": {
+    "pred_peak": 64771,
+    "obs_peak": 65750
+   }
+  }
+ },
+ "calibration_2011": {
+  "loss": 6.071,
+  "knobs": {
+   "trip_t50": -7.0,
+   "trip_pmax_mult": 0.5,
+   "trip_scale": 4.0,
+   "recover_rate_cold": 0.004,
+   "gas_loss_max": 0.3,
+   "gas_loss_k": 3000.0
+  },
+  "sim_peak_deficit": 0,
+  "sim_hours_gt_1.5GW": 0,
+  "sim_coal_drop": 2025,
+  "sim_wind_mean": 3721,
+  "sim_gas_fuel_loss_2011": 1226,
+  "sim_1989_cold_outage_mw": 13369,
+  "sim_1989_peak_deficit": 5409,
+  "collapsed": false,
+  "false_shed_hours_quiet_winters": 0,
+  "target_coal_drop": 5166,
+  "target_wind_mean": 3398,
+  "target_peak_shed": 4948.0,
+  "target_hours_gt_1.5GW": 7,
+  "model_estimated_2011_shed_peak": 6325
+ },
+ "gate_jan_2018": {
+  "collapsed": false,
+  "peak_shed": 0
+ },
+ "test_2021": {
+  "naive_v1": {
+   "collapsed": false,
+   "collapse_ts": null,
+   "customer_hours_M": 272.0,
+   "peak_shed_mw": 35097,
+   "min_freq": 60.0,
+   "max_min_below_59.4": 0,
+   "chain_head": [
+    "2021-02-15 02:00:00+00:00: load shed begins: 951 MW; supply 64,479 MW, demand 66,042 MW, gas index 0.98",
+    "2021-02-18 13:00:00+00:00: load shed begins: 2,415 MW; supply 54,532 MW, demand 56,643 MW, gas index 0.95",
+    "2021-02-19 03:00:00+00:00: load shed begins: 1,014 MW; supply 58,333 MW, demand 59,358 MW, gas index 0.98",
+    "2021-02-19 10:00:00+00:00: load shed begins: 1,748 MW; supply 57,656 MW, demand 59,552 MW, gas index 0.98"
+   ]
+  },
+  "status_quo_2021_rules": {
+   "collapsed": false,
+   "collapse_ts": null,
+   "customer_hours_M": 266.3,
+   "peak_shed_mw": 34811,
+   "min_freq": 60.0,
+   "max_min_below_59.4": 0,
+   "chain_head": [
+    "2021-02-15 02:00:00+00:00: load shed begins: 751 MW; supply 64,479 MW, demand 66,042 MW, gas index 0.98",
+    "2021-02-18 13:00:00+00:00: load shed begins: 2,126 MW; supply 54,611 MW, demand 56,643 MW, gas index 0.95",
+    "2021-02-19 03:00:00+00:00: load shed begins: 775 MW; supply 58,368 MW, demand 59,358 MW, gas index 0.98",
+    "2021-02-19 10:00:00+00:00: load shed begins: 1,508 MW; supply 57,692 MW, demand 59,552 MW, gas index 0.98"
+   ]
+  },
+  "good_scripted": {
+   "collapsed": false,
+   "collapse_ts": null,
+   "customer_hours_M": 135.3,
+   "peak_shed_mw": 23474,
+   "min_freq": 60.0,
+   "max_min_below_59.4": 0,
+   "chain_head": [
+    "2021-02-15 02:00:00+00:00: load shed begins: 1,142 MW; supply 66,588 MW, demand 66,042 MW, gas index 0.99",
+    "2021-02-17 13:00:00+00:00: load shed begins: 956 MW; supply 56,809 MW, demand 56,288 MW, gas index 0.99",
+    "2021-02-19 11:00:00+00:00: load shed begins: 502 MW; supply 61,378 MW, demand 60,532 MW, gas index 0.99"
+   ]
+  }
+ },
+ "real_2021_reference": {
+  "peak_shed_mw": 20000,
+  "shed_hours": 70.5,
+  "customer_hours_M": 222.1,
+  "collapsed": false,
+  "min_freq": 59.302,
+  "minutes_below_59.4": 4.4
+ },
+ "gates": {
+  "G3a_v1_fails_badly": "False",
+  "G3b_good_beats_status_quo": "True",
+  "G4_status_quo_vs_real": {
+   "sim_status_quo": {
+    "collapsed": false,
+    "peak_shed_mw": 34811,
+    "customer_hours_M": 266.3,
+    "min_freq": 60.0
+   },
+   "real": {
+    "peak_shed_mw": 20000,
+    "shed_hours": 70.5,
+    "customer_hours_M": 222.1,
+    "collapsed": false,
+    "min_freq": 59.302,
+    "minutes_below_59.4": 4.4
+   }
+  }
+ }
+}

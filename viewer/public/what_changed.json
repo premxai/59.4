@@ -1,0 +1,12 @@
+{
+  "title": "What changed",
+  "subtitle": "Gen 1 manual → Gen 11 manual",
+  "rows": [
+    { "label": "Model weights", "value": "identical ✓", "ok": true },
+    { "label": "Sensors", "value": "+N new (placeholder)" },
+    { "label": "Rules", "value": "+N (placeholder)" },
+    { "label": "Guardrails", "value": "+N (placeholder)" },
+    { "label": "Memory policy", "value": "new (placeholder)" }
+  ],
+  "placeholder": true
+}

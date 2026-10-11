@@ -1,0 +1,16 @@
+{
+ "A_anonymized_v1": {
+  "collapsed": true,
+  "customer_hours_M": 7925.3,
+  "peak_shed_mw": 6461,
+  "min_freq": 58.979,
+  "llm_calls": 34
+ },
+ "B_told_uri_v1": {
+  "collapsed": true,
+  "customer_hours_M": 7945.8,
+  "peak_shed_mw": 18000,
+  "min_freq": 58.375,
+  "llm_calls": 40
+ }
+}

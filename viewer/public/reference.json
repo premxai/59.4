@@ -1,0 +1,14 @@
+{
+  "mode": "lit_worst",
+  "label": "what really happened (placeholder)",
+  "sub": "February 2021 · placeholder",
+  "total_homes": 11000000,
+  "values": {
+    "lit_worst": 0.59,
+    "lit_avg": null,
+    "dark_peak": 4500000,
+    "dark_hours": null
+  },
+  "placeholder": true,
+  "_note": "mode picks the column metric: lit_worst (default; share of homes and businesses that kept power at the worst moment, so taller = better) | lit_avg (average share with power over the replay) | dark_peak (old metric: homes without power at the worst moment, taller = worse) | dark_hours. values[mode] is the middle column; shares are 0..1. lit_worst 0.59 is a PLACEHOLDER = 1 - 4.5M / 11M (about 4.5 million homes and businesses lost power, data/facts/EVENTS.md; 11M customers = sim/params.py total_customers, an assumption). Replace before the demo. If lit_avg is chosen, fill values.lit_avg first."
+}

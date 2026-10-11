@@ -1,0 +1,342 @@
+[
+ {
+  "stamp": "Season 11, day 1, hour 00",
+  "reserve": 24761,
+  "shed_mw": 0.0,
+  "conservation": 0.0,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": false,
+  "why": "Demand within supply, ample reserves, stable frequency."
+ },
+ {
+  "stamp": "Season 11, day 1, hour 01",
+  "reserve": 24020,
+  "shed_mw": 0.0,
+  "conservation": 0.0,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": false,
+  "why": "Demand within supply, stable frequency, no immediate risk."
+ },
+ {
+  "stamp": "Season 11, day 1, hour 02",
+  "reserve": 22265,
+  "shed_mw": 0.0,
+  "conservation": 0.0,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": false,
+  "why": "Demand stable, ample reserves, no immediate risk."
+ },
+ {
+  "stamp": "Season 11, day 1, hour 03",
+  "reserve": 19555,
+  "shed_mw": 0.0,
+  "conservation": 0.0,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": false,
+  "why": "Demand stable, ample reserve, no immediate risk."
+ },
+ {
+  "stamp": "Season 11, day 1, hour 04",
+  "reserve": 19008,
+  "shed_mw": 0.0,
+  "conservation": 0.0,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": false,
+  "why": "Demand within supply, ample reserves, stable frequency."
+ },
+ {
+  "stamp": "Season 11, day 1, hour 05",
+  "reserve": 20824,
+  "shed_mw": 0.0,
+  "conservation": 0.0,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": false,
+  "why": "Demand stable, ample reserves, no urgency to act."
+ },
+ {
+  "stamp": "Season 11, day 1, hour 06",
+  "reserve": 21955,
+  "shed_mw": 0.0,
+  "conservation": 0.0,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": false,
+  "why": "Demand within supply, stable frequency, no immediate risk."
+ },
+ {
+  "stamp": "Season 11, day 1, hour 23",
+  "reserve": 24875,
+  "shed_mw": 0.0,
+  "conservation": 0.0,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": false,
+  "why": "Stable frequency, ample reserves, no immediate stress."
+ },
+ {
+  "stamp": "Season 11, day 2, hour 00",
+  "reserve": 23161,
+  "shed_mw": 0.0,
+  "conservation": 0.0,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": false,
+  "why": "Demand stable, ample reserves, no immediate risk."
+ },
+ {
+  "stamp": "Season 11, day 2, hour 01",
+  "reserve": 22135,
+  "shed_mw": 0.0,
+  "conservation": 0.0,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": false,
+  "why": "Demand stable, ample reserve, no immediate risk."
+ },
+ {
+  "stamp": "Season 11, day 2, hour 02",
+  "reserve": 20691,
+  "shed_mw": 0.0,
+  "conservation": 0.0,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": false,
+  "why": "Demand stable, ample reserves, no immediate risk."
+ },
+ {
+  "stamp": "Season 11, day 2, hour 03",
+  "reserve": 18020,
+  "shed_mw": 0.0,
+  "conservation": 0.0,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": false,
+  "why": "Demand stable, ample reserve, no immediate risk."
+ },
+ {
+  "stamp": "Season 11, day 2, hour 04",
+  "reserve": 17165,
+  "shed_mw": 0.0,
+  "conservation": 0.0,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": false,
+  "why": "Demand within supply, ample reserve, stable frequency."
+ },
+ {
+  "stamp": "Season 11, day 2, hour 05",
+  "reserve": 16473,
+  "shed_mw": 0.0,
+  "conservation": 0.0,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": false,
+  "why": "Demand within supply, stable frequency, no immediate risk."
+ },
+ {
+  "stamp": "Season 11, day 2, hour 06",
+  "reserve": 17250,
+  "shed_mw": 0.0,
+  "conservation": 0.0,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": false,
+  "why": "Demand within supply, ample reserve, stable frequency."
+ },
+ {
+  "stamp": "Season 11, day 2, hour 07",
+  "reserve": 17067,
+  "shed_mw": 0.0,
+  "conservation": 0.0,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": false,
+  "why": "Demand stable, ample reserve, no immediate risk."
+ },
+ {
+  "stamp": "Season 11, day 2, hour 08",
+  "reserve": 16946,
+  "shed_mw": 0.0,
+  "conservation": 0.0,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": false,
+  "why": "Demand stable, ample reserve, no immediate risk."
+ },
+ {
+  "stamp": "Season 11, day 2, hour 09",
+  "reserve": 15987,
+  "shed_mw": 0.0,
+  "conservation": 0.0,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": false,
+  "why": "Demand stable, ample reserve, no immediate risk."
+ },
+ {
+  "stamp": "Season 11, day 2, hour 10",
+  "reserve": 14396,
+  "shed_mw": 0.0,
+  "conservation": 0.01,
+  "dr": 0.0,
+  "imports": 600.0,
+  "precommit": true,
+  "why": "Maintain stability with imports and precommitting units."
+ },
+ {
+  "stamp": "Season 11, day 2, hour 11",
+  "reserve": 12774,
+  "shed_mw": 0.0,
+  "conservation": 0.0,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": false,
+  "why": "Demand stable, supply sufficient, no urgency."
+ },
+ {
+  "stamp": "Season 11, day 2, hour 12",
+  "reserve": 9943,
+  "shed_mw": 0.0,
+  "conservation": 0.0,
+  "dr": 0.0,
+  "imports": 600.0,
+  "precommit": false,
+  "why": "Low demand growth, sufficient reserves, no immediate risk."
+ },
+ {
+  "stamp": "Season 11, day 2, hour 13",
+  "reserve": 7281,
+  "shed_mw": 0.0,
+  "conservation": 0.0,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": false,
+  "why": "Demand stable, ample reserve, no urgency."
+ },
+ {
+  "stamp": "Season 11, day 2, hour 14",
+  "reserve": 4565,
+  "shed_mw": 0.0,
+  "conservation": 0.0,
+  "dr": 0.0,
+  "imports": 0.0,
+  "precommit": false,
+  "why": "Demand within supply, stable frequency, no immediate risk."
+ },
+ {
+  "stamp": "Season 11, day 2, hour 15",
+  "reserve": 2079,
+  "shed_mw": 0.0,
+  "conservation": 0.01,
+  "dr": 0.0,
+  "imports": 600.0,
+  "precommit": true,
+  "why": "Low reserve margin; import and precommit to stabilize"
+ },
+ {
+  "stamp": "Season 11, day 2, hour 16",
+  "reserve": 249,
+  "shed_mw": 0.0,
+  "conservation": 0.01,
+  "dr": 0.0,
+  "imports": 800.0,
+  "precommit": true,
+  "why": "Low reserve margin; import and precommit to avoid shortfall."
+ },
+ {
+  "stamp": "Season 11, day 2, hour 17",
+  "reserve": -2725,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 600.0,
+  "precommit": true,
+  "why": "Low reserve margin; import and precommit to stabilize"
+ },
+ {
+  "stamp": "Season 11, day 2, hour 18",
+  "reserve": -4034,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 600.0,
+  "precommit": true,
+  "why": "Low reserve margin; import and precommit to stabilize"
+ },
+ {
+  "stamp": "Season 11, day 2, hour 19",
+  "reserve": -3366,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 600.0,
+  "precommit": true,
+  "why": "Close reserve margin; boost supply with imports and precommit"
+ },
+ {
+  "stamp": "Season 11, day 2, hour 20",
+  "reserve": -4563,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 600.0,
+  "precommit": true,
+  "why": "Low reserve margin; import and precommit to stabilize"
+ },
+ {
+  "stamp": "Season 11, day 2, hour 21",
+  "reserve": -3689,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 600.0,
+  "precommit": true,
+  "why": "Boost supply, reduce demand, secure imports"
+ },
+ {
+  "stamp": "Season 11, day 2, hour 22",
+  "reserve": -5011,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 600.0,
+  "precommit": true,
+  "why": "Low reserve margin; ramp imports and precommit units."
+ },
+ {
+  "stamp": "Season 11, day 2, hour 23",
+  "reserve": -6200,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 800.0,
+  "precommit": true,
+  "why": "Low reserve margin; boost imports and precommit units."
+ },
+ {
+  "stamp": "Season 11, day 3, hour 00",
+  "reserve": -9447,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 1000.0,
+  "precommit": true,
+  "why": "Boost supply, reduce demand, secure imports"
+ },
+ {
+  "stamp": "Season 11, day 3, hour 01",
+  "reserve": -10971,
+  "shed_mw": 0.0,
+  "conservation": 0.02,
+  "dr": 0.0,
+  "imports": 1200.0,
+  "precommit": true,
+  "why": "Low reserve margin, low frequency, cold weather."
+ }
+]

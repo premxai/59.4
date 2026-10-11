@@ -1,0 +1,51 @@
+{
+ "python": "3.11.9",
+ "machine": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+ "weather_cache_load_s": 0.018,
+ "season": {
+  "scenario": "season_2019_2020",
+  "hours": 2904,
+  "world_build_s": 0.133,
+  "policies": {
+   "naive": {
+    "sim_s_min": 0.546,
+    "sim_s_max": 0.551,
+    "verdict_seed_last": "Passed: no homes lost power, no blackout"
+   },
+   "status_quo": {
+    "sim_s_min": 0.541,
+    "sim_s_max": 0.549,
+    "verdict_seed_last": "Passed: no homes lost power, no blackout"
+   },
+   "good_scripted": {
+    "sim_s_min": 0.599,
+    "sim_s_max": 0.62,
+    "verdict_seed_last": "Passed: no homes lost power, no blackout"
+   }
+  },
+  "full_run_s_worst": 0.753
+ },
+ "storm": {
+  "scenario": "heldout_flash_2014",
+  "hours": 168,
+  "world_build_s": 0.006,
+  "policies": {
+   "naive": {
+    "sim_s_min": 0.014,
+    "sim_s_max": 0.038,
+    "verdict_seed_last": "Failed: total blackout at hour 60"
+   },
+   "status_quo": {
+    "sim_s_min": 0.038,
+    "sim_s_max": 0.039,
+    "verdict_seed_last": "Failed: 37% of homes dark at the worst hour (hour 63)"
+   },
+   "good_scripted": {
+    "sim_s_min": 0.04,
+    "sim_s_max": 0.04,
+    "verdict_seed_last": "Passed: worst moment 18% of homes dark, no blackout"
+   }
+  },
+  "full_run_s_worst": 0.046
+ }
+}
