@@ -22,4 +22,4 @@ learner from the exam. Raindrop traces every AI decision; in one night the coach
 Screens: Stage (break the grid live), Live lab (any storm, any two notebook versions, side by side), Evidence site
 (every version, night, trace and record).
 
-**Links:** repo: <GitHub URL> · video: <video URL>
+**Links:** repo: https://github.com/premxai/59.4 · video: <video URL>
