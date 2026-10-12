@@ -179,6 +179,17 @@ export default function SiteApp() {
   useEffect(() => {
     document.documentElement.dataset.siteTheme = theme;
   }, [theme]);
+  // deep links (e.g. #exam): the sections exist only after the data loads, so scroll once it has
+  const loaded = !!data;
+  useEffect(() => {
+    const id = location.hash.slice(1);
+    if (!loaded || !id) return;
+    const t = setTimeout(() => {
+      const el = document.getElementById(id);
+      if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 64, behavior: "auto" });
+    }, 400);
+    return () => clearTimeout(t);
+  }, [loaded]);
   return (
     <div className={`site site-${theme}`} id="top">
       <a className="s-skip" href="#same">
